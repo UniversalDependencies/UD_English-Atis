@@ -33,7 +33,7 @@ UPOS: manual native
 XPOS: not available
 Features: converted from manual 
 Relations: manual native
-Contributors: Kuzgun, Aslı
+Contributors: Kuzgun, Aslı; Cesur, Neslihan; Yıldız, Olcay Taner
 Contributing: here
 Contact: kuzgunasli@gmail.com
 ===============================================================================
