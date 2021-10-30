@@ -1,16 +1,15 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+UD Atis Treebank is a manually annotated treebank consisting of the sentences in the Atis (Airline Travel Informations) dataset which includes the human speech transcriptions of people asking for flight information on the automated inquiry systems. 
 
 # Introduction
 
-...
-
+UD Atis Treebank is manually annoated over the original Atis data.
 
 # Acknowledgments
 
-...
+We thank the Starlang Software for funding and supporting this work.
+
 
 ## References
 
@@ -32,7 +31,7 @@ Genre: nonfiction news
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
-Features: manual native
+Features: converted from manual 
 Relations: manual native
 Contributors: Kuzgun, Aslı
 Contributing: here
