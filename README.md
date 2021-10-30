@@ -4,7 +4,7 @@ UD Atis Treebank is a manually annotated treebank consisting of the sentences in
 
 # Introduction
 
-UD Atis Treebank is manually annoated over the original Atis data.
+UD Atis Treebank is manually annoated over the Atis data. The data is split into 4224 training, 586 test, and 572 development items.
 
 # Acknowledgments
 
@@ -13,7 +13,7 @@ We thank the Starlang Software for funding and supporting this work.
 
 ## References
 
-* (citation)
+The ATIS corpus: https://github.com/howl-anderson/ATIS_dataset/blob/master/README.en-US.md
 
 
 # Changelog
