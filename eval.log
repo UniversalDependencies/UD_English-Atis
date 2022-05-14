@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_English-Atis:
-commit 1a9cdc0e86ac73266270200d6686993479242252
+commit 6423957e777c73f4d566ce124b750a2b8f1b105e
+Merge: 93f0f6b 4b204fe
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 14:34:20 2021 +0100
 Size: counted 61879 of 61879 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.25036173052802.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,7 +17,7 @@ Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
 Features: 45603 out of 61879 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 33 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
                TOTAL          7
@@ -38,7 +38,7 @@ Validity: 1
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
 (weight=0.307692307692308) * (score{udapi}=0.998868759999354) = 0.307344233845955
-(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.757370286227934) * (availability=1) * (validity=1) = 0.757370286227934
+(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
+(TOTAL score=0.755291284148932) * (availability=1) * (validity=1) = 0.755291284148932
 STARS = 4
-UD_English-Atis	0.757370286227934	4
+UD_English-Atis	0.755291284148932	4
