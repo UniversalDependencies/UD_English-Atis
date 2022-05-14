@@ -323,7 +323,7 @@
 5	baltimore	baltimore	PROPN	_	Number=Sing	1	nmod	_	_
 6	between	between	ADP	_	_	8	case	_	_
 7	10	10	NUM	_	NumType=Card	8	nummod	_	_
-8	am	be	NOUN	_	Number=Sing	1	nmod:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 9	and	and	CCONJ	_	_	11	cc	_	_
 10	2	2	NUM	_	NumType=Card	11	nummod	_	_
 11	pm	pm	NOUN	_	Number=Sing	8	conj	_	_
@@ -1408,7 +1408,7 @@
 15	boston	boston	PROPN	_	Number=Sing	14	obj	_	_
 16	at	at	ADP	_	_	18	case	_	_
 17	10	10	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	14	obl	_	_
+18	am	am	NOUN	_	Number=Sing	14	obl	_	_
 
 # sent_id = 0090.dev
 # text = what are connecting flights from chicago into seattle on june fifth
@@ -1714,7 +1714,7 @@
 11	worth	worth	PROPN	_	Number=Sing	10	flat	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	9	9	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	6	obl	_	_
+14	am	am	NOUN	_	Number=Sing	6	obl	_	_
 15	in	in	ADP	_	_	17	case	_	_
 16	the	the	DET	_	PronType=Art	17	det	_	_
 17	morning	morning	NOUN	_	Number=Sing	14	nmod:tmod	_	_
@@ -2779,7 +2779,7 @@
 1	on	on	ADP	_	_	5	case	_	_
 2	the	the	DET	_	PronType=Art	5	det	_	_
 3	8	8	NUM	_	NumType=Card	4	nummod	_	_
-4	am	be	NOUN	_	Number=Sing	5	compound	_	_
+4	am	am	NOUN	_	Number=Sing	5	compound	_	_
 5	flight	flight	NOUN	_	Number=Sing	16	obl	_	_
 6	from	from	ADP	_	_	7	case	_	_
 7	san	san	PROPN	_	Number=Sing	5	nmod	_	_
@@ -2816,7 +2816,7 @@
 7	fly	fly	VERB	_	VerbForm=Inf	0	root	_	_
 8	before	before	ADP	_	_	10	case	_	_
 9	8	8	NUM	_	NumType=Card	10	nummod	_	_
-10	am	be	NOUN	_	Number=Sing	7	obl	_	_
+10	am	am	NOUN	_	Number=Sing	7	obl	_	_
 11	on	on	ADP	_	_	12	case	_	_
 12	august	august	PROPN	_	Number=Sing	7	obl	_	_
 13	second	second	ADJ	_	Degree=Pos	12	amod	_	_
@@ -3757,7 +3757,7 @@
 8	philadelphia	philadelphia	PROPN	_	Number=Sing	6	obl	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	7	7	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	6	obl	_	_
+11	am	am	NOUN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0238.dev
 # text = show me all nonstop flights between denver and oakland leaving after noon and arriving after 5 pm
@@ -3827,7 +3827,7 @@
 12	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 13	before	before	ADP	_	_	15	case	_	_
 14	9	9	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	12	obl	_	_
+15	am	am	NOUN	_	Number=Sing	12	obl	_	_
 
 # sent_id = 0242.dev
 # text = show me all flights from minneapolis to san diego that arrive before 7 pm
@@ -4881,7 +4881,7 @@
 8	before	before	ADP	_	_	9	case	_	_
 9	5	5	NUM	_	NumType=Card	3	nmod:tmod	_	_
 10	o'clock	o'clock	ADV	_	Degree=Pos	9	advmod	_	_
-11	am	be	NOUN	_	Number=Sing	9	nmod	_	_
+11	am	am	NOUN	_	Number=Sing	9	nmod	_	_
 12	on	on	ADP	_	_	13	case	_	_
 13	thursday	thursday	PROPN	_	Number=Sing	3	nmod:tmod	_	_
 
@@ -4915,7 +4915,7 @@
 7	philly	philly	PROPN	_	Number=Sing	3	nmod	_	_
 8	before	before	ADP	_	_	9	case	_	_
 9	9	9	NUM	_	NumType=Card	3	nmod:tmod	_	_
-10	am	be	NOUN	_	Number=Sing	9	nmod	_	_
+10	am	am	NOUN	_	Number=Sing	9	nmod	_	_
 
 # sent_id = 0317.dev
 # text = find the flights from boston to san francisco leaving after 6 pm
@@ -4969,7 +4969,7 @@
 13	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 14	before	before	ADP	_	_	15	case	_	_
 15	8	8	NUM	_	NumType=Card	13	obl	_	_
-16	am	be	NOUN	_	Number=Sing	15	nmod	_	_
+16	am	am	NOUN	_	Number=Sing	15	nmod	_	_
 
 # sent_id = 0320.dev
 # text = show me all flights from pittsburgh to baltimore which leave thursday after 3 o'clock pm
@@ -5018,7 +5018,7 @@
 10	monday	monday	PROPN	_	Number=Sing	9	obl	_	_
 11	before	before	ADP	_	_	12	case	_	_
 12	9	9	NUM	_	NumType=Card	10	nmod:tmod	_	_
-13	am	be	NOUN	_	Number=Sing	12	nmod	_	_
+13	am	am	NOUN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0323.dev
 # text = show me all flights from dallas to pittsburgh which leave on monday after 8 o'clock am
@@ -5037,7 +5037,7 @@
 13	after	after	ADP	_	_	14	case	_	_
 14	8	8	NUM	_	NumType=Card	12	nmod:tmod	_	_
 15	o'clock	o'clock	ADV	_	Degree=Pos	14	advmod	_	_
-16	am	be	NOUN	_	Number=Sing	14	nmod	_	_
+16	am	am	NOUN	_	Number=Sing	14	nmod	_	_
 
 # sent_id = 0324.dev
 # text = what 's the first flight after 1 pm leaving washington to denver
@@ -5068,7 +5068,7 @@
 10	francisco	francisco	PROPN	_	Number=Sing	9	flat	_	_
 11	after	after	ADP	_	_	12	case	_	_
 12	9	9	NUM	_	NumType=Card	2	nmod:tmod	_	_
-13	am	be	NOUN	_	Number=Sing	12	nmod	_	_
+13	am	am	NOUN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0326.dev
 # text = i 'd like a flight on united airlines from dallas to san francisco that leaves after 815 am
@@ -5089,7 +5089,7 @@
 15	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 16	after	after	ADP	_	_	17	case	_	_
 17	815	815	NUM	_	NumType=Card	15	obl	_	_
-18	am	be	NOUN	_	Number=Sing	17	nmod	_	_
+18	am	am	NOUN	_	Number=Sing	17	nmod	_	_
 
 # sent_id = 0327.dev
 # text = us air flights departing from charlotte around 1 pm
@@ -5132,7 +5132,7 @@
 9	memphis	memphis	PROPN	_	Number=Sing	5	nmod	_	_
 10	before	before	ADP	_	_	11	case	_	_
 11	10	10	NUM	_	NumType=Card	5	nmod:tmod	_	_
-12	am	be	NOUN	_	Number=Sing	11	nmod	_	_
+12	am	am	NOUN	_	Number=Sing	11	nmod	_	_
 13	on	on	ADP	_	_	15	case	_	_
 14	any	any	DET	_	PronType=Art	15	det	_	_
 15	day	day	NOUN	_	Number=Sing	5	nmod:tmod	_	_
@@ -6857,7 +6857,7 @@
 7	phoenix	phoenix	PROPN	_	Number=Sing	2	nmod	_	_
 8	on	on	ADP	_	_	9	case	_	_
 9	monday	monday	PROPN	_	Number=Sing	2	nmod:tmod	_	_
-10	am	be	NOUN	_	Number=Sing	9	nmod	_	_
+10	am	am	NOUN	_	Number=Sing	9	nmod	_	_
 
 # sent_id = 0447.dev
 # text = how can i get from indianapolis to montreal in the evening
@@ -7444,7 +7444,7 @@
 # sent_id = 0493.dev
 # text = all right what do you have from oakland to philadelphia on wednesday
 1	all	all	DET	_	PronType=Art	6	discourse	_	_
-2	right	right	ADJ	_	Degree=Pos	1	goeswith	_	_
+2	right	right	ADJ	_	Degree=Pos	1	fixed	_	_
 3	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 4	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	you	you	PRON	_	PronType=Prs	6	nsubj	_	_
@@ -7639,7 +7639,7 @@
 # sent_id = 0510.dev
 # text = all right now i need a flight from seattle to san diego
 1	all	all	DET	_	PronType=Art	5	discourse	_	_
-2	right	right	ADJ	_	Degree=Pos	1	goeswith	_	_
+2	right	right	ADJ	_	Degree=Pos	1	fixed	_	_
 3	now	now	ADV	_	Degree=Pos	5	advmod	_	_
 4	i	i	PRON	_	PronType=Prs	5	nsubj	_	_
 5	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_

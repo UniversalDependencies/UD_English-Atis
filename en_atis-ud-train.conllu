@@ -75,7 +75,7 @@
 5	of	of	ADP	_	_	6	case	_	_
 6	meal	meal	NOUN	_	Number=Sing	7	nmod	_	_
 7	code	code	NOUN	_	Number=Sing	4	nmod	_	_
-8	s	s	PROPN	_	Number=Sing	7	goeswith	_	_
+8	s	s	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0005.train
 # text = show me all flights from denver to pittsburgh which serve a meal for the day after tomorrow
@@ -445,7 +445,7 @@
 11	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 12	before	before	ADP	_	_	13	case	_	_
 13	9	9	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 15	on	on	ADP	_	_	16	case	_	_
 16	july	july	PROPN	_	Number=Sing	11	obl:tmod	_	_
 17	twenty	twenty	NUM	_	NumType=Card	18	compound	_	_
@@ -579,7 +579,7 @@
 12	washington	washington	PROPN	_	Number=Sing	10	obj	_	_
 13	between	between	ADP	_	_	15	case	_	_
 14	1115	1115	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	10	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
 16	and	and	CCONJ	_	_	18	cc	_	_
 17	1245	1245	NUM	_	NumType=Card	18	nummod	_	_
 18	pm	pm	NOUN	_	Number=Sing	15	conj	_	_
@@ -603,7 +603,7 @@
 15	baltimore	baltimore	PROPN	_	Number=Sing	13	obl	_	_
 16	between	between	ADP	_	_	18	case	_	_
 17	1115	1115	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 19	and	and	CCONJ	_	_	21	cc	_	_
 20	1245	1245	NUM	_	NumType=Card	21	nummod	_	_
 21	pm	pm	NOUN	_	Number=Sing	18	conj	_	_
@@ -623,7 +623,7 @@
 11	baltimore	baltimore	PROPN	_	Number=Sing	9	obl	_	_
 12	between	between	ADP	_	_	14	case	_	_
 13	1115	1115	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 15	and	and	CCONJ	_	_	17	cc	_	_
 16	1245	1245	NUM	_	NumType=Card	17	nummod	_	_
 17	pm	pm	NOUN	_	Number=Sing	14	conj	_	_
@@ -647,7 +647,7 @@
 15	washington	washington	PROPN	_	Number=Sing	13	obl	_	_
 16	between	between	ADP	_	_	17	case	_	_
 17	1115	1115	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 19	and	and	CCONJ	_	_	21	cc	_	_
 20	1245	1245	NUM	_	NumType=Card	21	nummod	_	_
 21	pm	pm	NOUN	_	Number=Sing	18	conj	_	_
@@ -689,10 +689,10 @@
 14	houston	houston	PROPN	_	Number=Sing	12	obl	_	_
 15	between	between	ADP	_	_	17	case	_	_
 16	1030	1030	NUM	_	NumType=Card	17	nummod	_	_
-17	am	be	NOUN	_	Number=Sing	12	obl:tmod	_	_
+17	am	am	NOUN	_	Number=Sing	12	obl:tmod	_	_
 18	and	and	CCONJ	_	_	20	cc	_	_
 19	1130	1130	NUM	_	NumType=Card	20	nummod	_	_
-20	am	be	NOUN	_	Number=Sing	17	conj	_	_
+20	am	am	NOUN	_	Number=Sing	17	conj	_	_
 
 # sent_id = 0042.train
 # text = I need a nonstop flight from atlanta to baltimore arriving between 5 pm and 730 pm
@@ -1107,7 +1107,7 @@
 9	baltimore	baltimore	PROPN	_	Number=Sing	5	nmod	_	_
 10	between	between	ADP	_	_	11	case	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	5	nmod:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 13	and	and	CCONJ	_	_	15	cc	_	_
 14	2	2	NUM	_	NumType=Card	15	nummod	_	_
 15	pm	pm	NOUN	_	Number=Sing	12	conj	_	_
@@ -1135,7 +1135,7 @@
 5	available	available	ADJ	_	Degree=Pos	4	amod	_	_
 6	between	between	ADP	_	_	8	case	_	_
 7	10	10	NUM	_	NumType=Card	8	nummod	_	_
-8	am	be	NOUN	_	Number=Sing	5	obl:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
 9	and	and	CCONJ	_	_	11	cc	_	_
 10	3	3	NUM	_	NumType=Card	11	nummod	_	_
 11	pm	pm	NOUN	_	Number=Sing	8	conj	_	_
@@ -1157,7 +1157,7 @@
 8	baltimore	baltimore	PROPN	_	Number=Sing	4	nmod	_	_
 9	between	between	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 12	and	and	CCONJ	_	_	14	cc	_	_
 13	2	2	NUM	_	NumType=Card	14	nummod	_	_
 14	pm	pm	NOUN	_	Number=Sing	11	conj	_	_
@@ -1171,7 +1171,7 @@
 5	baltimore	baltimore	PROPN	_	Number=Sing	1	nmod	_	_
 6	between	between	ADP	_	_	8	case	_	_
 7	10	10	NUM	_	NumType=Card	8	nummod	_	_
-8	am	be	NOUN	_	Number=Sing	1	nmod:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 9	and	and	CCONJ	_	_	11	cc	_	_
 10	2	2	NUM	_	NumType=Card	11	nummod	_	_
 11	pm	pm	NOUN	_	Number=Sing	8	conj	_	_
@@ -2334,7 +2334,7 @@
 8	6	6	NUM	_	NumType=Card	11	nummod	_	_
 9	and	and	CCONJ	_	_	10	cc	_	_
 10	10	10	NUM	_	NumType=Card	8	conj	_	_
-11	am	be	NOUN	_	Number=Sing	3	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	3	obl:tmod	_	_
 12	on	on	ADP	_	_	13	case	_	_
 13	june	june	PROPN	_	Number=Sing	11	nmod:tmod	_	_
 14	sixth	six	ADJ	_	Degree=Pos	13	amod	_	_
@@ -2723,7 +2723,7 @@
 10	thursday	thursday	PROPN	_	Number=Sing	8	obl:tmod	_	_
 11	before	before	ADV	_	Degree=Pos	8	advmod	_	_
 12	8	8	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	nmod:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	nmod:tmod	_	_
 14	from	from	ADP	_	_	15	case	_	_
 15	oakland	oakland	PROPN	_	Number=Sing	8	obl	_	_
 16	going	go	VERB	_	Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
@@ -4447,7 +4447,7 @@
 9	for	for	ADP	_	_	13	case	_	_
 10	the	the	DET	_	PronType=Art	13	det	_	_
 11	755	755	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	13	compound	_	_
+12	am	am	NOUN	_	Number=Sing	13	compound	_	_
 13	flight	flight	NOUN	_	Number=Sing	5	nmod	_	_
 14	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
 15	washington	washington	PROPN	_	Number=Sing	14	obl	_	_
@@ -4799,7 +4799,7 @@
 15	thursday	thursday	PROPN	_	Number=Sing	7	obl:tmod	_	_
 16	before	before	ADP	_	_	18	case	_	_
 17	8	8	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	15	nmod:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	15	nmod:tmod	_	_
 
 # sent_id = 0309.train
 # text = list all flights and their fares for all flights between miami and indianapolis
@@ -8527,7 +8527,7 @@
 10	angeles	angeles	PROPN	_	Number=Sing	9	flat	_	_
 11	after	after	ADP	_	_	13	case	_	_
 12	10	10	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	3	nmod:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0561.train
 # text = show me all direct flights from dallas fort worth to either san francisco or oakland
@@ -8590,7 +8590,7 @@
 15	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 16	before	before	ADP	_	_	18	case	_	_
 17	10	10	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	15	obl:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	15	obl:tmod	_	_
 19	local	local	ADJ	_	Degree=Pos	20	amod	_	_
 20	time	time	NOUN	_	Number=Sing	18	nmod	_	_
 
@@ -8689,7 +8689,7 @@
 6	to	to	ADP	_	_	7	case	_	_
 7	denver	denver	PROPN	_	Number=Sing	3	nmod	_	_
 8	early	early	ADJ	_	Degree=Pos	9	amod	_	_
-9	am	be	NOUN	_	Number=Sing	3	nmod:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 10	on	on	ADP	_	_	11	case	_	_
 11	tuesday	tuesday	PROPN	_	Number=Sing	9	nmod:tmod	_	_
 
@@ -8726,7 +8726,7 @@
 14	in	in	ADP	_	_	17	case	_	_
 15	the	the	DET	_	PronType=Art	17	det	_	_
 16	early	early	ADJ	_	Degree=Pos	17	amod	_	_
-17	am	be	NOUN	_	Number=Sing	6	obl:tmod	_	_
+17	am	am	NOUN	_	Number=Sing	6	obl:tmod	_	_
 
 # sent_id = 0572.train
 # text = are there any early flights from atlanta to washington on thursday mornings
@@ -9710,7 +9710,7 @@
 8	boston	boston	PROPN	_	Number=Sing	6	nmod	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	4	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
 12	on	on	ADP	_	_	13	case	_	_
 13	august	august	PROPN	_	Number=Sing	11	nmod:tmod	_	_
 14	third	third	ADJ	_	Degree=Pos	13	amod	_	_
@@ -13218,7 +13218,7 @@
 20	thursday	thursday	PROPN	_	Number=Sing	15	conj	_	_
 21	before	before	ADP	_	_	23	case	_	_
 22	9	9	NUM	_	NumType=Card	23	nummod	_	_
-23	am	be	NOUN	_	Number=Sing	20	nmod:tmod	_	_
+23	am	am	NOUN	_	Number=Sing	20	nmod:tmod	_	_
 
 # sent_id = 0871.train
 # text = what are the flights from dallas to boston for tomorrow night or evening
@@ -13583,7 +13583,7 @@
 20	or	or	CCONJ	_	_	23	cc	_	_
 21	before	before	ADP	_	_	23	case	_	_
 22	9	9	NUM	_	NumType=Card	23	nummod	_	_
-23	am	be	NOUN	_	Number=Sing	17	conj	_	_
+23	am	am	NOUN	_	Number=Sing	17	conj	_	_
 24	on	on	ADP	_	_	25	case	_	_
 25	thursday	thursday	PROPN	_	Number=Sing	23	nmod:tmod	_	_
 
@@ -14571,7 +14571,7 @@
 8	seattle	seattle	PROPN	_	Number=Sing	4	obl	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	4	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
 12	in	in	ADP	_	_	14	case	_	_
 13	the	the	DET	_	PronType=Art	14	det	_	_
 14	morning	morning	NOUN	_	Number=Sing	11	nmod:tmod	_	_
@@ -15665,7 +15665,7 @@
 6	boston	boston	PROPN	_	Number=Sing	4	obl	_	_
 7	at	at	ADP	_	_	9	case	_	_
 8	838	838	NUM	_	NumType=Card	9	nummod	_	_
-9	am	be	NOUN	_	Number=Sing	4	obl:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
 10	and	and	CCONJ	_	_	11	cc	_	_
 11	arrive	arrive	VERB	_	VerbForm=Inf	4	conj	_	_
 12	in	in	ADP	_	_	13	case	_	_
@@ -15743,7 +15743,7 @@
 15	pittsburgh	pittsburgh	PROPN	_	Number=Sing	13	obl	_	_
 16	before	before	ADP	_	_	18	case	_	_
 17	8	8	NUM	_	NumType=Card	18	nummod	_	_
-18	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 19	tuesday	tuesday	PROPN	_	Number=Sing	20	compound	_	_
 20	morning	morning	NOUN	_	Number=Sing	13	obl:tmod	_	_
 
@@ -17053,7 +17053,7 @@
 13	air	air	PROPN	_	Number=Sing	12	flat	_	_
 14	at	at	ADP	_	_	16	case	_	_
 15	8	8	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 1115.train
 # text = earliest flight on american airlines from washington dc to san francisco
@@ -18062,7 +18062,7 @@
 6	francisco	francisco	PROPN	_	Number=Sing	5	flat	_	_
 7	before	before	ADP	_	_	9	case	_	_
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
-9	am	be	NOUN	_	Number=Sing	3	obl:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	3	obl:tmod	_	_
 10	what	what	DET	_	PronType=Int,Rel	11	det	_	_
 11	type	type	NOUN	_	Number=Sing	15	nsubj	_	_
 12	of	of	ADP	_	_	13	case	_	_
@@ -18158,7 +18158,7 @@
 10	dc	dc	PROPN	_	Number=Sing	9	flat	_	_
 11	at	at	ADP	_	_	13	case	_	_
 12	9	9	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
 
 # sent_id = 1183.train
 # text = okay i would like to know the type of aircraft used on a flight from cleveland to dallas please
@@ -18484,7 +18484,7 @@
 7	use	use	VERB	_	VerbForm=Inf	0	root	_	_
 8	before	before	ADP	_	_	10	case	_	_
 9	8	8	NUM	_	NumType=Card	10	nummod	_	_
-10	am	be	NOUN	_	Number=Sing	7	obl:tmod	_	_
+10	am	am	NOUN	_	Number=Sing	7	obl:tmod	_	_
 11	on	on	ADP	_	_	12	case	_	_
 12	august	august	PROPN	_	Number=Sing	7	obl:tmod	_	_
 13	second	second	ADJ	_	Degree=Pos	12	amod	_	_
@@ -18831,7 +18831,7 @@
 10	dc	dc	PROPN	_	Number=Sing	9	flat	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	9	9	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
 
 # sent_id = 1219.train
 # text = what kind of plane is used on the earliest flight from boston to san francisco afternoon
@@ -20451,7 +20451,7 @@
 8	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	8	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	8	obl:tmod	_	_
 12	on	on	ADP	_	_	13	case	_	_
 13	monday	monday	PROPN	_	Number=Sing	8	obl:tmod	_	_
 
@@ -20531,7 +20531,7 @@
 11	before	before	ADP	_	_	13	case	_	_
 12	8	8	NUM	_	NumType=Card	13	nummod	_	_
 13	o'clock	o'clock	ADV	_	Degree=Pos	10	advmod	_	_
-14	am	be	NOUN	_	Number=Sing	13	nmod:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 15	on	on	ADP	_	_	16	case	_	_
 16	wednesday	wednesday	PROPN	_	Number=Sing	13	nmod:tmod	_	_
 
@@ -20662,7 +20662,7 @@
 13	baltimore	baltimore	PROPN	_	Number=Sing	11	obl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	10	10	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 17	on	on	ADP	_	_	18	case	_	_
 18	thursday	thursday	PROPN	_	Number=Sing	13	obl:tmod	_	_
 
@@ -21021,7 +21021,7 @@
 12	worth	worth	PROPN	_	Number=Sing	11	flat	_	_
 13	before	before	ADP	_	_	15	case	_	_
 14	10	10	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	9	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 1363.train
 # text = get me a first class flight on american to san francisco on tuesday next week
@@ -22392,7 +22392,7 @@
 10	eleventh	eleven	ADJ	_	Degree=Pos	9	amod	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	10	10	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	2	nmod:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 1445.train
 # text = which airlines fly from boston to washington dc
@@ -22464,7 +22464,7 @@
 11	thursday	thursday	PROPN	_	Number=Sing	9	obl:tmod	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	9	9	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	9	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 1450.train
 # text = what is the earliest flight from oakland to washington dc on sunday
@@ -22517,7 +22517,7 @@
 17	thursday	thursday	PROPN	_	Number=Sing	12	conj	_	_
 18	before	before	ADP	_	_	20	case	_	_
 19	9	9	NUM	_	NumType=Card	20	nummod	_	_
-20	am	be	NOUN	_	Number=Sing	17	nmod:tmod	_	_
+20	am	am	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 
 # sent_id = 1453.train
 # text = what flights go from atlanta to washington dc on thursday
@@ -23374,7 +23374,7 @@
 15	after	after	ADP	_	_	18	case	_	_
 16	11	11	NUM	_	NumType=Card	17	nummod	_	_
 17	o'clock	o'clock	ADV	_	Degree=Pos	18	advmod	_	_
-18	am	be	NOUN	_	Number=Sing	14	obl:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	14	obl:tmod	_	_
 
 # sent_id = 1512.train
 # text = i would like information on flights from philadelphia to oakland california on friday afternoon
@@ -24286,7 +24286,7 @@
 # sent_id = 1564.train
 # text = 630 am flight on august twenty seventh from atlanta to dallas
 1	630	630	NUM	_	NumType=Card	2	nummod	_	_
-2	am	be	NOUN	_	Number=Sing	3	compound	_	_
+2	am	am	NOUN	_	Number=Sing	3	compound	_	_
 3	flight	flight	NOUN	_	Number=Sing	0	root	_	_
 4	on	on	ADP	_	_	5	case	_	_
 5	august	august	PROPN	_	Number=Sing	3	nmod:tmod	_	_
@@ -24958,7 +24958,7 @@
 12	arrive	arrive	VERB	_	VerbForm=Inf	6	acl:relcl	_	_
 13	around	around	ADP	_	_	15	case	_	_
 14	11	11	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	12	obl:tmod	_	_
 
 # sent_id = 1618.train
 # text = show me the flights on twa to atlanta in the morning
@@ -25143,7 +25143,7 @@
 10	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 11	at	at	ADP	_	_	13	case	_	_
 12	11	11	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
 
 # sent_id = 1634.train
 # text = please list the twa flights from las vegas to new york and fare
@@ -25168,7 +25168,7 @@
 3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	the	the	DET	_	PronType=Art	7	det	_	_
 5	718	718	NUM	_	NumType=Card	6	nummod	_	_
-6	am	be	NOUN	_	Number=Sing	7	compound	_	_
+6	am	am	NOUN	_	Number=Sing	7	compound	_	_
 7	flight	flight	NOUN	_	Number=Sing	2	nsubj	_	_
 8	from	from	ADP	_	_	9	case	_	_
 9	las	la	PROPN	_	Number=Sing	7	nmod	_	_
@@ -25402,7 +25402,7 @@
 16	baltimore	baltimore	PROPN	_	Number=Sing	14	obl	_	_
 17	before	before	ADP	_	_	19	case	_	_
 18	10	10	NUM	_	NumType=Card	19	nummod	_	_
-19	am	be	NOUN	_	Number=Sing	14	obl:tmod	_	_
+19	am	am	NOUN	_	Number=Sing	14	obl:tmod	_	_
 
 # sent_id = 1656.train
 # text = i 'd like to fly from miami to chicago on on american airlines arriving around 5 pm
@@ -25822,7 +25822,7 @@
 9	petersburg	petersburg	PROPN	_	Number=Sing	8	flat	_	_
 10	around	around	ADP	_	_	12	case	_	_
 11	9	9	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	6	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	6	obl:tmod	_	_
 
 # sent_id = 1678.train
 # text = i would like a flight between denver and san francisco leaving from denver in the afternoon and arriving at 5 pm it must be a nonstop flight
@@ -26295,7 +26295,7 @@
 12	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 13	before	before	ADP	_	_	15	case	_	_
 14	1145	1145	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	12	obl:tmod	_	_
 
 # sent_id = 1701.train
 # text = what flights from baltimore to san francisco arrive before 8 pm in san francisco
@@ -26328,7 +26328,7 @@
 10	arrive	arrive	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
 11	after	after	ADP	_	_	13	case	_	_
 12	10	10	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
 
 # sent_id = 1703.train
 # text = what nonstop flights between boston and washington arrive after 4 o'clock pm
@@ -26439,7 +26439,7 @@
 11	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	1145	1145	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 1709.train
 # text = show me the cheapest round trip between st. petersburg and detroit that arrives before 7 pm
@@ -26584,7 +26584,7 @@
 11	angeles	angeles	PROPN	_	Number=Sing	10	flat	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	8	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	8	obl:tmod	_	_
 
 # sent_id = 1717.train
 # text = i would like to fly from dallas to san francisco on saturday and arrive in san francisco before 4 pm
@@ -29143,7 +29143,7 @@
 8	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	8	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	8	obl:tmod	_	_
 12	on	on	ADP	_	_	14	case	_	_
 13	any	any	DET	_	PronType=Art	14	det	_	_
 14	day	day	NOUN	_	Number=Sing	8	obl:tmod	_	_
@@ -29582,7 +29582,7 @@
 13	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	10	10	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 
 # sent_id = 1926.train
 # text = what is the fare from philadelphia to pittsburgh business class one way
@@ -29814,7 +29814,7 @@
 11	leave	leave	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 1940.train
 # text = minneapolis to pittsburgh first class flight
@@ -33830,7 +33830,7 @@
 13	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 14	at	at	ADP	_	_	16	case	_	_
 15	720	720	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 
 # sent_id = 2221.train
 # text = find travel arrangements for a round trip flight from dallas to pittsburgh after 8 pm
@@ -33924,7 +33924,7 @@
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 2226.train
 # text = i need flight information for flights departing from cleveland going back to milwaukee wednesday after 5 pm
@@ -34022,7 +34022,7 @@
 9	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 10	at	at	ADP	_	_	12	case	_	_
 11	9	9	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	9	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 2232.train
 # text = show me all the flights from charlotte to minneapolis that leave at 2 pm or later on monday
@@ -34091,7 +34091,7 @@
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 2236.train
 # text = show me all the flights to baltimore after 6 o'clock pm
@@ -34121,7 +34121,7 @@
 10	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	8	8	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
 14	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	there	there	PRON	_	PronType=Dem	14	expl	_	_
 16	such	such	ADJ	_	Degree=Pos	18	amod	_	_
@@ -34143,7 +34143,7 @@
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 2239.train
 # text = find the flights leaving dallas and going to san francisco that leave after 5 pm
@@ -34177,7 +34177,7 @@
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	1045	1045	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
 
 # sent_id = 2241.train
 # text = what american airlines flights from phoenix to milwaukee depart phoenix after 6 pm on wednesday
@@ -34311,7 +34311,7 @@
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
 3	before	before	ADP	_	_	5	case	_	_
 4	9	9	NUM	_	NumType=Card	5	nummod	_	_
-5	am	be	NOUN	_	Number=Sing	2	nmod:tmod	_	_
+5	am	am	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 6	from	from	ADP	_	_	7	case	_	_
 7	cincinnati	cincinnati	PROPN	_	Number=Sing	2	nmod	_	_
 8	to	to	ADP	_	_	9	case	_	_
@@ -34457,7 +34457,7 @@
 14	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
 15	before	before	ADP	_	_	17	case	_	_
 16	10	10	NUM	_	NumType=Card	17	nummod	_	_
-17	am	be	NOUN	_	Number=Sing	14	obl:tmod	_	_
+17	am	am	NOUN	_	Number=Sing	14	obl:tmod	_	_
 
 # sent_id = 2259.train
 # text = can you tell me the flights that go from boston to atlanta sometime after 5 pm
@@ -34493,7 +34493,7 @@
 11	paul	paul	PROPN	_	Number=Sing	10	flat	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	5	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
 
 # sent_id = 2261.train
 # text = what are the flights available after 6 pm between san francisco and boston
@@ -34599,7 +34599,7 @@
 7	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
 8	after	after	ADP	_	_	10	case	_	_
 9	718	718	NUM	_	NumType=Card	10	nummod	_	_
-10	am	be	NOUN	_	Number=Sing	7	obl:tmod	_	_
+10	am	am	NOUN	_	Number=Sing	7	obl:tmod	_	_
 
 # sent_id = 2267.train
 # text = on april first i need a ticket from tacoma to san jose departing before 7 am
@@ -34618,7 +34618,7 @@
 13	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	7	7	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 
 # sent_id = 2268.train
 # text = please give me a flight from boston to atlanta before 10 am in the morning
@@ -34633,7 +34633,7 @@
 9	atlanta	atlanta	PROPN	_	Number=Sing	5	nmod	_	_
 10	before	before	ADP	_	_	12	case	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	5	nmod:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	the	the	DET	_	PronType=Art	15	det	_	_
 15	morning	morning	NOUN	_	Number=Sing	5	nmod:tmod	_	_
@@ -34718,7 +34718,7 @@
 6	thursday	thursday	PROPN	_	Number=Sing	4	nmod:tmod	_	_
 7	before	before	ADP	_	_	9	case	_	_
 8	8	8	NUM	_	NumType=Card	9	nummod	_	_
-9	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 10	from	from	ADP	_	_	11	case	_	_
 11	oakland	oakland	PROPN	_	Number=Sing	4	nmod	_	_
 12	to	to	ADP	_	_	13	case	_	_
@@ -34745,7 +34745,7 @@
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 3	before	before	ADP	_	_	5	case	_	_
 4	10	10	NUM	_	NumType=Card	5	nummod	_	_
-5	am	be	NOUN	_	Number=Sing	2	obl:tmod	_	_
+5	am	am	NOUN	_	Number=Sing	2	obl:tmod	_	_
 6	boston	boston	PROPN	_	Number=Sing	2	nmod	_	_
 7	denver	denver	PROPN	_	Number=Sing	6	appos	_	_
 
@@ -34773,7 +34773,7 @@
 4	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
 5	before	before	ADP	_	_	7	case	_	_
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
-7	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+7	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 8	on	on	ADP	_	_	9	case	_	_
 9	august	august	PROPN	_	Number=Sing	7	nmod:tmod	_	_
 10	second	second	ADJ	_	Degree=Pos	9	amod	_	_
@@ -34861,7 +34861,7 @@
 9	francisco	francisco	PROPN	_	Number=Sing	8	flat	_	_
 10	before	before	ADP	_	_	12	case	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	4	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
 13	what	what	DET	_	PronType=Int,Rel	14	det	_	_
 14	type	type	NOUN	_	Number=Sing	18	nsubj	_	_
 15	of	of	ADP	_	_	16	case	_	_
@@ -34884,7 +34884,7 @@
 11	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 2284.train
 # text = what are the cheapest fares for flights from newark to la leaving wednesday after 3 pm
@@ -34936,7 +34936,7 @@
 11	depart	depart	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 15	thursday	thursday	PROPN	_	Number=Sing	16	compound	_	_
 16	morning	morning	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
@@ -34950,7 +34950,7 @@
 6	thursday	thursday	PROPN	_	Number=Sing	1	nmod:tmod	_	_
 7	after	after	ADP	_	_	9	case	_	_
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
-9	am	be	NOUN	_	Number=Sing	6	nmod:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	6	nmod:tmod	_	_
 
 # sent_id = 2288.train
 # text = okay i 'm looking for a flight from tampa to st. louis leaving before 10 am any day
@@ -34969,7 +34969,7 @@
 13	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	10	10	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 17	any	any	DET	_	PronType=Art	18	det	_	_
 18	day	day	NOUN	_	Number=Sing	16	nmod:tmod	_	_
 
@@ -35005,7 +35005,7 @@
 15	before	before	ADP	_	_	17	case	_	_
 16	7	7	NUM	_	NumType=Card	17	nummod	_	_
 17	o'clock	o'clock	ADV	_	Degree=Pos	11	conj	_	_
-18	am	be	NOUN	_	Number=Sing	17	nmod:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 19	on	on	ADP	_	_	20	case	_	_
 20	thursday	thursday	PROPN	_	Number=Sing	17	nmod:tmod	_	_
 
@@ -35056,7 +35056,7 @@
 6	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
 7	after	after	ADP	_	_	9	case	_	_
 8	718	718	NUM	_	NumType=Card	9	nummod	_	_
-9	am	be	NOUN	_	Number=Sing	6	obl:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	6	obl:tmod	_	_
 
 # sent_id = 2294.train
 # text = find travel arrangements for a round trip flight from baltimore to pittsburgh after 8 o'clock pm before 10 o'clock pm
@@ -35179,7 +35179,7 @@
 9	boston	boston	PROPN	_	Number=Sing	3	nmod	_	_
 10	after	after	ADP	_	_	12	case	_	_
 11	7	7	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	3	nmod:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 2301.train
 # text = do you have a flight from san francisco to atlanta around 8 am
@@ -35195,7 +35195,7 @@
 10	atlanta	atlanta	PROPN	_	Number=Sing	5	nmod	_	_
 11	around	around	ADP	_	_	13	case	_	_
 12	8	8	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	5	nmod:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 2302.train
 # text = what is the first flight from atlanta to boston on thursday september fifth that leaves after 8 am
@@ -35216,7 +35216,7 @@
 15	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 16	after	after	ADP	_	_	17	case	_	_
 17	8	8	NUM	_	NumType=Card	15	obl:tmod	_	_
-18	am	be	NOUN	_	Number=Sing	17	nmod:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 
 # sent_id = 2303.train
 # text = flights from kansas city to cleveland on wednesday before 5 pm
@@ -35322,7 +35322,7 @@
 8	angeles	angeles	PROPN	_	Number=Sing	7	flat	_	_
 9	after	after	ADP	_	_	11	case	_	_
 10	10	10	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	2	nmod:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 2309.train
 # text = show me the flights from denver to san diego leaving after 5 pm
@@ -35410,7 +35410,7 @@
 16	and	and	CCONJ	_	_	19	cc	_	_
 17	before	before	ADP	_	_	19	case	_	_
 18	9	9	NUM	_	NumType=Card	19	nummod	_	_
-19	am	be	NOUN	_	Number=Sing	14	conj	_	_
+19	am	am	NOUN	_	Number=Sing	14	conj	_	_
 20	thursday	thursday	PROPN	_	Number=Sing	19	nmod:tmod	_	_
 
 # sent_id = 2314.train
@@ -35549,7 +35549,7 @@
 11	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	7	7	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
 
 # sent_id = 2322.train
 # text = i need to take a united airlines flight on june eighth from westchester county to cincinnati after 3 pm
@@ -35582,7 +35582,7 @@
 5	flight	flight	NOUN	_	Number=Sing	1	nsubj	_	_
 6	after	after	ADP	_	_	8	case	_	_
 7	8	8	NUM	_	NumType=Card	8	nummod	_	_
-8	am	be	NOUN	_	Number=Sing	5	nmod:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 9	from	from	ADP	_	_	10	case	_	_
 10	boston	boston	PROPN	_	Number=Sing	5	nmod	_	_
 11	to	to	ADP	_	_	12	case	_	_
@@ -35618,7 +35618,7 @@
 13	denver	denver	PROPN	_	Number=Sing	9	obl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	10	10	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	9	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 2326.train
 # text = on april twenty would like to fly from denver to pittsburgh at about 8 o'clock in the morning
@@ -35669,7 +35669,7 @@
 9	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 10	before	before	ADP	_	_	12	case	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	_
-12	am	be	NOUN	_	Number=Sing	9	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 2329.train
 # text = find me a flight leaving boston at 12 o'clock
@@ -35753,7 +35753,7 @@
 12	leave	leave	VERB	_	VerbForm=Inf	4	conj	_	_
 13	at	at	ADP	_	_	15	case	_	_
 14	838	838	NUM	_	NumType=Card	15	nummod	_	_
-15	am	be	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	12	obl:tmod	_	_
 16	which	which	DET	_	PronType=Int,Rel	17	det	_	_
 17	flight	flight	NOUN	_	Number=Sing	20	obj	_	_
 18	should	should	AUX	_	_	20	aux	_	_
@@ -35850,7 +35850,7 @@
 5	way	way	NOUN	_	Number=Sing	1	nmod	_	_
 6	before	before	ADP	_	_	8	case	_	_
 7	10	10	NUM	_	NumType=Card	8	nummod	_	_
-8	am	be	NOUN	_	Number=Sing	1	nmod:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 2340.train
 # text = are there any flights after 9 pm from san francisco to washington
@@ -35899,7 +35899,7 @@
 11	monday	monday	PROPN	_	Number=Sing	10	obl:tmod	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	8	8	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	nmod:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
 # sent_id = 2343.train
 # text = what flights leave pittsburgh after 5 pm on thursday and arrive in los angeles
@@ -36063,7 +36063,7 @@
 7	boston	boston	PROPN	_	Number=Sing	6	obl	_	_
 8	at	at	ADP	_	_	9	case	_	_
 9	645	645	NUM	_	NumType=Card	6	obl:tmod	_	_
-10	am	be	NOUN	_	Number=Sing	9	nmod:tmod	_	_
+10	am	am	NOUN	_	Number=Sing	9	nmod:tmod	_	_
 11	going	go	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	to	to	ADP	_	_	13	case	_	_
 13	washington	washington	PROPN	_	Number=Sing	11	obl	_	_
@@ -36147,7 +36147,7 @@
 8	city	city	PROPN	_	Number=Sing	6	flat	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	6	6	NUM	_	NumType=Card	11	nummod	_	_
-11	am	be	NOUN	_	Number=Sing	1	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	1	obl:tmod	_	_
 12	thursday	thursday	PROPN	_	Number=Sing	13	compound	_	_
 13	morning	morning	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
@@ -36183,7 +36183,7 @@
 13	leave	leave	VERB	_	VerbForm=Inf	6	acl:relcl	_	_
 14	at	at	ADP	_	_	16	case	_	_
 15	720	720	NUM	_	NumType=Card	16	nummod	_	_
-16	am	be	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
 
 # sent_id = 2360.train
 # text = list all flights going from boston to atlanta before 7 o'clock am on thursday
@@ -36198,7 +36198,7 @@
 9	before	before	ADP	_	_	11	case	_	_
 10	7	7	NUM	_	NumType=Card	11	nummod	_	_
 11	o'clock	o'clock	ADV	_	Degree=Pos	4	advmod	_	_
-12	am	be	NOUN	_	Number=Sing	11	nmod:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 13	on	on	ADP	_	_	14	case	_	_
 14	thursday	thursday	PROPN	_	Number=Sing	4	obl:tmod	_	_
 
@@ -36236,7 +36236,7 @@
 11	morning	morning	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 12	after	after	ADP	_	_	14	case	_	_
 13	8	8	NUM	_	NumType=Card	14	nummod	_	_
-14	am	be	NOUN	_	Number=Sing	11	nmod:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
 # sent_id = 2363.train
 # text = i want a flight from milwaukee to orlando one way leaving after 5 pm on wednesday
@@ -36358,7 +36358,7 @@
 10	july	july	PROPN	_	Number=Sing	4	obl:tmod	_	_
 11	seventh	seven	ADJ	_	Degree=Pos	10	amod	_	_
 12	8	8	NUM	_	NumType=Card	13	nummod	_	_
-13	am	be	NOUN	_	Number=Sing	10	nmod:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	nmod:tmod	_	_
 
 # sent_id = 2370.train
 # text = list all the flights from charlotte to atlanta that return around 7 pm
@@ -36423,7 +36423,7 @@
 4	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
 5	before	before	ADP	_	_	7	case	_	_
 6	8	8	NUM	_	NumType=Card	7	nummod	_	_
-7	am	be	NOUN	_	Number=Sing	4	nmod:tmod	_	_
+7	am	am	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 8	on	on	ADP	_	_	9	case	_	_
 9	august	august	PROPN	_	Number=Sing	4	nmod:tmod	_	_
 10	second	second	ADJ	_	Degree=Pos	9	amod	_	_
@@ -40362,7 +40362,7 @@
 # sent_id = 2644.train
 # text = all right what i 'd like to do is find the cheapest one way fare from boston to denver
 1	all	all	DET	_	PronType=Art	10	discourse	_	_
-2	right	right	ADV	_	Degree=Pos	1	goeswith	_	_
+2	right	right	ADV	_	Degree=Pos	1	fixed	_	_
 3	what	what	PRON	_	PronType=Int,Rel	10	nsubj	_	_
 4	i	i	PRON	_	PronType=Prs	6	nsubj	_	_
 5	'd	will	AUX	_	_	6	aux	_	_
@@ -46558,7 +46558,7 @@
 # text = okay all right do you have a flight on united airlines from atlanta to washington
 1	okay	okay	INTJ	_	_	6	discourse	_	_
 2	all	all	DET	_	PronType=Art	6	discourse	_	_
-3	right	right	NOUN	_	Number=Sing	2	goeswith	_	_
+3	right	right	NOUN	_	Number=Sing	2	fixed	_	_
 4	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	you	you	PRON	_	PronType=Prs	6	nsubj	_	_
 6	have	have	VERB	_	VerbForm=Inf	0	root	_	_
@@ -48381,7 +48381,7 @@
 
 # sent_id = 3200.train
 # text = am flights from dallas to san francisco
-1	am	be	NOUN	_	Number=Sing	2	compound	_	_
+1	am	am	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 3	from	from	ADP	_	_	4	case	_	_
 4	dallas	dallas	PROPN	_	Number=Sing	2	nmod	_	_
@@ -48475,7 +48475,7 @@
 # text = please list am flights leaving san francisco boston
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
-3	am	be	NOUN	_	Number=Sing	4	compound	_	_
+3	am	am	NOUN	_	Number=Sing	4	compound	_	_
 4	flights	flight	NOUN	_	Number=Plur	2	obj	_	_
 5	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 6	san	san	PROPN	_	Number=Sing	5	obj	_	_
@@ -49607,7 +49607,7 @@
 # sent_id = 3291.train
 # text = what am flights are available from pittsburgh to boston
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
-2	am	be	NOUN	_	Number=Sing	3	compound	_	_
+2	am	am	NOUN	_	Number=Sing	3	compound	_	_
 3	flights	flight	NOUN	_	Number=Plur	5	nsubj	_	_
 4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	available	available	ADJ	_	Degree=Pos	0	root	_	_
@@ -50061,7 +50061,7 @@
 5	to	to	ADP	_	_	6	case	_	_
 6	atlanta	atlanta	PROPN	_	Number=Sing	2	nmod	_	_
 7	friday	friday	PROPN	_	Number=Sing	8	compound	_	_
-8	am	be	NOUN	_	Number=Sing	2	nmod:tmod	_	_
+8	am	am	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 3323.train
 # text = list early morning flights from cincinnati to tampa
