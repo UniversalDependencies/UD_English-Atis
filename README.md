@@ -4,7 +4,7 @@ UD Atis Treebank is a manually annotated treebank consisting of the sentences in
 
 # Introduction
 
-UD Atis Treebank is manually annoated over the Atis data. The data is split into 4224 training, 586 test, and 572 development items.
+UD Atis Treebank is manually annotated over the Atis data. The data is split into 4224 training, 586 test, and 572 development items.
 
 # Acknowledgments
 
