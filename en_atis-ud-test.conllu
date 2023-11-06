@@ -1983,7 +1983,7 @@
 15	to	to	ADP	_	_	16	case	_	_
 16	denver	Denver	PROPN	_	Number=Sing	19	obl	_	_
 17	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
-18	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
+18	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj:outer	_	_
 19	have	have	VERB	_	VerbForm=Inf	0	root	_	_
 20	a	a	DET	_	PronType=Art	21	det	_	_
 21	flight	flight	NOUN	_	Number=Sing	19	obj	_	_

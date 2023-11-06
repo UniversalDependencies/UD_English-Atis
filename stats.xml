@@ -10,7 +10,7 @@
     <dev><sentences>572</sentences><tokens>6644</tokens><words>6644</words><fused>0</fused></dev>
     <test><sentences>586</sentences><tokens>6580</tokens><words>6580</words><fused>0</fused></test>
   </size>
-  <lemmas unique="780" /><!-- to, from, flight, I, the, on, be, what, a, San, Boston, show, Denver, in, and -->
+  <lemmas unique="779" /><!-- to, from, flight, I, the, on, be, what, a, San, Boston, show, Denver, in, and -->
   <forms unique="932" /><!-- to, from, flights, the, on, what, flight, me, i, san, boston, show, a, denver, in -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -82,16 +82,16 @@
     <dep name="discourse">419</dep>
     <dep name="dislocated">69</dep>
     <dep name="expl">239</dep>
-    <dep name="fixed">32</dep>
-    <dep name="flat">3148</dep>
+    <dep name="fixed">26</dep>
+    <dep name="flat">3153</dep>
     <dep name="iobj">1241</dep>
     <dep name="list">103</dep>
     <dep name="mark">802</dep>
-    <dep name="nmod">8568</dep>
+    <dep name="nmod">8569</dep>
     <dep name="nmod:poss">43</dep>
     <dep name="nmod:tmod">1263</dep>
-    <dep name="nsubj">3323</dep>
-    <dep name="nsubj:outer">1</dep>
+    <dep name="nsubj">3322</dep>
+    <dep name="nsubj:outer">2</dep>
     <dep name="nummod">843</dep>
     <dep name="obj">3274</dep>
     <dep name="obl">3130</dep>
