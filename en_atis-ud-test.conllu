@@ -2614,7 +2614,7 @@
 21	the	the	DET	_	PronType=Art	22	det	_	_
 22	morning	morning	NOUN	_	Number=Sing	19	nmod:tmod	_	_
 23	as	as	ADP	_	_	24	case	_	_
-24	possible	possible	ADJ	_	Degree=Pos	19	amod	_	_
+24	possible	possible	ADJ	_	Degree=Pos	18	obl	_	_
 
 # sent_id = 0174.test
 # text = list flights from washington dc to pittsburgh
@@ -5686,7 +5686,7 @@
 9	any	any	DET	_	PronType=Art	10	det	_	_
 10	city	City	PROPN	_	Number=Sing	7	nmod	_	_
 11	to	to	ADP	_	_	12	case	_	_
-12	another	another	DET	_	PronType=Art	10	det	_	_
+12	another	another	DET	_	PronType=Art	10	nmod	_	_
 
 # sent_id = 0380.test
 # text = i 'd like the cheapest cost fare to fort worth from boston
