@@ -3048,7 +3048,7 @@
 12	for	for	ADP	_	_	13	case	_	_
 13	tacoma	Tacoma	PROPN	_	Number=Sing	9	obl	_	_
 14	tomorrow	tomorrow	NOUN	_	Number=Sing	15	compound	_	_
-15	evening	evening	NOUN	_	Number=Sing	9	obl	_	_
+15	evening	evening	NOUN	_	Number=Sing	9	obl:tmod	_	_
 
 # sent_id = 0191.dev
 # text = give me the earliest flight tomorrow on united airlines from st. petersburg to milwaukee
