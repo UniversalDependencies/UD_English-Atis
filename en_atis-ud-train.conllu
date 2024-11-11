@@ -175,8 +175,8 @@
 3	the	the	DET	_	PronType=Art	4	det	_	_
 4	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
 5	on	on	ADP	_	_	6	case	_	_
-6	american	American	PROPN	_	Number=Sing	4	amod	_	_
-7	airlines	airline	PROPN	_	Number=Plur	6	flat	_	_
+6	american	American	PROPN	_	Number=Sing	7	amod	_	_
+7	airlines	airline	PROPN	_	Number=Plur	4	nmod	_	_
 8	which	which	DET	_	PronType=Int,Rel	9	nsubj	_	_
 9	fly	fly	VERB	_	VerbForm=Inf	4	acl	_	_
 10	from	from	ADP	_	_	11	case	_	_
@@ -8980,12 +8980,12 @@
 3	like	like	ADP	_	_	0	root	_	_
 4	a	a	DET	_	PronType=Art	5	det	_	_
 5	flight	flight	NOUN	_	Number=Sing	3	obj	_	_
-6	tomorrow	tomorrow	NOUN	_	Number=Sing	3	obl	_	_
-7	late	late	ADJ	_	Degree=Pos	3	advmod	_	_
+6	tomorrow	tomorrow	NOUN	_	Number=Sing	5	nmod:tmod	_	_
+7	late	late	ADJ	_	Degree=Pos	5	amod	_	_
 8	from	from	ADP	_	_	9	case	_	_
 9	nashville	Nashville	PROPN	_	Number=Sing	5	nmod	_	_
 10	to	to	ADP	_	_	11	case	_	_
-11	houston	Houston	PROPN	_	Number=Sing	6	nmod	_	_
+11	houston	Houston	PROPN	_	Number=Sing	5	nmod	_	_
 12	with	with	ADP	_	_	13	case	_	_
 13	dinner	dinner	NOUN	_	Number=Sing	5	nmod	_	_
 14	please	please	INTJ	_	_	3	discourse	_	_
@@ -21661,7 +21661,7 @@
 15	as	as	ADP	_	_	16	case	_	_
 16	early	early	ADV	_	Degree=Pos	8	advmod	_	_
 17	as	as	ADP	_	_	18	case	_	_
-18	possible	possible	ADJ	_	Degree=Pos	16	amod	_	_
+18	possible	possible	ADJ	_	Degree=Pos	16	obl	_	_
 
 # sent_id = 1400.train
 # text = please list available flights for next saturday from philadelphia to dallas
@@ -36324,7 +36324,7 @@
 9	to	to	ADP	_	_	10	case	_	_
 10	newark	Newark	PROPN	_	Number=Sing	6	nmod	_	_
 11	on	on	ADP	_	_	12	case	_	_
-12	june	June	NOUN	_	Number=Sing	6	amod	_	_
+12	june	June	NOUN	_	Number=Sing	6	nmod:tmod	_	_
 13	tenth	ten	ADJ	_	Degree=Pos|NumType=Ord	12	amod	_	_
 14	after	after	ADP	_	_	16	case	_	_
 15	6	6	NUM	_	NumType=Card	16	nummod	_	_
