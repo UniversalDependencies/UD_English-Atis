@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_English-Atis:
-commit 2dec5378d200481a1e253eef2781180abcb1ab0d
+commit 9a98657a65e47477c239b1e6fbee891d912047fc
+Merge: 384392a 2576468
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:45:01 2023 +0100
 Size: counted 61879 of 61879 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.25036173052802.
 Size: maximum value 13.815511 is for 1000000 words or more.
