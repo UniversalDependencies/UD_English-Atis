@@ -1,0 +1,7 @@
+# Ignore files with parallel_ids
+*_with_parallel_ids.conllu 
+
+
+# Ignore Python scripts for local processing
+parallel_id_inserter.py
+
