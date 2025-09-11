@@ -1,7 +1,9 @@
-# Ignore files with parallel_ids
+
+.gitignore
+
+# ignore files with parallel_ids
 *_with_parallel_ids.conllu 
 
-
-# Ignore Python scripts for local processing
+# ignore Python scripts for local processing
 parallel_id_inserter.py
 
