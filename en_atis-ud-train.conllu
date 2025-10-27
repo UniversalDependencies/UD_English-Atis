@@ -2131,8 +2131,8 @@
 7	to	to	ADP	_	_	8	case	_	_
 8	dallas	Dallas	PROPN	_	Number=Sing	4	nmod	_	_
 9	that	that	ADP	_	_	12	mark	_	_
-10	at	at	ADP	_	_	12	advmod	_	_
-11	least	least	ADJ	_	Degree=Sup	10	fixed	_	_
+10	at	at	ADP	_	_	11	case	_	_
+11	least	least	ADJ	_	Degree=Sup	12	obl	_	_
 12	has	have	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 13	one	one	NUM	_	NumType=Card	14	nummod	_	_
 14	stop	stop	NOUN	_	Number=Sing	12	obj	_	_
@@ -29978,7 +29978,7 @@
 8	francisco	Francisco	PROPN	_	Number=Sing	7	flat	_	_
 9	with	with	ADP	_	_	13	case	_	_
 10	at	at	ADP	_	_	11	case	_	_
-11	least	least	ADJ	_	Degree=Sup	13	amod	_	_
+11	least	least	ADJ	_	Degree=Sup	13	nmod	_	_
 12	3	3	NUM	_	NumType=Card	13	nummod	_	_
 13	stops	stop	NOUN	_	Number=Plur	3	nmod	_	_
 
