@@ -4113,7 +4113,7 @@
 8	new	New	PROPN	_	Number=Sing	11	nmod:poss	_	_
 9-10	york's	_	_	_	_	_	_	_	_
 9	york	York	PROPN	_	Number=Sing	8	flat	_	_
-10	's	be	PART	_	_	8	case	_	_
+10	's	's	PART	_	_	8	case	_	_
 11	la	LA	PROPN	_	Number=Sing	6	nmod	_	_
 12	guardia	Guardia	PROPN	_	Number=Sing	11	flat	_	_
 
@@ -5434,7 +5434,7 @@
 9	new	New	PROPN	_	Number=Sing	12	nmod:poss	_	_
 10-11	york's	_	_	_	_	_	_	_	_
 10	york	York	PROPN	_	Number=Sing	9	flat	_	_
-11	's	be	PART	_	_	9	case	_	_
+11	's	's	PART	_	_	9	case	_	_
 12	downtown	downtown	NOUN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0336.train
@@ -5465,7 +5465,7 @@
 4	new	New	PROPN	_	Number=Sing	7	nmod:poss	_	_
 5-6	york's	_	_	_	_	_	_	_	_
 5	york	York	PROPN	_	Number=Sing	4	flat	_	_
-6	's	be	PART	_	_	4	case	_	_
+6	's	's	PART	_	_	4	case	_	_
 7	la	LA	PROPN	_	Number=Sing	2	nsubj	_	_
 8	guardia	Guardia	PROPN	_	Number=Sing	7	flat	_	_
 9	from	from	ADP	_	_	10	case	_	_
@@ -5563,7 +5563,7 @@
 7	new	New	PROPN	_	Number=Sing	10	nmod:poss	_	_
 8-9	york's	_	_	_	_	_	_	_	_
 8	york	York	PROPN	_	Number=Sing	7	flat	_	_
-9	's	be	PART	_	_	7	case	_	_
+9	's	's	PART	_	_	7	case	_	_
 10	la	LA	PROPN	_	Number=Sing	5	nmod	_	_
 11	guardia	Guardia	PROPN	_	Number=Sing	10	flat	_	_
 12	airport	Airport	PROPN	_	Number=Sing	10	flat	_	_
@@ -11578,7 +11578,7 @@
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3-4	delta's	_	_	_	_	_	_	_	_
 3	delta	Delta	PROPN	_	Number=Sing	5	nmod:poss	_	_
-4	's	be	PART	_	_	3	case	_	_
+4	's	's	PART	_	_	3	case	_	_
 5	schedule	schedule	NOUN	_	Number=Sing	1	nsubj	_	_
 6	of	of	ADP	_	_	8	case	_	_
 7	morning	morning	NOUN	_	Number=Sing	8	compound	_	_
@@ -11630,7 +11630,7 @@
 6	for	for	ADP	_	_	7	case	_	_
 7-8	delta's	_	_	_	_	_	_	_	_
 7	delta	Delta	PROPN	_	Number=Sing	9	nmod:poss	_	_
-8	's	be	PART	_	_	7	case	_	_
+8	's	's	PART	_	_	7	case	_	_
 9	flights	flight	NOUN	_	Number=Plur	5	nmod	_	_
 10	to	to	ADP	_	_	12	case	_	_
 11	all	all	DET	_	PronType=Art	12	det	_	_
@@ -11762,7 +11762,7 @@
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3-4	american's	_	_	_	_	_	_	_	_
 3	american	American	PROPN	_	Number=Sing	5	nmod:poss	_	_
-4	's	be	PART	_	_	3	case	_	_
+4	's	's	PART	_	_	3	case	_	_
 5	schedule	schedule	NOUN	_	Number=Sing	1	nsubj	_	_
 6	of	of	ADP	_	_	8	case	_	_
 7	morning	morning	NOUN	_	Number=Sing	8	compound	_	_
@@ -23681,7 +23681,7 @@
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3-4	american's	_	_	_	_	_	_	_	_
 3	american	American	PROPN	_	Number=Sing	6	nmod:poss	_	_
-4	's	be	PART	_	_	3	case	_	_
+4	's	's	PART	_	_	3	case	_	_
 5	last	last	ADJ	_	Degree=Pos	6	amod	_	_
 6	flight	flight	NOUN	_	Number=Sing	1	obj	_	_
 7	from	from	ADP	_	_	8	case	_	_
@@ -50349,7 +50349,7 @@
 4	and	and	CCONJ	_	_	5	cc	_	_
 5-6	sunday's	_	_	_	_	_	_	_	_
 5	sunday	Sunday	NOUN	_	Number=Sing	3	conj	_	_
-6	's	be	PART	_	_	3	case	_	_
+6	's	's	PART	_	_	3	case	_	_
 7	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
 8	from	from	ADP	_	_	9	case	_	_
 9	milwaukee	Milwaukee	PROPN	_	Number=Sing	7	nmod	_	_
@@ -58197,7 +58197,7 @@
 # text = sunday's flights between tampa and charlotte
 1-2	sunday's	_	_	_	_	_	_	_	_
 1	sunday	Sunday	NOUN	_	Number=Sing	3	nmod:poss	_	_
-2	's	be	PART	_	_	1	case	_	_
+2	's	's	PART	_	_	1	case	_	_
 3	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 4	between	between	ADP	_	_	5	case	_	_
 5	tampa	Tampa	PROPN	_	Number=Sing	3	nmod	_	_
@@ -58350,7 +58350,7 @@
 # text = friday's flights between newark and tampa
 1-2	friday's	_	_	_	_	_	_	_	_
 1	friday	Friday	NOUN	_	Number=Sing	3	nmod:poss	_	_
-2	's	be	PART	_	_	1	case	_	_
+2	's	's	PART	_	_	1	case	_	_
 3	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 4	between	between	ADP	_	_	5	case	_	_
 5	newark	Newark	PROPN	_	Number=Sing	3	nmod	_	_
@@ -62090,7 +62090,7 @@
 6	into	into	ADP	_	_	9	case	_	_
 7-8	atlanta's	_	_	_	_	_	_	_	_
 7	atlanta	Atlanta	PROPN	_	Number=Sing	9	nmod:poss	_	_
-8	's	be	PART	_	_	7	case	_	_
+8	's	's	PART	_	_	7	case	_	_
 9	airport	Airport	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 3953.train
@@ -63570,7 +63570,7 @@
 10	of	of	ADP	_	_	11	case	_	_
 11-12	atlanta's	_	_	_	_	_	_	_	_
 11	atlanta	Atlanta	PROPN	_	Number=Sing	13	nmod:poss	_	_
-12	's	be	PART	_	_	11	case	_	_
+12	's	's	PART	_	_	11	case	_	_
 13	airport	Airport	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 4072.train
