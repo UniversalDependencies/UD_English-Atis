@@ -303,7 +303,7 @@
 
 # sent_id = 0019.test
 # parallel_id = test/19
-# text = in economy class from dallas to baltimore arriving july seventh i 'd like to know what 's the cheapest ticket possible
+# text = in economy class from dallas to baltimore arriving july seventh i'd like to know what's the cheapest ticket possible
 1	in	in	ADP	_	_	3	case	_	_
 2	economy	economy	NOUN	_	Number=Sing	3	compound	_	_
 3	class	class	NOUN	_	Number=Sing	13	obl	_	_
@@ -314,11 +314,13 @@
 8	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 9	july	July	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 10	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	9	amod	_	_
+11-12	i'd	_	_	_	_	_	_	_	_
 11	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	'd	would	AUX	_	_	13	aux	_	_
 13	like	like	VERB	_	VerbForm=Inf	0	root	_	_
 14	to	to	PART	_	_	15	mark	_	_
 15	know	know	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16-17	what's	_	_	_	_	_	_	_	_
 16	what	what	PRON	_	PronType=Int,Rel	15	ccomp	_	_
 17	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 18	the	the	DET	_	PronType=Art	20	det	_	_
@@ -433,7 +435,8 @@
 
 # sent_id = 0025.test
 # parallel_id = test/25
-# text = i 'd like to arrange for two friends to fly into los angeles next saturday evening one of the people is coming from kansas city and the other is coming from las vegas
+# text = i'd like to arrange for two friends to fly into los angeles next saturday evening one of the people is coming from kansas city and the other is coming from las vegas
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -564,8 +567,9 @@
 
 # sent_id = 0032.test
 # parallel_id = test/32
-# text = now i 'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm
+# text = now i'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm
 1	now	now	ADV	_	Degree=Pos	4	advmod	_	_
+2-3	i'd	_	_	_	_	_	_	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	'd	would	AUX	_	_	4	aux	_	_
 4	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -825,7 +829,7 @@
 
 # sent_id = 0050.test
 # parallel_id = test/50
-# text = on november twenty third of this year 1991 i 'd like to fly from atlanta to denver and i 'd like to fly on delta
+# text = on november twenty third of this year 1991 i'd like to fly from atlanta to denver and i'd like to fly on delta
 1	on	on	ADP	_	_	2	case	_	_
 2	november	November	NOUN	_	Number=Sing	11	dislocated	_	_
 3	twenty	twenty	NUM	_	NumType=Card	4	compound	_	_
@@ -834,6 +838,7 @@
 6	this	this	DET	_	PronType=Art	7	det	_	_
 7	year	year	NOUN	_	Number=Sing	2	nmod	_	_
 8	1991	1991	NUM	_	NumType=Card	7	nummod	_	_
+9-10	i'd	_	_	_	_	_	_	_	_
 9	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 10	'd	would	AUX	_	_	11	aux	_	_
 11	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -844,6 +849,7 @@
 16	to	to	ADP	_	_	17	case	_	_
 17	denver	Denver	PROPN	_	Number=Sing	13	obl	_	_
 18	and	and	CCONJ	_	_	21	cc	_	_
+19-20	i'd	_	_	_	_	_	_	_	_
 19	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
 20	'd	would	AUX	_	_	21	aux	_	_
 21	like	like	VERB	_	VerbForm=Inf	11	conj	_	_
@@ -1398,7 +1404,8 @@
 
 # sent_id = 0089.test
 # parallel_id = test/89
-# text = i 'd like to find a flight from charlotte to las vegas and make a stop in st. louis
+# text = i'd like to find a flight from charlotte to las vegas and make a stop in st. louis
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1909,9 +1916,10 @@
 
 # sent_id = 0120.test
 # parallel_id = test/120
-# text = in pittsburgh i 'd like to rent a car
+# text = in pittsburgh i'd like to rent a car
 1	in	in	ADP	_	_	2	case	_	_
 2	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
+3-4	i'd	_	_	_	_	_	_	_	_
 3	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	'd	would	AUX	_	_	5	aux	_	_
 5	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1967,7 +1975,8 @@
 
 # sent_id = 0124.test
 # parallel_id = test/124
-# text = i 'd need information please on a flight from washington dc san francisco california
+# text = i'd need information please on a flight from washington dc san francisco california
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2072,7 +2081,8 @@
 
 # sent_id = 0130.test
 # parallel_id = test/130
-# text = what 's the price of the least expensive first class round trip ticket on us air from cleveland to miami
+# text = what's the price of the least expensive first class round trip ticket on us air from cleveland to miami
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	4	det	_	_
@@ -3164,7 +3174,8 @@
 
 # sent_id = 0197.test
 # parallel_id = test/197
-# text = i 'd like to fly from cleveland to indianapolis tomorrow morning as early as possible what 's available
+# text = i'd like to fly from cleveland to indianapolis tomorrow morning as early as possible what's available
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3180,6 +3191,7 @@
 13	early	early	ADV	_	Degree=Pos	5	advmod	_	_
 14	as	as	ADP	_	_	15	case	_	_
 15	possible	possible	ADJ	_	Degree=Pos	13	advmod	_	_
+16-17	what's	_	_	_	_	_	_	_	_
 16	what	what	PRON	_	PronType=Int,Rel	18	nsubj	_	_
 17	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	available	available	ADJ	_	Degree=Pos	3	parataxis	_	_
@@ -3217,7 +3229,8 @@
 
 # sent_id = 0200.test
 # parallel_id = test/200
-# text = i 'd like to fly from columbus to nashville tomorrow morning
+# text = i'd like to fly from columbus to nashville tomorrow morning
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3404,7 +3417,8 @@
 
 # sent_id = 0211.test
 # parallel_id = test/211
-# text = i 'd like a flight from st. petersburg to miami on that next thursday
+# text = i'd like a flight from st. petersburg to miami on that next thursday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3422,7 +3436,8 @@
 
 # sent_id = 0212.test
 # parallel_id = test/212
-# text = i 'd like to travel from kansas city to chicago next wednesday
+# text = i'd like to travel from kansas city to chicago next wednesday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3623,7 +3638,8 @@
 
 # sent_id = 0225.test
 # parallel_id = test/225
-# text = i 'd like to see the flights from atlanta to washington dc
+# text = i'd like to see the flights from atlanta to washington dc
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3639,7 +3655,8 @@
 
 # sent_id = 0226.test
 # parallel_id = test/226
-# text = i 'm sorry i want to book a flight from atlanta to denver colorado
+# text = i'm sorry i want to book a flight from atlanta to denver colorado
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	sorry	sorry	ADJ	_	Degree=Pos	0	root	_	_
@@ -3966,7 +3983,8 @@
 
 # sent_id = 0245.test
 # parallel_id = test/245
-# text = i 'd like a twa flight from las vegas to new york nonstop
+# text = i'd like a twa flight from las vegas to new york nonstop
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4082,7 +4100,8 @@
 
 # sent_id = 0252.test
 # parallel_id = test/252
-# text = i 'd like a nonstop flight from atlanta to baltimore that gets in around 7 pm
+# text = i'd like a nonstop flight from atlanta to baltimore that gets in around 7 pm
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4780,7 +4799,8 @@
 
 # sent_id = 0299.test
 # parallel_id = test/299
-# text = what 's the ground transportation like at pittsburgh
+# text = what's the ground transportation like at pittsburgh
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5003,7 +5023,8 @@
 
 # sent_id = 0314.test
 # parallel_id = test/314
-# text = i 'm looking for a flight that goes from ontario to westchester and stops in chicago
+# text = i'm looking for a flight that goes from ontario to westchester and stops in chicago
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -5276,7 +5297,8 @@
 
 # sent_id = 0330.test
 # parallel_id = test/330
-# text = i 'd like a flight from san diego to toronto on alaska airlines leaving around 1 pm
+# text = i'd like a flight from san diego to toronto on alaska airlines leaving around 1 pm
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5385,7 +5407,8 @@
 
 # sent_id = 0336.test
 # parallel_id = test/336
-# text = i 'm looking for flights from pittsburgh to philadelphia leaving before 9 am
+# text = i'm looking for flights from pittsburgh to philadelphia leaving before 9 am
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -5510,7 +5533,8 @@
 
 # sent_id = 0343.test
 # parallel_id = test/343
-# text = what 's the latest flight from san jose to houston
+# text = what's the latest flight from san jose to houston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5549,7 +5573,8 @@
 
 # sent_id = 0346.test
 # parallel_id = test/346
-# text = what 's the last flight from atlanta to boston
+# text = what's the last flight from atlanta to boston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5715,7 +5740,8 @@
 
 # sent_id = 0358.test
 # parallel_id = test/358
-# text = what 's the earliest flight from dallas to houston
+# text = what's the earliest flight from dallas to houston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5728,7 +5754,8 @@
 
 # sent_id = 0359.test
 # parallel_id = test/359
-# text = i 'd like to find the earliest flight possible from san francisco to atlanta
+# text = i'd like to find the earliest flight possible from san francisco to atlanta
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5784,7 +5811,8 @@
 
 # sent_id = 0362.test
 # parallel_id = test/362
-# text = what 's the cheapest one way ticket from baltimore to atlanta
+# text = what's the cheapest one way ticket from baltimore to atlanta
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5799,7 +5827,8 @@
 
 # sent_id = 0363.test
 # parallel_id = test/363
-# text = what 's the cheapest round trip fare between boston and washington
+# text = what's the cheapest round trip fare between boston and washington
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5876,7 +5905,8 @@
 
 # sent_id = 0368.test
 # parallel_id = test/368
-# text = i 'm interested in the cheapest fare from washington to fort worth
+# text = i'm interested in the cheapest fare from washington to fort worth
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	interested	interest	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5892,7 +5922,7 @@
 
 # sent_id = 0369.test
 # parallel_id = test/369
-# text = i would like to book a flight from denver to pittsburgh on july fifteenth i 'd like it to be the cheapest flight
+# text = i would like to book a flight from denver to pittsburgh on july fifteenth i'd like it to be the cheapest flight
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5907,6 +5937,7 @@
 12	on	on	ADP	_	_	13	case	_	_
 13	july	July	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 14	fifteenth	fifteen	ADJ	_	Degree=Pos	13	amod	_	_
+15-16	i'd	_	_	_	_	_	_	_	_
 15	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 16	'd	would	AUX	_	_	17	aux	_	_
 17	like	like	VERB	_	VerbForm=Inf	3	parataxis	_	_
@@ -5951,7 +5982,8 @@
 
 # sent_id = 0372.test
 # parallel_id = test/372
-# text = what 's the lowest round trip fare from denver to atlanta
+# text = what's the lowest round trip fare from denver to atlanta
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5979,7 +6011,8 @@
 
 # sent_id = 0374.test
 # parallel_id = test/374
-# text = i 'd like to find the cheapest fare from atlanta to dallas
+# text = i'd like to find the cheapest fare from atlanta to dallas
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6007,7 +6040,8 @@
 
 # sent_id = 0376.test
 # parallel_id = test/376
-# text = i 'd like the lowest fare from denver to pittsburgh
+# text = i'd like the lowest fare from denver to pittsburgh
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6069,7 +6103,8 @@
 
 # sent_id = 0380.test
 # parallel_id = test/380
-# text = i 'd like the cheapest cost fare to fort worth from boston
+# text = i'd like the cheapest cost fare to fort worth from boston
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6412,7 +6447,8 @@
 
 # sent_id = 0401.test
 # parallel_id = test/401
-# text = i 'd like flights going from boston to atlanta leaving on august sixth in the afternoon
+# text = i'd like flights going from boston to atlanta leaving on august sixth in the afternoon
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6480,7 +6516,8 @@
 
 # sent_id = 0404.test
 # parallel_id = test/404
-# text = i 'd like a flight on july ninth from orlando to kansas city in the afternoon
+# text = i'd like a flight on july ninth from orlando to kansas city in the afternoon
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6500,7 +6537,8 @@
 
 # sent_id = 0405.test
 # parallel_id = test/405
-# text = i 'd like to arrange a trip to baltimore on january first
+# text = i'd like to arrange a trip to baltimore on january first
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6516,12 +6554,13 @@
 
 # sent_id = 0406.test
 # parallel_id = test/406
-# text = okay and then from pittsburgh i 'd like to travel to atlanta on september fourth
+# text = okay and then from pittsburgh i'd like to travel to atlanta on september fourth
 1	okay	okay	INTJ	_	_	8	discourse	_	_
 2	and	and	CCONJ	_	_	3	cc	_	_
 3	then	then	ADV	_	Degree=Pos	1	conj	_	_
 4	from	from	ADP	_	_	5	case	_	_
 5	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	8	obl	_	_
+6-7	i'd	_	_	_	_	_	_	_	_
 6	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	'd	would	AUX	_	_	8	aux	_	_
 8	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6835,7 +6874,8 @@
 
 # sent_id = 0428.test
 # parallel_id = test/428
-# text = i 'd like united airlines flights from denver to baltimore
+# text = i'd like united airlines flights from denver to baltimore
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6849,7 +6889,8 @@
 
 # sent_id = 0429.test
 # parallel_id = test/429
-# text = i 'd like a flight from new york to los angeles on saturday morning on us air
+# text = i'd like a flight from new york to los angeles on saturday morning on us air
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7584,7 +7625,8 @@
 
 # sent_id = 0482.test
 # parallel_id = test/482
-# text = i 'd like flight information from dallas fort worth to boston on tuesday
+# text = i'd like flight information from dallas fort worth to boston on tuesday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7856,7 +7898,8 @@
 
 # sent_id = 0503.test
 # parallel_id = test/503
-# text = i 'd like a flight from montreal to san diego for sunday
+# text = i'd like a flight from montreal to san diego for sunday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8003,7 +8046,8 @@
 
 # sent_id = 0513.test
 # parallel_id = test/513
-# text = i 'd like a list of the flights from oakland to dallas fort worth on sunday
+# text = i'd like a list of the flights from oakland to dallas fort worth on sunday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8129,7 +8173,8 @@
 
 # sent_id = 0522.test
 # parallel_id = test/522
-# text = i 'm looking for a flight from pittsburgh to san francisco
+# text = i'm looking for a flight from pittsburgh to san francisco
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -8427,7 +8472,8 @@
 
 # sent_id = 0545.test
 # parallel_id = test/545
-# text = i 'd like information on boston to washington
+# text = i'd like information on boston to washington
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8504,7 +8550,8 @@
 
 # sent_id = 0552.test
 # parallel_id = test/552
-# text = i 'd like to book a flight from atlanta to denver
+# text = i'd like to book a flight from atlanta to denver
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8563,7 +8610,8 @@
 
 # sent_id = 0557.test
 # parallel_id = test/557
-# text = i 'd like to see flights from pittsburgh to philadelphia
+# text = i'd like to see flights from pittsburgh to philadelphia
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
