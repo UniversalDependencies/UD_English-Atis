@@ -1,5 +1,5 @@
 # sent_id = 0001.test
-# parallel_id = test/1
+# parallel_id = atis/test1
 # text = what are the coach flights between dallas and baltimore leaving august tenth and returning august twelve
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -19,7 +19,7 @@
 16	twelve	twelve	NUM	_	NumType=Card	15	nummod	_	_
 
 # sent_id = 0002.test
-# parallel_id = test/2
+# parallel_id = atis/test2
 # text = i want a flight from nashville to seattle that arrives no later than 3 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -38,7 +38,7 @@
 15	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0003.test
-# parallel_id = test/3
+# parallel_id = atis/test3
 # text = i need a flight leaving kansas city to chicago leaving next wednesday and returning the following day
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -59,7 +59,7 @@
 17	day	day	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0004.test
-# parallel_id = test/4
+# parallel_id = atis/test4
 # text = explain meal codes sd d
 1	explain	explain	VERB	_	VerbForm=Inf	0	root	_	_
 2	meal	meal	NOUN	_	Number=Sing	3	compound	_	_
@@ -68,7 +68,7 @@
 5	d	D	PROPN	_	Number=Sing	4	list	_	_
 
 # sent_id = 0005.test
-# parallel_id = test/5
+# parallel_id = atis/test5
 # text = show me all flights from atlanta to san francisco which leave the day after tomorrow after 5 o'clock pm
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -91,7 +91,7 @@
 19	pm	pm	NOUN	_	Number=Sing	18	nmod:tmod	_	_
 
 # sent_id = 0006.test
-# parallel_id = test/6
+# parallel_id = atis/test6
 # text = i need a flight from toronto to montreal reaching montreal early on friday
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -108,7 +108,7 @@
 13	friday	Friday	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0007.test
-# parallel_id = test/7
+# parallel_id = atis/test7
 # text = are there any flights from new york to montreal canada leaving on thursday
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -125,7 +125,7 @@
 13	thursday	Thursday	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0008.test
-# parallel_id = test/8
+# parallel_id = atis/test8
 # text = show me ground transportation in philadelphia on monday morning
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -138,7 +138,7 @@
 9	morning	morning	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0009.test
-# parallel_id = test/9
+# parallel_id = atis/test9
 # text = find a flight from toronto to san diego with a layover in dc on delta airlines
 1	find	find	VERB	_	VerbForm=Inf	0	root	_	_
 2	a	a	DET	_	PronType=Art	3	det	_	_
@@ -158,7 +158,7 @@
 16	airlines	airline	PROPN	_	Number=Plur	15	flat	_	_
 
 # sent_id = 0010.test
-# parallel_id = test/10
+# parallel_id = atis/test10
 # text = what is restriction ap80
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -166,7 +166,7 @@
 4	ap80	Ap80	PROPN	_	Number=Sing	3	flat	_	_
 
 # sent_id = 0011.test
-# parallel_id = test/11
+# parallel_id = atis/test11
 # text = list the arizona airport
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	4	det	_	_
@@ -174,7 +174,7 @@
 4	airport	Airport	PROPN	_	Number=Sing	1	obj	_	_
 
 # sent_id = 0012.test
-# parallel_id = test/12
+# parallel_id = atis/test12
 # text = what are the nonstop flights on america west or southwest air from kansas city to burbank on saturday may twenty two
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -199,7 +199,7 @@
 21	two	two	NUM	_	NumType=Card	19	nummod	_	_
 
 # sent_id = 0013.test
-# parallel_id = test/13
+# parallel_id = atis/test13
 # text = what times does the late afternoon flight leave from washington for denver
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	times	time	NOUN	_	Number=Plur	8	obl:unmarked	_	_
@@ -215,7 +215,7 @@
 12	denver	Denver	PROPN	_	Number=Sing	8	obl	_	_
 
 # sent_id = 0014.test
-# parallel_id = test/14
+# parallel_id = atis/test14
 # text = what does the meal code s stand for
 1	what	what	PRON	_	PronType=Int,Rel	7	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -227,7 +227,7 @@
 8	for	for	ADP	_	_	1	case	_	_
 
 # sent_id = 0015.test
-# parallel_id = test/15
+# parallel_id = atis/test15
 # text = is there ground transportation from the memphis airport into town when if i arrive at 842 in the morning
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -250,7 +250,7 @@
 19	morning	morning	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0016.test
-# parallel_id = test/16
+# parallel_id = atis/test16
 # text = what flights between dfw and oakland arrive in oakland between 1133 am and 43 pm
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	7	nsubj	_	_
@@ -269,7 +269,7 @@
 15	pm	pm	NOUN	_	Number=Sing	12	conj	_	_
 
 # sent_id = 0017.test
-# parallel_id = test/17
+# parallel_id = atis/test17
 # text = what are the flights on mondays that travel from charlotte north carolina to phoenix arizona
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -288,7 +288,7 @@
 15	arizona	Arizona	PROPN	_	Number=Sing	14	appos	_	_
 
 # sent_id = 0018.test
-# parallel_id = test/18
+# parallel_id = atis/test18
 # text = what kind of ground transportation is there in washington dc
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	kind	kind	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -302,7 +302,7 @@
 10	dc	DC	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0019.test
-# parallel_id = test/19
+# parallel_id = atis/test19
 # text = in economy class from dallas to baltimore arriving july seventh i'd like to know what's the cheapest ticket possible
 1	in	in	ADP	_	_	3	case	_	_
 2	economy	economy	NOUN	_	Number=Sing	3	compound	_	_
@@ -329,7 +329,7 @@
 21	possible	possible	ADJ	_	Degree=Pos	20	amod	_	_
 
 # sent_id = 0020.test
-# parallel_id = test/20
+# parallel_id = atis/test20
 # text = show flights from baltimore to san francisco between 6 pm and 8 pm on friday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -348,7 +348,7 @@
 15	friday	Friday	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0021.test
-# parallel_id = test/21
+# parallel_id = atis/test21
 # text = what meals are available on dl 468 which al arrives in san francisco at 950 am
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	meals	meal	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -368,7 +368,7 @@
 16	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0022.test
-# parallel_id = test/22
+# parallel_id = atis/test22
 # text = i want to fly from kansas city to chicago next wednesday arriving in the evening and returning the next day
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -392,7 +392,7 @@
 20	day	day	NOUN	_	Number=Sing	17	obl:unmarked	_	_
 
 # sent_id = 0023.test
-# parallel_id = test/23
+# parallel_id = atis/test23
 # text = please book for me a flight on twa from washington dc to san francisco earliest possible time
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	book	book	VERB	_	VerbForm=Inf	0	root	_	_
@@ -413,7 +413,7 @@
 17	time	time	NOUN	_	Number=Sing	2	obl	_	_
 
 # sent_id = 0024.test
-# parallel_id = test/24
+# parallel_id = atis/test24
 # text = is there a red eye flight from san jose to nashville on wednesday the nineteenth of may
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -434,7 +434,7 @@
 17	may	May	NOUN	_	Number=Sing	15	nmod:tmod	_	_
 
 # sent_id = 0025.test
-# parallel_id = test/25
+# parallel_id = atis/test25
 # text = i'd like to arrange for two friends to fly into los angeles next saturday evening one of the people is coming from kansas city and the other is coming from las vegas
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -472,7 +472,7 @@
 33	vegas	Vegas	PROPN	_	Number=Sing	32	flat	_	_
 
 # sent_id = 0026.test
-# parallel_id = test/26
+# parallel_id = atis/test26
 # text = what is restriction ap 55
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -481,7 +481,7 @@
 5	55	55	NUM	_	NumType=Card	4	flat	_	_
 
 # sent_id = 0027.test
-# parallel_id = test/27
+# parallel_id = atis/test27
 # text = what is restriction ap 80
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -490,7 +490,7 @@
 5	80	80	NUM	_	NumType=Card	4	flat	_	_
 
 # sent_id = 0028.test
-# parallel_id = test/28
+# parallel_id = atis/test28
 # text = show me all flights from philadelphia to san francisco with one stop in dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -508,7 +508,7 @@
 14	dallas	Dallas	PROPN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0029.test
-# parallel_id = test/29
+# parallel_id = atis/test29
 # text = show me the flights from miami to san diego with one stop in denver
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -526,7 +526,7 @@
 14	denver	Denver	PROPN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0030.test
-# parallel_id = test/30
+# parallel_id = atis/test30
 # text = do you have a flight from atlanta to charlotte north carolina next monday
 1	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -543,7 +543,7 @@
 13	monday	Monday	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0031.test
-# parallel_id = test/31
+# parallel_id = atis/test31
 # text = i would like to book an early morning flight from tampa florida to charlotte north carolina on april sixth
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -566,7 +566,7 @@
 19	sixth	six	ADJ	_	Degree=Pos|NumType=Ord	18	amod	_	_
 
 # sent_id = 0032.test
-# parallel_id = test/32
+# parallel_id = atis/test32
 # text = now i'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm
 1	now	now	ADV	_	Degree=Pos	4	advmod	_	_
 2-3	i'd	_	_	_	_	_	_	_	_
@@ -586,7 +586,7 @@
 15	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0033.test
-# parallel_id = test/33
+# parallel_id = atis/test33
 # text = from sfo to denver
 1	from	from	ADP	_	_	2	case	_	_
 2	sfo	Sfo	PROPN	_	Number=Sing	0	root	_	_
@@ -594,7 +594,7 @@
 4	denver	Denver	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0034.test
-# parallel_id = test/34
+# parallel_id = atis/test34
 # text = what is the lowest fare from bwi to salt lake city
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -609,7 +609,7 @@
 11	city	City	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0035.test
-# parallel_id = test/35
+# parallel_id = atis/test35
 # text = flight numbers from minneapolis to long beach on june twenty six
 1	flight	flight	NOUN	_	Number=Sing	2	compound	_	_
 2	numbers	number	NOUN	_	Number=Plur	0	root	_	_
@@ -624,7 +624,7 @@
 11	six	six	NUM	_	NumType=Card	9	amod	_	_
 
 # sent_id = 0036.test
-# parallel_id = test/36
+# parallel_id = atis/test36
 # text = which is the flight number for the us air flight from philadelphia to boston is it 279 or is it 137338
 1	which	which	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -649,7 +649,7 @@
 21	137338	137338	NUM	_	NumType=Card	17	conj	_	_
 
 # sent_id = 0037.test
-# parallel_id = test/37
+# parallel_id = atis/test37
 # text = how much would car rental cost in atlanta
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	6	advmod	_	_
@@ -661,7 +661,7 @@
 8	atlanta	Atlanta	PROPN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0038.test
-# parallel_id = test/38
+# parallel_id = atis/test38
 # text = please list the prices for a rental car in pittsburgh
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -675,7 +675,7 @@
 10	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0039.test
-# parallel_id = test/39
+# parallel_id = atis/test39
 # text = what does the restriction ap58 mean
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -685,7 +685,7 @@
 6	mean	mean	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0040.test
-# parallel_id = test/40
+# parallel_id = atis/test40
 # text = list nonstop flights from baltimore washington to oakland that arrive between 445 and 515 pm
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	nonstop	nonstop	NOUN	_	Number=Sing	3	compound	_	_
@@ -704,7 +704,7 @@
 15	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0041.test
-# parallel_id = test/41
+# parallel_id = atis/test41
 # text = list all of the daily flights arriving in denver from 8 to 9 pm
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	6	det:predet	_	_
@@ -722,7 +722,7 @@
 14	pm	pm	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 
 # sent_id = 0042.test
-# parallel_id = test/42
+# parallel_id = atis/test42
 # text = get flights from milwaukee to dtw
 1	get	get	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -732,7 +732,7 @@
 6	dtw	Dtw	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0043.test
-# parallel_id = test/43
+# parallel_id = atis/test43
 # text = what is the earliest flight from boston to bwi that serves a snack
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -749,14 +749,14 @@
 13	snack	snack	NOUN	_	Number=Sing	11	obj	_	_
 
 # sent_id = 0044.test
-# parallel_id = test/44
+# parallel_id = atis/test44
 # text = is bwi washington
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	bwi	Bwi	PROPN	_	Number=Sing	1	nsubj	_	_
 3	washington	Washington	PROPN	_	Number=Sing	2	flat	_	_
 
 # sent_id = 0045.test
-# parallel_id = test/45
+# parallel_id = atis/test45
 # text = what are the cities that american airlines serves
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -768,7 +768,7 @@
 8	serves	serve	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 
 # sent_id = 0046.test
-# parallel_id = test/46
+# parallel_id = atis/test46
 # text = which cities are serviced by both american and delta airlines
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	cities	city	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -782,7 +782,7 @@
 10	airlines	airline	PROPN	_	Number=Plur	4	obl	_	_
 
 # sent_id = 0047.test
-# parallel_id = test/47
+# parallel_id = atis/test47
 # text = show me all the us air flights to pittsburgh between 12 and 4 in the afternoon
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -802,7 +802,7 @@
 16	afternoon	afternoon	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 
 # sent_id = 0048.test
-# parallel_id = test/48
+# parallel_id = atis/test48
 # text = what is the cost of limousine service in philadelphia
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -815,7 +815,7 @@
 9	philadelphia	Philadelphia	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0049.test
-# parallel_id = test/49
+# parallel_id = atis/test49
 # text = how much does the limousine service cost within pittsburgh
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	7	advmod	_	_
@@ -828,7 +828,7 @@
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0050.test
-# parallel_id = test/50
+# parallel_id = atis/test50
 # text = on november twenty third of this year 1991 i'd like to fly from atlanta to denver and i'd like to fly on delta
 1	on	on	ADP	_	_	2	case	_	_
 2	november	November	NOUN	_	Number=Sing	11	dislocated	_	_
@@ -859,7 +859,7 @@
 25	delta	Delta	PROPN	_	Number=Sing	23	obl	_	_
 
 # sent_id = 0051.test
-# parallel_id = test/51
+# parallel_id = atis/test51
 # text = can you tell me the flights on october fifteenth 1991 from boston to oakland
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -877,7 +877,7 @@
 14	oakland	Oakland	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0052.test
-# parallel_id = test/52
+# parallel_id = atis/test52
 # text = show me all united flights from denver to san francisco for september first 1991
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -895,7 +895,7 @@
 14	1991	1991	NUM	_	NumType=Card	12	nummod	_	_
 
 # sent_id = 0053.test
-# parallel_id = test/53
+# parallel_id = atis/test53
 # text = information on american airline flights from washington to philadelphia early morning times of flight
 1	information	information	NOUN	_	Number=Sing	0	root	_	_
 2	on	on	ADP	_	_	5	case	_	_
@@ -913,7 +913,7 @@
 14	flight	flight	NOUN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0054.test
-# parallel_id = test/54
+# parallel_id = atis/test54
 # text = please give me the flight times i would like to fly from boston to baltimore in the morning before 8
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	give	give	VERB	_	VerbForm=Inf	0	root	_	_
@@ -937,7 +937,7 @@
 20	8	8	NUM	_	NumType=Card	18	nmod	_	_
 
 # sent_id = 0055.test
-# parallel_id = test/55
+# parallel_id = atis/test55
 # text = please list the flight times for boston to pittsburgh
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -950,7 +950,7 @@
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0056.test
-# parallel_id = test/56
+# parallel_id = atis/test56
 # text = show me all flights and fares from dallas to san francisco
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -965,7 +965,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0057.test
-# parallel_id = test/57
+# parallel_id = atis/test57
 # text = please list me the flights and their cost of all airlines flying from denver to baltimore
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -985,7 +985,7 @@
 16	baltimore	Baltimore	PROPN	_	Number=Sing	12	obl	_	_
 
 # sent_id = 0058.test
-# parallel_id = test/58
+# parallel_id = atis/test58
 # text = give me the flights and fares on december twenty seventh from indianapolis to orlando
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1003,14 +1003,14 @@
 14	orlando	Orlando	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0059.test
-# parallel_id = test/59
+# parallel_id = atis/test59
 # text = what is phl
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	phl	Phl	PROPN	_	Number=Sing	1	nsubj	_	_
 
 # sent_id = 0060.test
-# parallel_id = test/60
+# parallel_id = atis/test60
 # text = is there ground transportation from lga into new york city
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -1024,14 +1024,14 @@
 10	city	City	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0061.test
-# parallel_id = test/61
+# parallel_id = atis/test61
 # text = what is tpa
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	tpa	Tpa	PROPN	_	Number=Sing	1	nsubj	_	_
 
 # sent_id = 0062.test
-# parallel_id = test/62
+# parallel_id = atis/test62
 # text = how far is toronto international from downtown
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	far	far	ADV	_	Degree=Pos	0	root	_	_
@@ -1042,7 +1042,7 @@
 7	downtown	downtown	NOUN	_	Number=Sing	2	obl	_	_
 
 # sent_id = 0063.test
-# parallel_id = test/63
+# parallel_id = atis/test63
 # text = how far is los angeles international from downtown
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	far	far	ADV	_	Degree=Pos	0	root	_	_
@@ -1054,7 +1054,7 @@
 8	downtown	downtown	NOUN	_	Number=Sing	2	obl	_	_
 
 # sent_id = 0064.test
-# parallel_id = test/64
+# parallel_id = atis/test64
 # text = how long does a flight from baltimore to san francisco take
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	long	long	ADV	_	Degree=Pos	11	advmod	_	_
@@ -1069,7 +1069,7 @@
 11	take	take	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0065.test
-# parallel_id = test/65
+# parallel_id = atis/test65
 # text = what airport in new york is closest to downtown
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airport	airport	NOUN	_	Number=Sing	7	nsubj	_	_
@@ -1082,13 +1082,13 @@
 9	downtown	downtown	NOUN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0066.test
-# parallel_id = test/66
+# parallel_id = atis/test66
 # text = houston airports
 1	houston	Houston	PROPN	_	Number=Sing	2	compound	_	_
 2	airports	airport	NOUN	_	Number=Plur	0	root	_	_
 
 # sent_id = 0067.test
-# parallel_id = test/67
+# parallel_id = atis/test67
 # text = give me a list of airports in baltimore
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1100,7 +1100,7 @@
 8	baltimore	Baltimore	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0068.test
-# parallel_id = test/68
+# parallel_id = atis/test68
 # text = where does delta fly to that american does not
 1	where	where	ADV	_	PronType=Int,Rel	4	advmod	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -1113,7 +1113,7 @@
 9	not	not	ADV	_	Degree=Pos	8	advmod	_	_
 
 # sent_id = 0069.test
-# parallel_id = test/69
+# parallel_id = atis/test69
 # text = which airline has the smallest plane leaving pittsburgh and arriving in baltimore on july fourth
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	airline	airline	NOUN	_	Number=Sing	3	nsubj	_	_
@@ -1132,7 +1132,7 @@
 15	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0070.test
-# parallel_id = test/70
+# parallel_id = atis/test70
 # text = which flight from pittsburgh to baltimore carries the smallest number of passengers
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	flight	flight	NOUN	_	Number=Sing	7	nsubj	_	_
@@ -1148,7 +1148,7 @@
 12	passengers	passenger	NOUN	_	Number=Plur	10	nmod	_	_
 
 # sent_id = 0071.test
-# parallel_id = test/71
+# parallel_id = atis/test71
 # text = what is the first flight from boston to stapleton airport for tomorrow
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -1164,7 +1164,7 @@
 12	tomorrow	tomorrow	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0072.test
-# parallel_id = test/72
+# parallel_id = atis/test72
 # text = list all the flights that arrive at general mitchell international
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	4	det:predet	_	_
@@ -1178,7 +1178,7 @@
 10	international	International	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0073.test
-# parallel_id = test/73
+# parallel_id = atis/test73
 # text = how much does it cost to go from downtown to logan airport
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	5	advmod	_	_
@@ -1194,7 +1194,7 @@
 12	airport	Airport	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0074.test
-# parallel_id = test/74
+# parallel_id = atis/test74
 # text = show me flights from all airports to love field
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1207,7 +1207,7 @@
 9	field	Field	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0075.test
-# parallel_id = test/75
+# parallel_id = atis/test75
 # text = flights from cincinnati to o'hare departing after 718 am american
 1	flights	flight	NOUN	_	Number=Plur	6	nsubj	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -1221,7 +1221,7 @@
 10	american	American	PROPN	_	Number=Sing	6	dislocated	_	_
 
 # sent_id = 0076.test
-# parallel_id = test/76
+# parallel_id = atis/test76
 # text = show me all flights to dallas that are less than 1500 dollars round trip
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1239,7 +1239,7 @@
 14	trip	trip	NOUN	_	Number=Sing	1	dislocated	_	_
 
 # sent_id = 0077.test
-# parallel_id = test/77
+# parallel_id = atis/test77
 # text = round trip fares from pittsburgh to philadelphia under 1000 dollars
 1	round	round	NOUN	_	Number=Sing	2	compound	_	_
 2	trip	trip	NOUN	_	Number=Sing	3	compound	_	_
@@ -1253,7 +1253,7 @@
 10	dollars	dollar	NOUN	_	Number=Plur	3	nmod	_	_
 
 # sent_id = 0078.test
-# parallel_id = test/78
+# parallel_id = atis/test78
 # text = round trip fares from baltimore to philadelphia under 1000 dollars
 1	round	round	NOUN	_	Number=Sing	2	compound	_	_
 2	trip	trip	NOUN	_	Number=Sing	3	compound	_	_
@@ -1267,7 +1267,7 @@
 10	dollars	dollar	NOUN	_	Number=Plur	3	nmod	_	_
 
 # sent_id = 0079.test
-# parallel_id = test/79
+# parallel_id = atis/test79
 # text = all flights from baltimore to philadelphia less than 1000 dollars
 1	all	all	DET	_	PronType=Art	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -1281,7 +1281,7 @@
 10	dollars	dollar	NOUN	_	Number=Plur	7	obl	_	_
 
 # sent_id = 0080.test
-# parallel_id = test/80
+# parallel_id = atis/test80
 # text = how many seats in a 100
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1291,7 +1291,7 @@
 6	100	100	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0081.test
-# parallel_id = test/81
+# parallel_id = atis/test81
 # text = how many passengers can a boeing 737 hold
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1303,7 +1303,7 @@
 8	hold	hold	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0082.test
-# parallel_id = test/82
+# parallel_id = atis/test82
 # text = what is the seating capacity of a dc9
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -1315,7 +1315,7 @@
 8	dc9	Dc9	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0083.test
-# parallel_id = test/83
+# parallel_id = atis/test83
 # text = what is the seating capacity for delta be1
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -1327,7 +1327,7 @@
 8	be1	Be1	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0084.test
-# parallel_id = test/84
+# parallel_id = atis/test84
 # text = show me the flights from indianapolis to orlando with round trip fares less than 1288
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1346,7 +1346,7 @@
 15	1288	1288	NUM	_	NumType=Card	13	obl	_	_
 
 # sent_id = 0085.test
-# parallel_id = test/85
+# parallel_id = atis/test85
 # text = show me what flights are available from baltimore to dallas with economy fares
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1363,7 +1363,7 @@
 13	fares	fare	NOUN	_	Number=Plur	6	obl	_	_
 
 # sent_id = 0086.test
-# parallel_id = test/86
+# parallel_id = atis/test86
 # text = baltimore to kansas city economy
 1	baltimore	Baltimore	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
@@ -1372,7 +1372,7 @@
 5	economy	economy	NOUN	_	Number=Sing	1	list	_	_
 
 # sent_id = 0087.test
-# parallel_id = test/87
+# parallel_id = atis/test87
 # text = economy fares new york to miami round trip
 1	economy	economy	NOUN	_	Number=Sing	2	compound	_	_
 2	fares	fare	NOUN	_	Number=Plur	0	root	_	_
@@ -1384,7 +1384,7 @@
 8	trip	trip	NOUN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0088.test
-# parallel_id = test/88
+# parallel_id = atis/test88
 # text = find me all the round trip flights from burbank to milwaukee stopping in st. louis
 1	find	find	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1403,7 +1403,7 @@
 15	louis	Louis	PROPN	_	Number=Sing	14	flat	_	_
 
 # sent_id = 0089.test
-# parallel_id = test/89
+# parallel_id = atis/test89
 # text = i'd like to find a flight from charlotte to las vegas and make a stop in st. louis
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -1427,7 +1427,7 @@
 19	louis	Louis	PROPN	_	Number=Sing	18	flat	_	_
 
 # sent_id = 0090.test
-# parallel_id = test/90
+# parallel_id = atis/test90
 # text = can you tell me which flights go from memphis to tacoma and make a stop in los angeles
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -1449,7 +1449,7 @@
 18	angeles	Angeles	PROPN	_	Number=Sing	17	flat	_	_
 
 # sent_id = 0091.test
-# parallel_id = test/91
+# parallel_id = atis/test91
 # text = is there a flight between oakland and boston with a stopover in dallas fort worth on twa
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -1470,7 +1470,7 @@
 17	twa	TWA	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0092.test
-# parallel_id = test/92
+# parallel_id = atis/test92
 # text = show me all direct flights from san francisco to boston departing before noon
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1487,7 +1487,7 @@
 13	noon	noon	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0093.test
-# parallel_id = test/93
+# parallel_id = atis/test93
 # text = do you have an early morning direct flight from philadelphia to pittsburgh
 1	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -1503,7 +1503,7 @@
 12	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0094.test
-# parallel_id = test/94
+# parallel_id = atis/test94
 # text = which united flights from boston to san francisco make connections
 1	which	which	DET	_	PronType=Int,Rel	3	det	_	_
 2	united	United	PROPN	_	Number=Sing	3	compound	_	_
@@ -1517,7 +1517,7 @@
 10	connections	connection	NOUN	_	Number=Plur	9	obj	_	_
 
 # sent_id = 0095.test
-# parallel_id = test/95
+# parallel_id = atis/test95
 # text = nonstop or connecting flights from seattle to boston
 1	nonstop	nonstop	NOUN	_	Number=Sing	4	compound	_	_
 2	or	or	CCONJ	_	_	3	cc	_	_
@@ -1529,7 +1529,7 @@
 8	boston	Boston	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0096.test
-# parallel_id = test/96
+# parallel_id = atis/test96
 # text = please give me direct morning flights from pittsburgh to atlanta
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	give	give	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1543,7 +1543,7 @@
 10	atlanta	Atlanta	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0097.test
-# parallel_id = test/97
+# parallel_id = atis/test97
 # text = list the flights that leave from philadelphia to atlanta early thursday morning before 8 am
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -1562,7 +1562,7 @@
 15	am	am	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0098.test
-# parallel_id = test/98
+# parallel_id = atis/test98
 # text = give me the flights from boston to san francisco leaving early today
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1578,7 +1578,7 @@
 12	today	today	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0099.test
-# parallel_id = test/99
+# parallel_id = atis/test99
 # text = show me the continental flights leaving chicago early saturday morning
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1592,7 +1592,7 @@
 10	morning	morning	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0100.test
-# parallel_id = test/100
+# parallel_id = atis/test100
 # text = which flights are leaving from kansas city to atlanta early monday morning
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -1608,7 +1608,7 @@
 12	morning	morning	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0101.test
-# parallel_id = test/101
+# parallel_id = atis/test101
 # text = i would like to find flights from columbus to minneapolis on monday june fourteenth early in the morning or in the evening sunday june thirteenth thank you
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -1639,7 +1639,7 @@
 27	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	obj	_	_
 
 # sent_id = 0102.test
-# parallel_id = test/102
+# parallel_id = atis/test102
 # text = and from milwaukee to atlanta before 10 am daily
 1	and	and	CCONJ	_	_	3	cc	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -1652,7 +1652,7 @@
 9	daily	daily	ADJ	_	Degree=Pos	3	amod	_	_
 
 # sent_id = 0103.test
-# parallel_id = test/103
+# parallel_id = atis/test103
 # text = list daily flights from denver to boston
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	daily	daily	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1663,7 +1663,7 @@
 7	boston	Boston	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0104.test
-# parallel_id = test/104
+# parallel_id = atis/test104
 # text = list flights from boston to pittsburgh daily
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -1674,7 +1674,7 @@
 7	daily	daily	ADJ	_	Degree=Pos	1	dislocated	_	_
 
 # sent_id = 0105.test
-# parallel_id = test/105
+# parallel_id = atis/test105
 # text = show me all daily flights between milwaukee and orlando
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1687,7 +1687,7 @@
 9	orlando	Orlando	PROPN	_	Number=Sing	7	conj	_	_
 
 # sent_id = 0106.test
-# parallel_id = test/106
+# parallel_id = atis/test106
 # text = list daily flights from boston to oakland using continental airlines
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	daily	daily	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1701,7 +1701,7 @@
 10	airlines	airline	PROPN	_	Number=Plur	9	flat	_	_
 
 # sent_id = 0107.test
-# parallel_id = test/107
+# parallel_id = atis/test107
 # text = show me the flights arriving in baltimore on june fifteenth leaving either from denver or dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1721,7 +1721,7 @@
 16	dallas	Dallas	PROPN	_	Number=Sing	14	conj	_	_
 
 # sent_id = 0108.test
-# parallel_id = test/108
+# parallel_id = atis/test108
 # text = list the flights from pittsburgh to baltimore arriving on july first
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -1736,7 +1736,7 @@
 11	first	one	ADJ	_	Degree=Pos|NumType=Ord	10	amod	_	_
 
 # sent_id = 0109.test
-# parallel_id = test/109
+# parallel_id = atis/test109
 # text = show me the flights arriving on baltimore on june fourteenth
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1750,7 +1750,7 @@
 10	fourteenth	fourteen	ADJ	_	Degree=Pos	9	amod	_	_
 
 # sent_id = 0110.test
-# parallel_id = test/110
+# parallel_id = atis/test110
 # text = show me the cheapest flight arriving in baltimore on june fourteenth starting from dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -1768,7 +1768,7 @@
 14	dallas	Dallas	PROPN	_	Number=Sing	12	obl	_	_
 
 # sent_id = 0111.test
-# parallel_id = test/111
+# parallel_id = atis/test111
 # text = how many airlines fly from new york to los angeles by way of milwaukee
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1786,7 +1786,7 @@
 14	milwaukee	Milwaukee	PROPN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0112.test
-# parallel_id = test/112
+# parallel_id = atis/test112
 # text = how many flights does twa have in business class
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1799,7 +1799,7 @@
 9	class	class	NOUN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0113.test
-# parallel_id = test/113
+# parallel_id = atis/test113
 # text = how many first class flights does delta have today
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	5	amod	_	_
@@ -1812,7 +1812,7 @@
 9	today	today	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0114.test
-# parallel_id = test/114
+# parallel_id = atis/test114
 # text = how many flights does twa have with business class
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -1825,7 +1825,7 @@
 9	class	class	NOUN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0115.test
-# parallel_id = test/115
+# parallel_id = atis/test115
 # text = how many first class flights does united have leaving from all cities today
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	5	amod	_	_
@@ -1842,7 +1842,7 @@
 13	today	today	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0116.test
-# parallel_id = test/116
+# parallel_id = atis/test116
 # text = what time does the tuesday morning 755 flight leaving washington arrive in san francisco
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	time	time	NOUN	_	Number=Sing	11	obl:unmarked	_	_
@@ -1860,7 +1860,7 @@
 14	francisco	Francisco	PROPN	_	Number=Sing	13	flat	_	_
 
 # sent_id = 0117.test
-# parallel_id = test/117
+# parallel_id = atis/test117
 # text = i would like the time of your earliest flight in the morning from philadelphia to washington on american airlines
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -1883,7 +1883,7 @@
 19	airlines	airline	PROPN	_	Number=Plur	18	flat	_	_
 
 # sent_id = 0118.test
-# parallel_id = test/118
+# parallel_id = atis/test118
 # text = when does continental fly from philadelphia to denver on sundays
 1	when	when	ADV	_	PronType=Int,Rel	4	advmod	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -1897,7 +1897,7 @@
 10	sundays	sunday	PROPN	_	Number=Plur	4	obl:unmarked	_	_
 
 # sent_id = 0119.test
-# parallel_id = test/119
+# parallel_id = atis/test119
 # text = i would like a schedule of flights from san francisco to boston on wednesday
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -1915,7 +1915,7 @@
 14	wednesday	Wednesday	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 
 # sent_id = 0120.test
-# parallel_id = test/120
+# parallel_id = atis/test120
 # text = in pittsburgh i'd like to rent a car
 1	in	in	ADP	_	_	2	case	_	_
 2	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
@@ -1929,7 +1929,7 @@
 9	car	car	NOUN	_	Number=Sing	7	obj	_	_
 
 # sent_id = 0121.test
-# parallel_id = test/121
+# parallel_id = atis/test121
 # text = is there limousine service available at baltimore airport
 1	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 2	there	there	PRON	_	PronType=Dem	5	expl	_	_
@@ -1941,7 +1941,7 @@
 8	airport	Airport	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0122.test
-# parallel_id = test/122
+# parallel_id = atis/test122
 # text = may i have a listing of flights from long beach california to columbus ohio on wednesday
 1	may	may	AUX	_	_	3	aux	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -1961,7 +1961,7 @@
 16	wednesday	Wednesday	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 
 # sent_id = 0123.test
-# parallel_id = test/123
+# parallel_id = atis/test123
 # text = i need a ticket from nashville tennessee to seattle
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1974,7 +1974,7 @@
 9	seattle	Seattle	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0124.test
-# parallel_id = test/124
+# parallel_id = atis/test124
 # text = i'd need information please on a flight from washington dc san francisco california
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -1993,7 +1993,7 @@
 14	california	California	PROPN	_	Number=Sing	12	appos	_	_
 
 # sent_id = 0125.test
-# parallel_id = test/125
+# parallel_id = atis/test125
 # text = please list any flights from oakland california to philadelphia on tuesday
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -2008,7 +2008,7 @@
 11	tuesday	Tuesday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0126.test
-# parallel_id = test/126
+# parallel_id = atis/test126
 # text = can you tell me which flight from dallas to baltimore has the least expensive fare
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -2027,7 +2027,7 @@
 15	fare	fare	NOUN	_	Number=Sing	11	obj	_	_
 
 # sent_id = 0127.test
-# parallel_id = test/127
+# parallel_id = atis/test127
 # text = of the flights available from dallas to baltimore on august third which airline has the least expensive flight
 1	of	of	ADP	_	_	3	case	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -2049,7 +2049,7 @@
 18	flight	flight	NOUN	_	Number=Sing	14	obj	_	_
 
 # sent_id = 0128.test
-# parallel_id = test/128
+# parallel_id = atis/test128
 # text = what are the most expensive first class tickets between boston and san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2066,7 +2066,7 @@
 13	francisco	Francisco	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0129.test
-# parallel_id = test/129
+# parallel_id = atis/test129
 # text = what are the least expensive flights from denver to atlanta
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2080,7 +2080,7 @@
 10	atlanta	Atlanta	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0130.test
-# parallel_id = test/130
+# parallel_id = atis/test130
 # text = what's the price of the least expensive first class round trip ticket on us air from cleveland to miami
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -2105,7 +2105,7 @@
 20	miami	Miami	PROPN	_	Number=Sing	13	nmod	_	_
 
 # sent_id = 0131.test
-# parallel_id = test/131
+# parallel_id = atis/test131
 # text = great now what i want to find out is on april twentieth from washington to denver do you have a flight least expensive fare around 5 o'clock in the morning
 1	great	great	ADJ	_	Degree=Pos	19	advmod	_	_
 2	now	now	ADV	_	Degree=Pos	19	advmod	_	_
@@ -2139,7 +2139,7 @@
 30	morning	morning	NOUN	_	Number=Sing	27	obl:unmarked	_	_
 
 # sent_id = 0132.test
-# parallel_id = test/132
+# parallel_id = atis/test132
 # text = what ground transportation is available between milwaukee airport and downtown milwaukee
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -2154,7 +2154,7 @@
 11	milwaukee	Milwaukee	PROPN	_	Number=Sing	10	appos	_	_
 
 # sent_id = 0133.test
-# parallel_id = test/133
+# parallel_id = atis/test133
 # text = please list all the takeoffs and landings for general mitchell international
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -2169,7 +2169,7 @@
 11	international	International	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0134.test
-# parallel_id = test/134
+# parallel_id = atis/test134
 # text = what ground transportation is available from la guardia airport into new york city
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -2186,7 +2186,7 @@
 13	city	City	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0135.test
-# parallel_id = test/135
+# parallel_id = atis/test135
 # text = what ground transportation is available from dallas fort worth airport to downtown dallas
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -2203,7 +2203,7 @@
 13	dallas	Dallas	PROPN	_	Number=Sing	12	appos	_	_
 
 # sent_id = 0136.test
-# parallel_id = test/136
+# parallel_id = atis/test136
 # text = ground transportation please in the city of boston between airport and downtown
 1	ground	ground	NOUN	_	Number=Sing	2	compound	_	_
 2	transportation	transportation	NOUN	_	Number=Sing	0	root	_	_
@@ -2219,14 +2219,14 @@
 12	downtown	downtown	NOUN	_	Number=Sing	10	conj	_	_
 
 # sent_id = 0137.test
-# parallel_id = test/137
+# parallel_id = atis/test137
 # text = ground san francisco
 1	ground	ground	NOUN	_	Number=Sing	0	root	_	_
 2	san	San	PROPN	_	Number=Sing	1	nmod	_	_
 3	francisco	Francisco	PROPN	_	Number=Sing	2	flat	_	_
 
 # sent_id = 0138.test
-# parallel_id = test/138
+# parallel_id = atis/test138
 # text = tell me about ground transportation at san francisco
 1	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2238,7 +2238,7 @@
 8	francisco	Francisco	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0139.test
-# parallel_id = test/139
+# parallel_id = atis/test139
 # text = now show me all the flights from st. louis to burbank
 1	now	now	ADV	_	Degree=Pos	2	advmod	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -2253,7 +2253,7 @@
 11	burbank	Burbank	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0140.test
-# parallel_id = test/140
+# parallel_id = atis/test140
 # text = saturday or sunday flights between milwaukee and phoenix american airlines
 1	saturday	Saturday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 2	or	or	CCONJ	_	_	3	cc	_	_
@@ -2267,7 +2267,7 @@
 10	airlines	airline	PROPN	_	Number=Plur	9	flat	_	_
 
 # sent_id = 0141.test
-# parallel_id = test/141
+# parallel_id = atis/test141
 # text = show me all flights from denver or philadelphia or pittsburgh to baltimore
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2283,7 +2283,7 @@
 12	baltimore	Baltimore	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0142.test
-# parallel_id = test/142
+# parallel_id = atis/test142
 # text = what are the flights from cleveland to indianapolis on wednesday may twelfth on either twa delta or continental
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2305,7 +2305,7 @@
 18	continental	Continental	PROPN	_	Number=Sing	15	conj	_	_
 
 # sent_id = 0143.test
-# parallel_id = test/143
+# parallel_id = atis/test143
 # text = list all flights that leave from baltimore or denver or pittsburgh and arrive in philadelphia
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -2324,7 +2324,7 @@
 15	philadelphia	Philadelphia	PROPN	_	Number=Sing	13	obl	_	_
 
 # sent_id = 0144.test
-# parallel_id = test/144
+# parallel_id = atis/test144
 # text = what does the fare code y mean
 1	what	what	PRON	_	PronType=Int,Rel	7	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2335,7 +2335,7 @@
 7	mean	mean	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0145.test
-# parallel_id = test/145
+# parallel_id = atis/test145
 # text = what does fare code qw mean
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -2345,7 +2345,7 @@
 6	mean	mean	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0146.test
-# parallel_id = test/146
+# parallel_id = atis/test146
 # text = what is fare code qw
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2354,7 +2354,7 @@
 5	qw	QW	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0147.test
-# parallel_id = test/147
+# parallel_id = atis/test147
 # text = what does fare code bn mean
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -2364,7 +2364,7 @@
 6	mean	mean	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0148.test
-# parallel_id = test/148
+# parallel_id = atis/test148
 # text = what does the fare code yn mean
 1	what	what	PRON	_	PronType=Int,Rel	7	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2375,7 +2375,7 @@
 7	mean	mean	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0149.test
-# parallel_id = test/149
+# parallel_id = atis/test149
 # text = list all flights on united from san francisco to boston with fare code qx
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -2393,7 +2393,7 @@
 14	qx	QX	PROPN	_	Number=Sing	13	nmod	_	_
 
 # sent_id = 0150.test
-# parallel_id = test/150
+# parallel_id = atis/test150
 # text = what is the latest flight from boston to denver that serves a meal
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2410,7 +2410,7 @@
 13	meal	meal	NOUN	_	Number=Sing	11	obj	_	_
 
 # sent_id = 0151.test
-# parallel_id = test/151
+# parallel_id = atis/test151
 # text = list all flights from chicago to seattle on continental which depart on saturday and serve meals
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -2430,7 +2430,7 @@
 16	meals	meal	NOUN	_	Number=Plur	15	obj	_	_
 
 # sent_id = 0152.test
-# parallel_id = test/152
+# parallel_id = atis/test152
 # text = could you tell me what the earliest flight that goes between atlanta and denver is which serves a meal
 1	could	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -2453,7 +2453,7 @@
 19	meal	meal	NOUN	_	Number=Sing	17	obj	_	_
 
 # sent_id = 0153.test
-# parallel_id = test/153
+# parallel_id = atis/test153
 # text = give me the saturday morning flights with meals from chicago to minneapolis
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2469,7 +2469,7 @@
 12	minneapolis	Minneapolis	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0154.test
-# parallel_id = test/154
+# parallel_id = atis/test154
 # text = list flights from seattle to salt lake city on delta l10
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -2484,7 +2484,7 @@
 11	l10	L10	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0155.test
-# parallel_id = test/155
+# parallel_id = atis/test155
 # text = show me all flights from san diego to phoenix on a boeing 737
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2501,7 +2501,7 @@
 13	737	737	NUM	_	NumType=Card	12	nummod	_	_
 
 # sent_id = 0156.test
-# parallel_id = test/156
+# parallel_id = atis/test156
 # text = what is a d9s
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2509,7 +2509,7 @@
 4	d9s	D9s	PROPN	_	Number=Sing	1	nsubj	_	_
 
 # sent_id = 0157.test
-# parallel_id = test/157
+# parallel_id = atis/test157
 # text = what is the earliest flight between baltimore and oakland that serves breakfast
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2525,7 +2525,7 @@
 12	breakfast	breakfast	NOUN	_	Number=Sing	11	obj	_	_
 
 # sent_id = 0158.test
-# parallel_id = test/158
+# parallel_id = atis/test158
 # text = a breakfast flight from denver to san francisco please
 1	a	a	DET	_	PronType=Art	3	det	_	_
 2	breakfast	breakfast	NOUN	_	Number=Sing	3	compound	_	_
@@ -2538,7 +2538,7 @@
 9	please	please	INTJ	_	_	3	discourse	_	_
 
 # sent_id = 0159.test
-# parallel_id = test/159
+# parallel_id = atis/test159
 # text = list flights between boston and san francisco that serve breakfast
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -2552,7 +2552,7 @@
 10	breakfast	breakfast	NOUN	_	Number=Sing	9	obj	_	_
 
 # sent_id = 0160.test
-# parallel_id = test/160
+# parallel_id = atis/test160
 # text = give me all flights from boston to philadelphia next week arriving after lunch
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2569,7 +2569,7 @@
 13	lunch	lunch	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0161.test
-# parallel_id = test/161
+# parallel_id = atis/test161
 # text = please show me flights from pittsburgh to atlanta on wednesday morning serving breakfast
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -2586,7 +2586,7 @@
 13	breakfast	breakfast	NOUN	_	Number=Sing	12	obj	_	_
 
 # sent_id = 0162.test
-# parallel_id = test/162
+# parallel_id = atis/test162
 # text = what is the first flight that goes from atlanta to baltimore that serves breakfast
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2604,7 +2604,7 @@
 14	breakfast	breakfast	NOUN	_	Number=Sing	13	obj	_	_
 
 # sent_id = 0163.test
-# parallel_id = test/163
+# parallel_id = atis/test163
 # text = which flights arrive in st. louis from st. paul on thursday morning
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -2620,7 +2620,7 @@
 12	morning	morning	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0164.test
-# parallel_id = test/164
+# parallel_id = atis/test164
 # text = i would like one flight from kansas city to st. paul arriving around dinnertime 6 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -2640,7 +2640,7 @@
 16	pm	pm	NOUN	_	Number=Sing	14	nmod:tmod	_	_
 
 # sent_id = 0165.test
-# parallel_id = test/165
+# parallel_id = atis/test165
 # text = list flights from dallas to houston arriving sunday afternoon
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -2653,7 +2653,7 @@
 9	afternoon	afternoon	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 
 # sent_id = 0166.test
-# parallel_id = test/166
+# parallel_id = atis/test166
 # text = list nonstop flights from baltimore washington airport to oakland that depart in the afternoon
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	nonstop	nonstop	NOUN	_	Number=Sing	3	compound	_	_
@@ -2671,7 +2671,7 @@
 14	afternoon	afternoon	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0167.test
-# parallel_id = test/167
+# parallel_id = atis/test167
 # text = i need flight information on thursday leaving pittsburgh and arriving in baltimore in the morning
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2690,7 +2690,7 @@
 15	morning	morning	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0168.test
-# parallel_id = test/168
+# parallel_id = atis/test168
 # text = morning flights out of san francisco arriving boston afternoon
 1	morning	morning	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -2703,7 +2703,7 @@
 9	afternoon	afternoon	NOUN	_	Number=Sing	7	dislocated	_	_
 
 # sent_id = 0169.test
-# parallel_id = test/169
+# parallel_id = atis/test169
 # text = i would like to originate my flight in washington dc stop in denver with the destination city of san francisco
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -2727,7 +2727,7 @@
 20	francisco	Francisco	PROPN	_	Number=Sing	19	flat	_	_
 
 # sent_id = 0170.test
-# parallel_id = test/170
+# parallel_id = atis/test170
 # text = show me a list of flights on july twenty second leaving dc to dallas leaving dc after 6 pm
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -2750,7 +2750,7 @@
 19	pm	pm	NOUN	_	Number=Sing	15	obl:unmarked	_	_
 
 # sent_id = 0171.test
-# parallel_id = test/171
+# parallel_id = atis/test171
 # text = what airlines from washington dc to columbus
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	0	root	_	_
@@ -2761,7 +2761,7 @@
 7	columbus	Columbus	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0172.test
-# parallel_id = test/172
+# parallel_id = atis/test172
 # text = list flights from washington dc to boston
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -2772,7 +2772,7 @@
 7	boston	Boston	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0173.test
-# parallel_id = test/173
+# parallel_id = atis/test173
 # text = could you please give me information concerning american airlines a flight from washington dc to philadelphia the earliest one in the morning as possible
 1	could	can	AUX	_	_	4	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
@@ -2800,7 +2800,7 @@
 24	possible	possible	ADJ	_	Degree=Pos	19	amod	_	_
 
 # sent_id = 0174.test
-# parallel_id = test/174
+# parallel_id = atis/test174
 # text = list flights from washington dc to pittsburgh
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -2811,7 +2811,7 @@
 7	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0175.test
-# parallel_id = test/175
+# parallel_id = atis/test175
 # text = i need a flight from washington dc to san diego
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2825,7 +2825,7 @@
 10	diego	Diego	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0176.test
-# parallel_id = test/176
+# parallel_id = atis/test176
 # text = i would like to fly from boston to baltimore please tell me what are the times of the flights
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -2848,7 +2848,7 @@
 19	flights	flight	NOUN	_	Number=Plur	16	nmod	_	_
 
 # sent_id = 0177.test
-# parallel_id = test/177
+# parallel_id = atis/test177
 # text = does flight dl 323 dl 229 from boston to denver stop in philadelphia
 1	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 2	flight	flight	NOUN	_	Number=Sing	3	compound	_	_
@@ -2865,7 +2865,7 @@
 13	philadelphia	Philadelphia	PROPN	_	Number=Sing	11	obl	_	_
 
 # sent_id = 0178.test
-# parallel_id = test/178
+# parallel_id = atis/test178
 # text = what kind of airplane is flight ua 281 from boston to denver
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	kind	kind	NOUN	_	Number=Sing	0	root	_	_
@@ -2881,7 +2881,7 @@
 12	denver	Denver	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0179.test
-# parallel_id = test/179
+# parallel_id = atis/test179
 # text = what is the price of american airlines flight 19 from new york to los angeles
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2900,7 +2900,7 @@
 15	angeles	Angeles	PROPN	_	Number=Sing	14	flat	_	_
 
 # sent_id = 0180.test
-# parallel_id = test/180
+# parallel_id = atis/test180
 # text = what is the first class fare on united flight 352 from denver to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -2918,7 +2918,7 @@
 14	boston	Boston	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0181.test
-# parallel_id = test/181
+# parallel_id = atis/test181
 # text = how much does flight ua 281 from boston to denver cost
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	11	advmod	_	_
@@ -2933,7 +2933,7 @@
 11	cost	cost	VERB	_	VerbForm=Inf	0	root	_	_
 
 # sent_id = 0182.test
-# parallel_id = test/182
+# parallel_id = atis/test182
 # text = does flight dl 1083 from philadelphia to denver fly on saturdays
 1	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 2	flight	flight	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -2948,7 +2948,7 @@
 11	saturdays	Saturday	PROPN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0183.test
-# parallel_id = test/183
+# parallel_id = atis/test183
 # text = what airline is dl 98
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airline	airline	NOUN	_	Number=Sing	0	root	_	_
@@ -2957,7 +2957,7 @@
 5	98	98	NUM	_	NumType=Card	4	nummod	_	_
 
 # sent_id = 0184.test
-# parallel_id = test/184
+# parallel_id = atis/test184
 # text = what first class airplane goes from philadelphia to san francisco and stops in dallas in the afternoon on monday
 1	what	what	DET	_	PronType=Int,Rel	4	det	_	_
 2	first	first	ADV	_	Degree=Pos|NumType=Ord	3	compound	_	_
@@ -2980,7 +2980,7 @@
 19	monday	Monday	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0185.test
-# parallel_id = test/185
+# parallel_id = atis/test185
 # text = what planes are used by twa
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	planes	plane	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -2990,7 +2990,7 @@
 6	twa	TWA	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0186.test
-# parallel_id = test/186
+# parallel_id = atis/test186
 # text = repeating leaving denver to san francisco before 10 am what type of aircraft is used
 1	repeating	repeat	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
 2	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
@@ -3009,7 +3009,7 @@
 15	used	use	VERB	_	Tense=Past|VerbForm=Part	1	parataxis	_	_
 
 # sent_id = 0187.test
-# parallel_id = test/187
+# parallel_id = atis/test187
 # text = what kinds of planes are used by midway airlines
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	kinds	kind	NOUN	_	Number=Plur	6	nsubj	_	_
@@ -3022,7 +3022,7 @@
 9	airlines	airline	PROPN	_	Number=Plur	8	flat	_	_
 
 # sent_id = 0188.test
-# parallel_id = test/188
+# parallel_id = atis/test188
 # text = what type of aircraft leaves from boston to washington dc at 9 am during a weekday
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	type	type	NOUN	_	Number=Sing	5	nsubj	_	_
@@ -3042,7 +3042,7 @@
 16	weekday	weekday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0189.test
-# parallel_id = test/189
+# parallel_id = atis/test189
 # text = what type of aircraft are flying from cleveland to dallas before noon
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	type	type	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -3058,7 +3058,7 @@
 12	noon	noon	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0190.test
-# parallel_id = test/190
+# parallel_id = atis/test190
 # text = what airplane types fly from pittsburgh to baltimore
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	airplane	airplane	NOUN	_	Number=Sing	3	compound	_	_
@@ -3070,7 +3070,7 @@
 8	baltimore	Baltimore	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0191.test
-# parallel_id = test/191
+# parallel_id = atis/test191
 # text = what is ground transportation between the san francisco airport and the city
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -3086,7 +3086,7 @@
 12	city	City	PROPN	_	Number=Sing	7	conj	_	_
 
 # sent_id = 0192.test
-# parallel_id = test/192
+# parallel_id = atis/test192
 # text = what flights on united leave la guardia for san jose and arrive around 10 pm
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	5	nsubj	_	_
@@ -3105,7 +3105,7 @@
 15	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0193.test
-# parallel_id = test/193
+# parallel_id = atis/test193
 # text = what ground transportation is available from the denver airport to downtown denver
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -3121,7 +3121,7 @@
 12	denver	Denver	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0194.test
-# parallel_id = test/194
+# parallel_id = atis/test194
 # text = list us air flights leaving saturday from charlotte airport around 1 pm
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	us	US	PROPN	_	Number=Sing	4	compound	_	_
@@ -3137,7 +3137,7 @@
 12	pm	pm	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0195.test
-# parallel_id = test/195
+# parallel_id = atis/test195
 # text = could you tell me about ground transportation arrangements from the dallas airport to downtown dallas
 1	could	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -3156,7 +3156,7 @@
 15	dallas	Dallas	PROPN	_	Number=Sing	14	appos	_	_
 
 # sent_id = 0196.test
-# parallel_id = test/196
+# parallel_id = atis/test196
 # text = please list the flights taking off and landing on general mitchell international airport
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3173,7 +3173,7 @@
 13	airport	Airport	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0197.test
-# parallel_id = test/197
+# parallel_id = atis/test197
 # text = i'd like to fly from cleveland to indianapolis tomorrow morning as early as possible what's available
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3197,7 +3197,7 @@
 18	available	available	ADJ	_	Degree=Pos	3	parataxis	_	_
 
 # sent_id = 0198.test
-# parallel_id = test/198
+# parallel_id = atis/test198
 # text = i need a flight from logan to atlanta this afternoon
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3211,7 +3211,7 @@
 10	afternoon	afternoon	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0199.test
-# parallel_id = test/199
+# parallel_id = atis/test199
 # text = give me the latest flight tomorrow on american airlines from milwaukee to tacoma
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3228,7 +3228,7 @@
 13	tacoma	Tacoma	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0200.test
-# parallel_id = test/200
+# parallel_id = atis/test200
 # text = i'd like to fly from columbus to nashville tomorrow morning
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3244,7 +3244,7 @@
 11	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0201.test
-# parallel_id = test/201
+# parallel_id = atis/test201
 # text = and what is the last flight from denver to boston for tomorrow evening
 1	and	and	CCONJ	_	_	2	cc	_	_
 2	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -3261,7 +3261,7 @@
 13	evening	evening	NOUN	_	Number=Sing	6	nmod:tmod	_	_
 
 # sent_id = 0202.test
-# parallel_id = test/202
+# parallel_id = atis/test202
 # text = list evening flights tomorrow from phoenix to detroit
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	evening	evening	NOUN	_	Number=Sing	3	compound	_	_
@@ -3273,7 +3273,7 @@
 8	detroit	Detroit	PROPN	_	Number=Sing	1	obl	_	_
 
 # sent_id = 0203.test
-# parallel_id = test/203
+# parallel_id = atis/test203
 # text = show me the flights on continental from indianapolis to san diego in the afternoon tomorrow
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3292,7 +3292,7 @@
 15	tomorrow	tomorrow	NOUN	_	Number=Sing	14	nmod:tmod	_	_
 
 # sent_id = 0204.test
-# parallel_id = test/204
+# parallel_id = atis/test204
 # text = how many flights does northwest have leaving dulles
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	many	many	ADJ	_	Degree=Pos	3	amod	_	_
@@ -3304,7 +3304,7 @@
 8	dulles	Dulles	PROPN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0205.test
-# parallel_id = test/205
+# parallel_id = atis/test205
 # text = nonstop flights from new york city to las vegas on sunday
 1	nonstop	nonstop	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -3319,7 +3319,7 @@
 11	sunday	Sunday	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0206.test
-# parallel_id = test/206
+# parallel_id = atis/test206
 # text = show me the flights from los angeles to pittsburgh which arrive at pittsburgh on monday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3338,7 +3338,7 @@
 15	monday	Monday	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0207.test
-# parallel_id = test/207
+# parallel_id = atis/test207
 # text = show me all flights from philadelphia to dallas which arrive in dallas before 3 o'clock pm on saturday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3360,7 +3360,7 @@
 18	saturday	Saturday	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0208.test
-# parallel_id = test/208
+# parallel_id = atis/test208
 # text = what flights leave pittsburgh and arrive in los angeles after 5 pm on thursday
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -3378,7 +3378,7 @@
 14	thursday	Thursday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0209.test
-# parallel_id = test/209
+# parallel_id = atis/test209
 # text = what is the earliest flight arriving in charlotte from st. louis on friday
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -3395,7 +3395,7 @@
 13	friday	Friday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0210.test
-# parallel_id = test/210
+# parallel_id = atis/test210
 # text = what flights do you have from boston to pittsburgh on wednesday of next week after 6 pm
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	5	obj	_	_
@@ -3416,7 +3416,7 @@
 17	pm	pm	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
 # sent_id = 0211.test
-# parallel_id = test/211
+# parallel_id = atis/test211
 # text = i'd like a flight from st. petersburg to miami on that next thursday
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3435,7 +3435,7 @@
 14	thursday	Thursday	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0212.test
-# parallel_id = test/212
+# parallel_id = atis/test212
 # text = i'd like to travel from kansas city to chicago next wednesday
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3452,7 +3452,7 @@
 12	wednesday	Wednesday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0213.test
-# parallel_id = test/213
+# parallel_id = atis/test213
 # text = i would like to fly from boston to philadelphia next thursday
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -3467,7 +3467,7 @@
 11	thursday	Thursday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0214.test
-# parallel_id = test/214
+# parallel_id = atis/test214
 # text = tell me about flights from atlanta to charlotte next monday
 1	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3481,7 +3481,7 @@
 10	monday	Monday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0215.test
-# parallel_id = test/215
+# parallel_id = atis/test215
 # text = what flights go from pittsburgh to baltimore after 8 o'clock next wednesday
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -3497,7 +3497,7 @@
 12	wednesday	Wednesday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0216.test
-# parallel_id = test/216
+# parallel_id = atis/test216
 # text = give me the fares for round trip flights from cleveland to miami next wednesday
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3515,7 +3515,7 @@
 14	wednesday	Wednesday	NOUN	_	Number=Sing	1	dislocated	_	_
 
 # sent_id = 0217.test
-# parallel_id = test/217
+# parallel_id = atis/test217
 # text = i want to leave chicago next tuesday and arrive in detroit around 6 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3533,7 +3533,7 @@
 14	pm	pm	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0218.test
-# parallel_id = test/218
+# parallel_id = atis/test218
 # text = i want a flight from montreal to washington dc
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3546,7 +3546,7 @@
 9	dc	DC	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0219.test
-# parallel_id = test/219
+# parallel_id = atis/test219
 # text = show me the flights leaving from atlanta for washington dc on thursday morning
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3563,7 +3563,7 @@
 13	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0220.test
-# parallel_id = test/220
+# parallel_id = atis/test220
 # text = show me flights from denver to dc on wednesday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3576,7 +3576,7 @@
 9	wednesday	Wednesday	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0221.test
-# parallel_id = test/221
+# parallel_id = atis/test221
 # text = please give me the flights from san francisco to washington dc
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	give	give	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3591,7 +3591,7 @@
 11	dc	DC	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0222.test
-# parallel_id = test/222
+# parallel_id = atis/test222
 # text = show me the prices of all flights from atlanta to washington dc
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3607,7 +3607,7 @@
 12	dc	DC	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0223.test
-# parallel_id = test/223
+# parallel_id = atis/test223
 # text = what is the latest flight on wednesday going from atlanta to washington dc
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -3624,7 +3624,7 @@
 13	dc	DC	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0224.test
-# parallel_id = test/224
+# parallel_id = atis/test224
 # text = list flights from toronto to washington dc saturday am
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -3637,7 +3637,7 @@
 9	am	am	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0225.test
-# parallel_id = test/225
+# parallel_id = atis/test225
 # text = i'd like to see the flights from atlanta to washington dc
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3654,7 +3654,7 @@
 12	dc	DC	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0226.test
-# parallel_id = test/226
+# parallel_id = atis/test226
 # text = i'm sorry i want to book a flight from atlanta to denver colorado
 1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3673,7 +3673,7 @@
 14	colorado	Colorado	PROPN	_	Number=Sing	13	appos	_	_
 
 # sent_id = 0227.test
-# parallel_id = test/227
+# parallel_id = atis/test227
 # text = i would like a list of round trip flights between indianapolis and orlando florida for the twenty seventh and the twenty eighth of december
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -3701,7 +3701,7 @@
 24	december	December	NOUN	_	Number=Sing	18	nmod:tmod	_	_
 
 # sent_id = 0228.test
-# parallel_id = test/228
+# parallel_id = atis/test228
 # text = may i have a listing of flights on monday from minneapolis to long beach california please
 1	may	may	AUX	_	_	3	aux	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -3721,7 +3721,7 @@
 16	please	please	INTJ	_	_	3	discourse	_	_
 
 # sent_id = 0229.test
-# parallel_id = test/229
+# parallel_id = atis/test229
 # text = please give all flights from dallas to oakland california monday
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	give	give	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3735,7 +3735,7 @@
 10	monday	Monday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0230.test
-# parallel_id = test/230
+# parallel_id = atis/test230
 # text = on tuesday the twenty third flights from philadelphia to san francisco on american airlines
 1	on	on	ADP	_	_	2	case	_	_
 2	tuesday	Tuesday	NOUN	_	Number=Sing	6	nmod:tmod	_	_
@@ -3753,7 +3753,7 @@
 14	airlines	airline	PROPN	_	Number=Plur	13	flat	_	_
 
 # sent_id = 0231.test
-# parallel_id = test/231
+# parallel_id = atis/test231
 # text = what is the cheapest first class fare from cleveland to miami on us air on february twenty fourth
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -3775,7 +3775,7 @@
 18	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	16	amod	_	_
 
 # sent_id = 0232.test
-# parallel_id = test/232
+# parallel_id = atis/test232
 # text = cheapest round trip fare from or indianapolis to orlando on december twenty fifth
 1	cheapest	cheap	ADJ	_	Degree=Sup	4	amod	_	_
 2	round	round	NOUN	_	Number=Sing	3	compound	_	_
@@ -3792,7 +3792,7 @@
 13	fifth	five	ADJ	_	Degree=Pos|NumType=Ord	11	amod	_	_
 
 # sent_id = 0233.test
-# parallel_id = test/233
+# parallel_id = atis/test233
 # text = i would like to fly from dallas to denver on the morning of august twenty seventh leaving at 650
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -3815,7 +3815,7 @@
 19	650	650	NUM	_	NumType=Card	17	obl:unmarked	_	_
 
 # sent_id = 0234.test
-# parallel_id = test/234
+# parallel_id = atis/test234
 # text = give me the flights from indianapolis to orlando on december twenty seventh and twenty eighth
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -3834,7 +3834,7 @@
 15	eighth	eight	ADJ	_	Degree=Pos|NumType=Ord	12	conj	_	_
 
 # sent_id = 0235.test
-# parallel_id = test/235
+# parallel_id = atis/test235
 # text = i would like to book a flight going from tampa to seattle on may twenty sixth i would like to stop in milwaukee on the way
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -3864,7 +3864,7 @@
 26	way	way	NOUN	_	Number=Sing	21	obl	_	_
 
 # sent_id = 0236.test
-# parallel_id = test/236
+# parallel_id = atis/test236
 # text = what is the cheapest one way fare from san francisco to boston on wednesday august twenty first
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -3885,7 +3885,7 @@
 17	first	one	ADJ	_	Degree=Pos|NumType=Ord	15	amod	_	_
 
 # sent_id = 0237.test
-# parallel_id = test/237
+# parallel_id = atis/test237
 # text = which flights are available from tacoma to san jose in the morning on april twenty second
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -3905,7 +3905,7 @@
 16	second	two	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0238.test
-# parallel_id = test/238
+# parallel_id = atis/test238
 # text = list all round trip flights between indianapolis and orlando on the twenty seventh of december
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	5	det	_	_
@@ -3924,27 +3924,27 @@
 15	december	December	NOUN	_	Number=Sing	13	nmod	_	_
 
 # sent_id = 0239.test
-# parallel_id = test/239
+# parallel_id = atis/test239
 # text = what is hp
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	hp	HP	PROPN	_	Number=Sing	1	nsubj	_	_
 
 # sent_id = 0240.test
-# parallel_id = test/240
+# parallel_id = atis/test240
 # text = define airline us
 1	define	define	VERB	_	VerbForm=Inf	0	root	_	_
 2	airline	airline	NOUN	_	Number=Sing	1	nsubj	_	_
 3	us	US	PROPN	_	Number=Sing	2	flat	_	_
 
 # sent_id = 0241.test
-# parallel_id = test/241
+# parallel_id = atis/test241
 # text = code ff
 1	code	code	NOUN	_	Number=Sing	2	compound	_	_
 2	ff	FF	PROPN	_	Number=Sing	0	root	_	_
 
 # sent_id = 0242.test
-# parallel_id = test/242
+# parallel_id = atis/test242
 # text = from las vegas to new york a nonstop twa and fare
 1	from	from	ADP	_	_	2	case	_	_
 2	las	La	PROPN	_	Number=Sing	9	dislocated	_	_
@@ -3959,7 +3959,7 @@
 11	fare	fare	NOUN	_	Number=Sing	9	conj	_	_
 
 # sent_id = 0243.test
-# parallel_id = test/243
+# parallel_id = atis/test243
 # text = airline that stands for dl
 1	airline	airline	NOUN	_	Number=Sing	0	root	_	_
 2	that	that	ADP	_	_	3	mark	_	_
@@ -3968,7 +3968,7 @@
 5	dl	DL	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0244.test
-# parallel_id = test/244
+# parallel_id = atis/test244
 # text = list round trip flights between boston and oakland using twa
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	round	round	NOUN	_	Number=Sing	3	compound	_	_
@@ -3982,7 +3982,7 @@
 10	twa	TWA	PROPN	_	Number=Sing	9	obj	_	_
 
 # sent_id = 0245.test
-# parallel_id = test/245
+# parallel_id = atis/test245
 # text = i'd like a twa flight from las vegas to new york nonstop
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -4000,7 +4000,7 @@
 13	nonstop	nonstop	NOUN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0246.test
-# parallel_id = test/246
+# parallel_id = atis/test246
 # text = what airline is yx
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airline	airline	NOUN	_	Number=Sing	0	root	_	_
@@ -4008,7 +4008,7 @@
 4	yx	YX	PROPN	_	Number=Sing	2	nsubj	_	_
 
 # sent_id = 0247.test
-# parallel_id = test/247
+# parallel_id = atis/test247
 # text = what airline is dl
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airline	airline	NOUN	_	Number=Sing	0	root	_	_
@@ -4016,7 +4016,7 @@
 4	dl	DL	PROPN	_	Number=Sing	2	nsubj	_	_
 
 # sent_id = 0248.test
-# parallel_id = test/248
+# parallel_id = atis/test248
 # text = find a flight between denver and oakland the flight should leave in the afternoon and arrive near 5 pm the flight should also be nonstop
 1	find	find	VERB	_	VerbForm=Inf	0	root	_	_
 2	a	a	DET	_	PronType=Art	3	det	_	_
@@ -4045,7 +4045,7 @@
 25	nonstop	nonstop	NOUN	_	Number=Sing	11	conj	_	_
 
 # sent_id = 0249.test
-# parallel_id = test/249
+# parallel_id = atis/test249
 # text = i need a flight on american airlines from miami to chicago that arrives around 5 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4065,7 +4065,7 @@
 16	pm	pm	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0250.test
-# parallel_id = test/250
+# parallel_id = atis/test250
 # text = flights from kansas city to cleveland on wednesday arriving before 5 pm
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -4081,7 +4081,7 @@
 12	pm	pm	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0251.test
-# parallel_id = test/251
+# parallel_id = atis/test251
 # text = what flights depart baltimore on friday and arrive in san francisco by 8 pm
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4099,7 +4099,7 @@
 14	pm	pm	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0252.test
-# parallel_id = test/252
+# parallel_id = atis/test252
 # text = i'd like a nonstop flight from atlanta to baltimore that gets in around 7 pm
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -4120,7 +4120,7 @@
 16	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0253.test
-# parallel_id = test/253
+# parallel_id = atis/test253
 # text = what nonstop flights between boston and washington arrive after 5 o'clock pm
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	nonstop	nonstop	NOUN	_	Number=Sing	3	compound	_	_
@@ -4136,7 +4136,7 @@
 12	pm	pm	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0254.test
-# parallel_id = test/254
+# parallel_id = atis/test254
 # text = all flights pittsburgh to baltimore on thursday arrival by 10 am
 1	all	all	DET	_	PronType=Art	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -4151,7 +4151,7 @@
 11	am	am	NOUN	_	Number=Sing	8	nmod:tmod	_	_
 
 # sent_id = 0255.test
-# parallel_id = test/255
+# parallel_id = atis/test255
 # text = show me all flights direct and connecting from boston to pittsburgh that arrive in pittsburgh before 10 am
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4173,7 +4173,7 @@
 18	am	am	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0256.test
-# parallel_id = test/256
+# parallel_id = atis/test256
 # text = cleveland to miami on wednesday arriving before 4 pm
 1	cleveland	Cleveland	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
@@ -4186,7 +4186,7 @@
 9	pm	pm	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0257.test
-# parallel_id = test/257
+# parallel_id = atis/test257
 # text = show me airlines between boston and san francisco
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4198,7 +4198,7 @@
 8	francisco	Francisco	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0258.test
-# parallel_id = test/258
+# parallel_id = atis/test258
 # text = show me the airlines that fly from san francisco to boston
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4213,7 +4213,7 @@
 11	boston	Boston	PROPN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0259.test
-# parallel_id = test/259
+# parallel_id = atis/test259
 # text = what airlines fly from boston to denver
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4224,7 +4224,7 @@
 7	denver	Denver	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0260.test
-# parallel_id = test/260
+# parallel_id = atis/test260
 # text = what airlines have flights from baltimore to seattle
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4236,7 +4236,7 @@
 8	seattle	Seattle	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0261.test
-# parallel_id = test/261
+# parallel_id = atis/test261
 # text = what airlines have flights from boston to philadelphia that leave before 630 am
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4253,7 +4253,7 @@
 13	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0262.test
-# parallel_id = test/262
+# parallel_id = atis/test262
 # text = are there any airlines that have flights from boston to philadelphia that leave before 630 am
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -4273,7 +4273,7 @@
 16	am	am	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0263.test
-# parallel_id = test/263
+# parallel_id = atis/test263
 # text = show me airlines that have flights between toronto and detroit between detroit and st. louis and between st. louis and toronto
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4298,7 +4298,7 @@
 21	toronto	Toronto	PROPN	_	Number=Sing	18	conj	_	_
 
 # sent_id = 0264.test
-# parallel_id = test/264
+# parallel_id = atis/test264
 # text = which airlines fly between boston and baltimore
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4309,7 +4309,7 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	5	conj	_	_
 
 # sent_id = 0265.test
-# parallel_id = test/265
+# parallel_id = atis/test265
 # text = does any airline have an early afternoon flight from boston to pittsburgh
 1	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	any	any	DET	_	PronType=Art	3	det	_	_
@@ -4325,7 +4325,7 @@
 12	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0266.test
-# parallel_id = test/266
+# parallel_id = atis/test266
 # text = please show me airlines with flights from philadelphia to dallas
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4339,7 +4339,7 @@
 10	dallas	Dallas	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0267.test
-# parallel_id = test/267
+# parallel_id = atis/test267
 # text = which airlines fly from boston to san francisco
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4351,7 +4351,7 @@
 8	francisco	Francisco	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0268.test
-# parallel_id = test/268
+# parallel_id = atis/test268
 # text = which airlines have flights between charlotte and newark
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	airlines	airline	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4363,7 +4363,7 @@
 8	newark	Newark	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0269.test
-# parallel_id = test/269
+# parallel_id = atis/test269
 # text = show me all flights from san francisco to new york nonstop
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4378,7 +4378,7 @@
 11	nonstop	nonstop	NOUN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0270.test
-# parallel_id = test/270
+# parallel_id = atis/test270
 # text = show me nonstop flights from toronto to st. petersburg
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4391,7 +4391,7 @@
 9	petersburg	Petersburg	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0271.test
-# parallel_id = test/271
+# parallel_id = atis/test271
 # text = show me all round trip flights from miami to new york nonstop
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4407,7 +4407,7 @@
 12	nonstop	nonstop	NOUN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0272.test
-# parallel_id = test/272
+# parallel_id = atis/test272
 # text = nonstop flights seattle to kansas city
 1	nonstop	nonstop	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -4417,7 +4417,7 @@
 6	city	City	PROPN	_	Number=Sing	5	flat	_	_
 
 # sent_id = 0273.test
-# parallel_id = test/273
+# parallel_id = atis/test273
 # text = i want to fly from atlanta to philadelphia nonstop
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4430,7 +4430,7 @@
 9	nonstop	nonstop	NOUN	_	Number=Sing	4	dislocated	_	_
 
 # sent_id = 0274.test
-# parallel_id = test/274
+# parallel_id = atis/test274
 # text = what is the earliest nonstop flight from washington to san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4445,7 +4445,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0275.test
-# parallel_id = test/275
+# parallel_id = atis/test275
 # text = please list nonstop flights from las vegas to new york on america west
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4462,7 +4462,7 @@
 13	west	West	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0276.test
-# parallel_id = test/276
+# parallel_id = atis/test276
 # text = show me first class round trip flights from new york to miami i want the cheapest first class fare please
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4486,7 +4486,7 @@
 20	please	please	INTJ	_	_	14	discourse	_	_
 
 # sent_id = 0277.test
-# parallel_id = test/277
+# parallel_id = atis/test277
 # text = show me which flights from san francisco to pittsburgh on a monday are first class
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4505,7 +4505,7 @@
 15	class	class	NOUN	_	Number=Sing	1	ccomp	_	_
 
 # sent_id = 0278.test
-# parallel_id = test/278
+# parallel_id = atis/test278
 # text = give me flights from baltimore to denver on united that offer first class
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4522,7 +4522,7 @@
 13	class	class	NOUN	_	Number=Sing	11	obj	_	_
 
 # sent_id = 0279.test
-# parallel_id = test/279
+# parallel_id = atis/test279
 # text = first class flights pittsburgh to newark monday morning
 1	first	one	ADJ	_	Degree=Pos|NumType=Ord	2	amod	_	_
 2	class	class	NOUN	_	Number=Sing	3	compound	_	_
@@ -4534,7 +4534,7 @@
 8	morning	morning	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0280.test
-# parallel_id = test/280
+# parallel_id = atis/test280
 # text = first class fares from dallas to baltimore please
 1	first	one	ADJ	_	Degree=Pos|NumType=Ord	2	amod	_	_
 2	class	class	NOUN	_	Number=Sing	3	compound	_	_
@@ -4546,7 +4546,7 @@
 8	please	please	INTJ	_	_	3	discourse	_	_
 
 # sent_id = 0281.test
-# parallel_id = test/281
+# parallel_id = atis/test281
 # text = show me all united airlines first class flights
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4558,7 +4558,7 @@
 8	flights	flight	NOUN	_	Number=Plur	5	nmod	_	_
 
 # sent_id = 0282.test
-# parallel_id = test/282
+# parallel_id = atis/test282
 # text = first class price san francisco pittsburgh round trip
 1	first	one	ADJ	_	Degree=Pos|NumType=Ord	2	amod	_	_
 2	class	class	NOUN	_	Number=Sing	3	compound	_	_
@@ -4570,7 +4570,7 @@
 8	trip	trip	NOUN	_	Number=Sing	3	list	_	_
 
 # sent_id = 0283.test
-# parallel_id = test/283
+# parallel_id = atis/test283
 # text = how much is a first class ticket from baltimore to san francisco
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	0	root	_	_
@@ -4586,7 +4586,7 @@
 12	francisco	Francisco	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0284.test
-# parallel_id = test/284
+# parallel_id = atis/test284
 # text = first class american flight from philadelphia to dallas on wednesday
 1	first	one	ADJ	_	Degree=Pos|NumType=Ord	2	amod	_	_
 2	class	class	NOUN	_	Number=Sing	4	compound	_	_
@@ -4600,7 +4600,7 @@
 10	wednesday	Wednesday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0285.test
-# parallel_id = test/285
+# parallel_id = atis/test285
 # text = show flights first class on american airlines between dallas and philadelphia
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -4615,7 +4615,7 @@
 11	philadelphia	Philadelphia	PROPN	_	Number=Sing	9	conj	_	_
 
 # sent_id = 0286.test
-# parallel_id = test/286
+# parallel_id = atis/test286
 # text = what are the first class fares from dallas to baltimore
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4629,7 +4629,7 @@
 10	baltimore	Baltimore	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0287.test
-# parallel_id = test/287
+# parallel_id = atis/test287
 # text = show me one way flights from tampa to st. louis departing before 10 am first class
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4649,7 +4649,7 @@
 16	class	class	NOUN	_	Number=Sing	1	dislocated	_	_
 
 # sent_id = 0288.test
-# parallel_id = test/288
+# parallel_id = atis/test288
 # text = what flights leave san francisco on monday night and arrive at atlanta later in the evening
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -4669,7 +4669,7 @@
 16	evening	evening	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0289.test
-# parallel_id = test/289
+# parallel_id = atis/test289
 # text = please list all flights into denver before noon on united airlines and northwest airlines
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4687,7 +4687,7 @@
 14	airlines	airline	PROPN	_	Number=Plur	13	flat	_	_
 
 # sent_id = 0290.test
-# parallel_id = test/290
+# parallel_id = atis/test290
 # text = what are the coach fares for flights from pittsburgh to denver
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4702,7 +4702,7 @@
 11	denver	Denver	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0291.test
-# parallel_id = test/291
+# parallel_id = atis/test291
 # text = what are the flights on tuesday october first from atlanta to baltimore
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4718,7 +4718,7 @@
 12	baltimore	Baltimore	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0292.test
-# parallel_id = test/292
+# parallel_id = atis/test292
 # text = what are the coach fares from la to charlotte monday morning
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4733,7 +4733,7 @@
 11	morning	morning	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0293.test
-# parallel_id = test/293
+# parallel_id = atis/test293
 # text = show me dallas ground transport
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4742,7 +4742,7 @@
 5	transport	transport	NOUN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0294.test
-# parallel_id = test/294
+# parallel_id = atis/test294
 # text = show me ground transportation in denver
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4752,7 +4752,7 @@
 6	denver	Denver	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0295.test
-# parallel_id = test/295
+# parallel_id = atis/test295
 # text = what ground transport is available in minneapolis
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -4763,7 +4763,7 @@
 7	minneapolis	Minneapolis	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0296.test
-# parallel_id = test/296
+# parallel_id = atis/test296
 # text = please show me ground transportation in denver
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4774,7 +4774,7 @@
 7	denver	Denver	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0297.test
-# parallel_id = test/297
+# parallel_id = atis/test297
 # text = what kind of ground transportation is there in dallas
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	kind	kind	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -4787,7 +4787,7 @@
 9	dallas	Dallas	PROPN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0298.test
-# parallel_id = test/298
+# parallel_id = atis/test298
 # text = what ground transportation is available in charlotte
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -4798,7 +4798,7 @@
 7	charlotte	Charlotte	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0299.test
-# parallel_id = test/299
+# parallel_id = atis/test299
 # text = what's the ground transportation like at pittsburgh
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
@@ -4811,7 +4811,7 @@
 8	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0300.test
-# parallel_id = test/300
+# parallel_id = atis/test300
 # text = ground transportation in baltimore
 1	ground	ground	NOUN	_	Number=Sing	2	compound	_	_
 2	transportation	transportation	NOUN	_	Number=Sing	0	root	_	_
@@ -4819,7 +4819,7 @@
 4	baltimore	Baltimore	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0301.test
-# parallel_id = test/301
+# parallel_id = atis/test301
 # text = what ground transportation is there in dallas
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -4830,7 +4830,7 @@
 7	dallas	Dallas	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0302.test
-# parallel_id = test/302
+# parallel_id = atis/test302
 # text = what ground transportation is available in baltimore
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -4841,14 +4841,14 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0303.test
-# parallel_id = test/303
+# parallel_id = atis/test303
 # text = ground transport phoenix
 1	ground	ground	NOUN	_	Number=Sing	2	compound	_	_
 2	transport	transport	NOUN	_	Number=Sing	0	root	_	_
 3	phoenix	Phoenix	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0304.test
-# parallel_id = test/304
+# parallel_id = atis/test304
 # text = show me information on ground transportation for dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4860,7 +4860,7 @@
 8	dallas	Dallas	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0305.test
-# parallel_id = test/305
+# parallel_id = atis/test305
 # text = i would like an american flight from toronto to san diego with a stopover in denver please
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -4881,7 +4881,7 @@
 17	please	please	INTJ	_	_	3	discourse	_	_
 
 # sent_id = 0306.test
-# parallel_id = test/306
+# parallel_id = atis/test306
 # text = can i go from boston to san francisco with a stopover in denver
 1	can	can	AUX	_	_	3	aux	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -4898,7 +4898,7 @@
 13	denver	Denver	PROPN	_	Number=Sing	11	nmod	_	_
 
 # sent_id = 0307.test
-# parallel_id = test/307
+# parallel_id = atis/test307
 # text = please show me flights from boston to denver with a stopover in philadelphia
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4915,7 +4915,7 @@
 13	philadelphia	Philadelphia	PROPN	_	Number=Sing	11	nmod	_	_
 
 # sent_id = 0308.test
-# parallel_id = test/308
+# parallel_id = atis/test308
 # text = show me the flights from new york to los angeles with stop in milwaukee
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -4933,7 +4933,7 @@
 14	milwaukee	Milwaukee	PROPN	_	Number=Sing	12	nmod	_	_
 
 # sent_id = 0309.test
-# parallel_id = test/309
+# parallel_id = atis/test309
 # text = are there any flights from denver to pittsburgh with stops in atlanta
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -4949,7 +4949,7 @@
 12	atlanta	Atlanta	PROPN	_	Number=Sing	10	nmod	_	_
 
 # sent_id = 0310.test
-# parallel_id = test/310
+# parallel_id = atis/test310
 # text = are there any flights from boston to san francisco which stop in denver
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -4966,7 +4966,7 @@
 13	denver	Denver	PROPN	_	Number=Sing	11	obl	_	_
 
 # sent_id = 0311.test
-# parallel_id = test/311
+# parallel_id = atis/test311
 # text = all do you have a flight from washington to boston that stops in philadelphia
 1	all	all	DET	_	PronType=Art	4	reparandum	_	_
 2	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -4984,7 +4984,7 @@
 14	philadelphia	Philadelphia	PROPN	_	Number=Sing	12	obl	_	_
 
 # sent_id = 0312.test
-# parallel_id = test/312
+# parallel_id = atis/test312
 # text = show me the flights from san diego to newark by way of houston
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -5001,7 +5001,7 @@
 13	houston	Houston	PROPN	_	Number=Sing	11	nmod	_	_
 
 # sent_id = 0313.test
-# parallel_id = test/313
+# parallel_id = atis/test313
 # text = find a flight on american airlines from boston to san francisco that makes a stopover in denver
 1	find	find	VERB	_	VerbForm=Inf	0	root	_	_
 2	a	a	DET	_	PronType=Art	3	det	_	_
@@ -5022,7 +5022,7 @@
 17	denver	Denver	PROPN	_	Number=Sing	15	nmod	_	_
 
 # sent_id = 0314.test
-# parallel_id = test/314
+# parallel_id = atis/test314
 # text = i'm looking for a flight that goes from ontario to westchester and stops in chicago
 1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -5043,7 +5043,7 @@
 16	chicago	Chicago	PROPN	_	Number=Sing	14	obl	_	_
 
 # sent_id = 0315.test
-# parallel_id = test/315
+# parallel_id = atis/test315
 # text = list the flights from philadelphia to san francisco via dallas
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -5057,7 +5057,7 @@
 10	dallas	Dallas	PROPN	_	Number=Sing	1	dislocated	_	_
 
 # sent_id = 0316.test
-# parallel_id = test/316
+# parallel_id = atis/test316
 # text = are there any flights from denver to atlanta with stops in pittsburgh
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -5073,7 +5073,7 @@
 12	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	10	nmod	_	_
 
 # sent_id = 0317.test
-# parallel_id = test/317
+# parallel_id = atis/test317
 # text = i need a flight from baltimore to seattle that stops in minneapolis
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5089,7 +5089,7 @@
 12	minneapolis	Minneapolis	PROPN	_	Number=Sing	10	nmod	_	_
 
 # sent_id = 0318.test
-# parallel_id = test/318
+# parallel_id = atis/test318
 # text = i would like a flight that leaves on friday from philadelphia to dallas that makes a stop in atlanta
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -5112,7 +5112,7 @@
 19	atlanta	Atlanta	PROPN	_	Number=Sing	17	nmod	_	_
 
 # sent_id = 0319.test
-# parallel_id = test/319
+# parallel_id = atis/test319
 # text = list flights from philadelphia to dallas that stop in atlanta
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -5126,7 +5126,7 @@
 10	atlanta	Atlanta	PROPN	_	Number=Sing	8	obl	_	_
 
 # sent_id = 0320.test
-# parallel_id = test/320
+# parallel_id = atis/test320
 # text = what is the available ground transportation between san francisco and downtown
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5141,7 +5141,7 @@
 11	downtown	downtown	NOUN	_	Number=Sing	8	conj	_	_
 
 # sent_id = 0321.test
-# parallel_id = test/321
+# parallel_id = atis/test321
 # text = what ground transportation is there from the airport in atlanta to downtown
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	ground	ground	NOUN	_	Number=Sing	3	compound	_	_
@@ -5157,7 +5157,7 @@
 12	downtown	downtown	NOUN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0322.test
-# parallel_id = test/322
+# parallel_id = atis/test322
 # text = what flights go from dallas to denver leaving after 3 pm
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -5172,7 +5172,7 @@
 11	pm	pm	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0323.test
-# parallel_id = test/323
+# parallel_id = atis/test323
 # text = can you list all flights from chicago to st. louis that depart after 12 noon
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -5191,7 +5191,7 @@
 15	noon	noon	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0324.test
-# parallel_id = test/324
+# parallel_id = atis/test324
 # text = is there a flight between philadelphia and denver that leaves philadelphia around 2 o'clock in the afternoon
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -5212,7 +5212,7 @@
 17	afternoon	afternoon	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0325.test
-# parallel_id = test/325
+# parallel_id = atis/test325
 # text = what flights leaving pittsburgh arrive in denver and leave after say 6 o'clock at night
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	5	nsubj	_	_
@@ -5231,7 +5231,7 @@
 15	night	night	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0326.test
-# parallel_id = test/326
+# parallel_id = atis/test326
 # text = dallas to houston after 1201 am
 1	dallas	Dallas	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
@@ -5241,7 +5241,7 @@
 6	am	am	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0327.test
-# parallel_id = test/327
+# parallel_id = atis/test327
 # text = is there a flight around 3 pm from charlotte to minneapolis
 1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -5256,7 +5256,7 @@
 11	minneapolis	Minneapolis	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0328.test
-# parallel_id = test/328
+# parallel_id = atis/test328
 # text = i like to see the information for flights from pittsburgh to san francisco leaving pittsburgh after 12 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5278,7 +5278,7 @@
 18	pm	pm	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0329.test
-# parallel_id = test/329
+# parallel_id = atis/test329
 # text = a listing of all flights from boston to baltimore before 10 am on thursday
 1	a	a	DET	_	PronType=Art	2	det	_	_
 2	listing	list	NOUN	_	Number=Sing	0	root	_	_
@@ -5296,7 +5296,7 @@
 14	thursday	Thursday	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 
 # sent_id = 0330.test
-# parallel_id = test/330
+# parallel_id = atis/test330
 # text = i'd like a flight from san diego to toronto on alaska airlines leaving around 1 pm
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -5318,7 +5318,7 @@
 17	pm	pm	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0331.test
-# parallel_id = test/331
+# parallel_id = atis/test331
 # text = i want a flight from atlanta to washington that leaves after 3 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5335,7 +5335,7 @@
 13	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0332.test
-# parallel_id = test/332
+# parallel_id = atis/test332
 # text = list all flights going from boston to atlanta on wednesday after 6 o'clock pm on wednesday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -5355,7 +5355,7 @@
 16	wednesday	Wednesday	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0333.test
-# parallel_id = test/333
+# parallel_id = atis/test333
 # text = i need flight information for a flight departing from cleveland to milwaukee wednesday after 6 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5375,7 +5375,7 @@
 16	pm	pm	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 
 # sent_id = 0334.test
-# parallel_id = test/334
+# parallel_id = atis/test334
 # text = what flights go from boston to denver before 10 am
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -5389,7 +5389,7 @@
 10	am	am	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0335.test
-# parallel_id = test/335
+# parallel_id = atis/test335
 # text = list all flights from boston to atlanta after 6 o'clock pm on wednesday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -5406,7 +5406,7 @@
 13	wednesday	Wednesday	NOUN	_	Number=Sing	10	nmod:tmod	_	_
 
 # sent_id = 0336.test
-# parallel_id = test/336
+# parallel_id = atis/test336
 # text = i'm looking for flights from pittsburgh to philadelphia leaving before 9 am
 1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -5424,7 +5424,7 @@
 13	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0337.test
-# parallel_id = test/337
+# parallel_id = atis/test337
 # text = list all flights going from boston to atlanta before 7 am on thursday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -5441,7 +5441,7 @@
 13	thursday	Thursday	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
 # sent_id = 0338.test
-# parallel_id = test/338
+# parallel_id = atis/test338
 # text = i need flight information for flights departing from cleveland to milwaukee on wednesday after 5 pm
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5461,7 +5461,7 @@
 16	pm	pm	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 
 # sent_id = 0339.test
-# parallel_id = test/339
+# parallel_id = atis/test339
 # text = can you find me another flight from cincinnati to new york on saturday before 6 pm
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -5481,7 +5481,7 @@
 16	pm	pm	NOUN	_	Number=Sing	6	nmod:tmod	_	_
 
 # sent_id = 0340.test
-# parallel_id = test/340
+# parallel_id = atis/test340
 # text = i would like a flight from san francisco to pittsburgh on friday morning after 10 o'clock
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -5501,7 +5501,7 @@
 16	o'clock	o'clock	ADV	_	Degree=Pos	5	advmod	_	_
 
 # sent_id = 0341.test
-# parallel_id = test/341
+# parallel_id = atis/test341
 # text = list all flights going from boston to atlanta before 5 o'clock am on thursday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -5519,7 +5519,7 @@
 14	thursday	Thursday	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 
 # sent_id = 0342.test
-# parallel_id = test/342
+# parallel_id = atis/test342
 # text = what is the last flight from baltimore to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5532,7 +5532,7 @@
 9	boston	Boston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0343.test
-# parallel_id = test/343
+# parallel_id = atis/test343
 # text = what's the latest flight from san jose to houston
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5547,7 +5547,7 @@
 10	houston	Houston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0344.test
-# parallel_id = test/344
+# parallel_id = atis/test344
 # text = what is the earliest flight from pittsburgh to san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5561,7 +5561,7 @@
 10	francisco	Francisco	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0345.test
-# parallel_id = test/345
+# parallel_id = atis/test345
 # text = show first flight from philadelphia to dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	first	one	ADJ	_	Degree=Pos|NumType=Ord	3	amod	_	_
@@ -5572,7 +5572,7 @@
 7	dallas	Dallas	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0346.test
-# parallel_id = test/346
+# parallel_id = atis/test346
 # text = what's the last flight from atlanta to boston
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5586,7 +5586,7 @@
 9	boston	Boston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0347.test
-# parallel_id = test/347
+# parallel_id = atis/test347
 # text = what is the shortest flight from milwaukee to st. petersburg
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5600,7 +5600,7 @@
 10	petersburg	Petersburg	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0348.test
-# parallel_id = test/348
+# parallel_id = atis/test348
 # text = shortest evening flight from tampa to cincinnati
 1	shortest	short	ADJ	_	Degree=Sup	2	amod	_	_
 2	evening	evening	NOUN	_	Number=Sing	3	compound	_	_
@@ -5611,7 +5611,7 @@
 7	cincinnati	Cincinnati	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0349.test
-# parallel_id = test/349
+# parallel_id = atis/test349
 # text = what is the earliest flight you have leaving boston heading to philadelphia
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5627,7 +5627,7 @@
 12	philadelphia	Philadelphia	PROPN	_	Number=Sing	10	obl	_	_
 
 # sent_id = 0350.test
-# parallel_id = test/350
+# parallel_id = atis/test350
 # text = what is the earliest flight from boston to san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5641,7 +5641,7 @@
 10	francisco	Francisco	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0351.test
-# parallel_id = test/351
+# parallel_id = atis/test351
 # text = flights from denver to westchester county new york weekdays
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -5654,7 +5654,7 @@
 9	weekdays	weekday	NOUN	_	Number=Plur	1	dislocated	_	_
 
 # sent_id = 0352.test
-# parallel_id = test/352
+# parallel_id = atis/test352
 # text = what is the last flight from boston to atlanta
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5667,7 +5667,7 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0353.test
-# parallel_id = test/353
+# parallel_id = atis/test353
 # text = what is the earliest flight leaving denver going to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5681,7 +5681,7 @@
 10	boston	Boston	PROPN	_	Number=Sing	8	obl	_	_
 
 # sent_id = 0354.test
-# parallel_id = test/354
+# parallel_id = atis/test354
 # text = what is the earliest flight from ontario to memphis
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5694,7 +5694,7 @@
 9	memphis	Memphis	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0355.test
-# parallel_id = test/355
+# parallel_id = atis/test355
 # text = what is the earliest flight from atlanta to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5707,7 +5707,7 @@
 9	boston	Boston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0356.test
-# parallel_id = test/356
+# parallel_id = atis/test356
 # text = what is the last flight leaving san francisco going to washington on friday
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5724,7 +5724,7 @@
 13	friday	Friday	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0357.test
-# parallel_id = test/357
+# parallel_id = atis/test357
 # text = what is the earliest morning flight from san francisco to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5739,7 +5739,7 @@
 11	boston	Boston	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0358.test
-# parallel_id = test/358
+# parallel_id = atis/test358
 # text = what's the earliest flight from dallas to houston
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5753,7 +5753,7 @@
 9	houston	Houston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0359.test
-# parallel_id = test/359
+# parallel_id = atis/test359
 # text = i'd like to find the earliest flight possible from san francisco to atlanta
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -5772,7 +5772,7 @@
 14	atlanta	Atlanta	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0360.test
-# parallel_id = test/360
+# parallel_id = atis/test360
 # text = what is the latest evening flight leaving san francisco for washington
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5787,7 +5787,7 @@
 11	washington	Washington	PROPN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0361.test
-# parallel_id = test/361
+# parallel_id = atis/test361
 # text = what is the first flight from boston to atlanta and what is the last flight from atlanta to boston
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5810,7 +5810,7 @@
 19	boston	Boston	PROPN	_	Number=Sing	15	nmod	_	_
 
 # sent_id = 0362.test
-# parallel_id = test/362
+# parallel_id = atis/test362
 # text = what's the cheapest one way ticket from baltimore to atlanta
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5826,7 +5826,7 @@
 11	atlanta	Atlanta	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0363.test
-# parallel_id = test/363
+# parallel_id = atis/test363
 # text = what's the cheapest round trip fare between boston and washington
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5842,7 +5842,7 @@
 11	washington	Washington	PROPN	_	Number=Sing	9	conj	_	_
 
 # sent_id = 0364.test
-# parallel_id = test/364
+# parallel_id = atis/test364
 # text = what is the cheapest round trip fare between boston and san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5858,7 +5858,7 @@
 12	francisco	Francisco	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0365.test
-# parallel_id = test/365
+# parallel_id = atis/test365
 # text = what is the cheapest round trip fare from atlanta to pittsburgh
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5873,7 +5873,7 @@
 11	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0366.test
-# parallel_id = test/366
+# parallel_id = atis/test366
 # text = what is the cheapest fare from baltimore to dallas in any class
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5889,7 +5889,7 @@
 12	class	class	NOUN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0367.test
-# parallel_id = test/367
+# parallel_id = atis/test367
 # text = what is the cheapest one way fare from boston to washington
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5904,7 +5904,7 @@
 11	washington	Washington	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0368.test
-# parallel_id = test/368
+# parallel_id = atis/test368
 # text = i'm interested in the cheapest fare from washington to fort worth
 1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -5921,7 +5921,7 @@
 12	worth	Worth	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0369.test
-# parallel_id = test/369
+# parallel_id = atis/test369
 # text = i would like to book a flight from denver to pittsburgh on july fifteenth i'd like it to be the cheapest flight
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -5949,7 +5949,7 @@
 23	flight	flight	NOUN	_	Number=Sing	17	xcomp	_	_
 
 # sent_id = 0370.test
-# parallel_id = test/370
+# parallel_id = atis/test370
 # text = what is the cheapest fare from dallas to denver on delta
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -5964,7 +5964,7 @@
 11	delta	Delta	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0371.test
-# parallel_id = test/371
+# parallel_id = atis/test371
 # text = can you show me the cheapest round trip flights between denver and pittsburgh
 1	can	can	AUX	_	_	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -5981,7 +5981,7 @@
 13	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	11	conj	_	_
 
 # sent_id = 0372.test
-# parallel_id = test/372
+# parallel_id = atis/test372
 # text = what's the lowest round trip fare from denver to atlanta
 1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
@@ -5997,7 +5997,7 @@
 11	atlanta	Atlanta	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0373.test
-# parallel_id = test/373
+# parallel_id = atis/test373
 # text = what is the cheapest flight from boston to atlanta
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6010,7 +6010,7 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0374.test
-# parallel_id = test/374
+# parallel_id = atis/test374
 # text = i'd like to find the cheapest fare from atlanta to dallas
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6027,7 +6027,7 @@
 12	dallas	Dallas	PROPN	_	Number=Sing	8	nmod	_	_
 
 # sent_id = 0375.test
-# parallel_id = test/375
+# parallel_id = atis/test375
 # text = lowest fare from san francisco to los angeles
 1	lowest	low	ADJ	_	Degree=Sup	2	amod	_	_
 2	fare	fare	NOUN	_	Number=Sing	0	root	_	_
@@ -6039,7 +6039,7 @@
 8	angeles	Angeles	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0376.test
-# parallel_id = test/376
+# parallel_id = atis/test376
 # text = i'd like the lowest fare from denver to pittsburgh
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6054,7 +6054,7 @@
 10	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0377.test
-# parallel_id = test/377
+# parallel_id = atis/test377
 # text = okay i just want to know the cheapest fare from atlanta to boston
 1	okay	okay	INTJ	_	_	4	discourse	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -6071,7 +6071,7 @@
 13	boston	Boston	PROPN	_	Number=Sing	9	nmod	_	_
 
 # sent_id = 0378.test
-# parallel_id = test/378
+# parallel_id = atis/test378
 # text = what are the lowest one way fares from atlanta to denver
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6086,7 +6086,7 @@
 11	denver	Denver	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0379.test
-# parallel_id = test/379
+# parallel_id = atis/test379
 # text = what is the cheapest one way fare from any city to another
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6102,7 +6102,7 @@
 12	another	another	DET	_	PronType=Art	10	det	_	_
 
 # sent_id = 0380.test
-# parallel_id = test/380
+# parallel_id = atis/test380
 # text = i'd like the cheapest cost fare to fort worth from boston
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6119,7 +6119,7 @@
 12	boston	Boston	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0381.test
-# parallel_id = test/381
+# parallel_id = atis/test381
 # text = show me the cheapest one way fares from san diego to miami
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6135,7 +6135,7 @@
 12	miami	Miami	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0382.test
-# parallel_id = test/382
+# parallel_id = atis/test382
 # text = what flights leave philadelphia for dallas and depart before noon on american airlines
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -6152,7 +6152,7 @@
 13	airlines	airline	PROPN	_	Number=Plur	12	flat	_	_
 
 # sent_id = 0383.test
-# parallel_id = test/383
+# parallel_id = atis/test383
 # text = i need a flight from cleveland to dallas that leaves before noon see if too much information
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6173,7 +6173,7 @@
 17	information	information	NOUN	_	Number=Sing	13	obj	_	_
 
 # sent_id = 0384.test
-# parallel_id = test/384
+# parallel_id = atis/test384
 # text = list all flights leaving denver on continental on sunday after 2134
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -6188,7 +6188,7 @@
 11	2134	2134	NUM	_	NumType=Card	9	nummod	_	_
 
 # sent_id = 0385.test
-# parallel_id = test/385
+# parallel_id = atis/test385
 # text = all flights from san francisco to boston leaving before noon
 1	all	all	DET	_	PronType=Art	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -6202,7 +6202,7 @@
 10	noon	noon	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0386.test
-# parallel_id = test/386
+# parallel_id = atis/test386
 # text = i need a flight from cincinnati to san jose leaving after 6 in the evening
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6221,7 +6221,7 @@
 15	evening	evening	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 
 # sent_id = 0387.test
-# parallel_id = test/387
+# parallel_id = atis/test387
 # text = flights from milwaukee to orlando one way
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -6232,7 +6232,7 @@
 7	way	way	NOUN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0388.test
-# parallel_id = test/388
+# parallel_id = atis/test388
 # text = i want to fly from baltimore to dallas round trip
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6246,7 +6246,7 @@
 10	trip	trip	NOUN	_	Number=Sing	2	dislocated	_	_
 
 # sent_id = 0389.test
-# parallel_id = test/389
+# parallel_id = atis/test389
 # text = hi i want a round trip ticket to dallas
 1	hi	hi	INTJ	_	_	3	discourse	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6259,7 +6259,7 @@
 9	dallas	Dallas	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0390.test
-# parallel_id = test/390
+# parallel_id = atis/test390
 # text = what would be cost of a round trip from pittsburgh to san francisco
 1	what	what	PRON	_	PronType=Int,Rel	4	nsubj	_	_
 2	would	will	AUX	_	_	4	aux	_	_
@@ -6276,7 +6276,7 @@
 13	francisco	Francisco	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0391.test
-# parallel_id = test/391
+# parallel_id = atis/test391
 # text = show me round trip fares from toronto to detroit on delta northwest us air and united airlines
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6297,7 +6297,7 @@
 17	airlines	airline	PROPN	_	Number=Plur	16	flat	_	_
 
 # sent_id = 0392.test
-# parallel_id = test/392
+# parallel_id = atis/test392
 # text = give me all the flights from new york to miami round trip
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6313,7 +6313,7 @@
 12	trip	trip	NOUN	_	Number=Sing	1	dislocated	_	_
 
 # sent_id = 0393.test
-# parallel_id = test/393
+# parallel_id = atis/test393
 # text = how much is a round trip fare from nashville to seattle
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	0	root	_	_
@@ -6328,7 +6328,7 @@
 11	seattle	Seattle	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0394.test
-# parallel_id = test/394
+# parallel_id = atis/test394
 # text = what is the fare going from baltimore to boston one way on november seventh
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6346,7 +6346,7 @@
 14	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	13	amod	_	_
 
 # sent_id = 0395.test
-# parallel_id = test/395
+# parallel_id = atis/test395
 # text = show me the round trip flights between phoenix and salt lake city
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6362,7 +6362,7 @@
 12	city	City	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0396.test
-# parallel_id = test/396
+# parallel_id = atis/test396
 # text = what is the fare going from baltimore to atlanta one way on november seventh
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6380,7 +6380,7 @@
 14	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	13	amod	_	_
 
 # sent_id = 0397.test
-# parallel_id = test/397
+# parallel_id = atis/test397
 # text = now i want to see return flights from miami to new york
 1	now	now	ADV	_	Degree=Pos	3	advmod	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6396,7 +6396,7 @@
 12	york	York	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0398.test
-# parallel_id = test/398
+# parallel_id = atis/test398
 # text = do you have an 819 flight from denver to san francisco
 1	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -6411,7 +6411,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0399.test
-# parallel_id = test/399
+# parallel_id = atis/test399
 # text = i would like to book a flight from chicago to seattle on june fourth
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -6429,7 +6429,7 @@
 14	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	13	amod	_	_
 
 # sent_id = 0400.test
-# parallel_id = test/400
+# parallel_id = atis/test400
 # text = are there any flights from long beach to columbus on wednesday april sixth
 1	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	there	there	PRON	_	PronType=Dem	1	expl	_	_
@@ -6446,7 +6446,7 @@
 13	sixth	six	ADJ	_	Degree=Pos|NumType=Ord	12	amod	_	_
 
 # sent_id = 0401.test
-# parallel_id = test/401
+# parallel_id = atis/test401
 # text = i'd like flights going from boston to atlanta leaving on august sixth in the afternoon
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6467,7 +6467,7 @@
 16	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0402.test
-# parallel_id = test/402
+# parallel_id = atis/test402
 # text = i would like to find out what flights there are on friday june eleventh from st. petersburg to milwaukee and then from milwaukee to tacoma thank you
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -6498,7 +6498,7 @@
 27	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	obj	_	_
 
 # sent_id = 0403.test
-# parallel_id = test/403
+# parallel_id = atis/test403
 # text = i need a flight from chicago to dallas on continental on june fifth
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6515,7 +6515,7 @@
 13	fifth	five	ADJ	_	Degree=Pos|NumType=Ord	12	amod	_	_
 
 # sent_id = 0404.test
-# parallel_id = test/404
+# parallel_id = atis/test404
 # text = i'd like a flight on july ninth from orlando to kansas city in the afternoon
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6536,7 +6536,7 @@
 16	afternoon	afternoon	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0405.test
-# parallel_id = test/405
+# parallel_id = atis/test405
 # text = i'd like to arrange a trip to baltimore on january first
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6553,7 +6553,7 @@
 12	first	one	ADJ	_	Degree=Pos|NumType=Ord	11	amod	_	_
 
 # sent_id = 0406.test
-# parallel_id = test/406
+# parallel_id = atis/test406
 # text = okay and then from pittsburgh i'd like to travel to atlanta on september fourth
 1	okay	okay	INTJ	_	_	8	discourse	_	_
 2	and	and	CCONJ	_	_	3	cc	_	_
@@ -6573,7 +6573,7 @@
 15	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0407.test
-# parallel_id = test/407
+# parallel_id = atis/test407
 # text = list the flights from westchester county to denver on june seventh
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -6588,7 +6588,7 @@
 11	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	10	amod	_	_
 
 # sent_id = 0408.test
-# parallel_id = test/408
+# parallel_id = atis/test408
 # text = flights from atlanta august second
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -6597,7 +6597,7 @@
 5	second	two	ADJ	_	Degree=Pos|NumType=Ord	4	amod	_	_
 
 # sent_id = 0409.test
-# parallel_id = test/409
+# parallel_id = atis/test409
 # text = what are the flights between pittsburgh and baltimore on august tenth
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6612,7 +6612,7 @@
 11	tenth	ten	ADJ	_	Degree=Pos|NumType=Ord	10	amod	_	_
 
 # sent_id = 0410.test
-# parallel_id = test/410
+# parallel_id = atis/test410
 # text = on april first i need a flight going from phoenix to san diego
 1	on	on	ADP	_	_	2	case	_	_
 2	april	April	NOUN	_	Number=Sing	5	obl:unmarked	_	_
@@ -6629,7 +6629,7 @@
 13	diego	Diego	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0411.test
-# parallel_id = test/411
+# parallel_id = atis/test411
 # text = show me a list of flights from denver to baltimore on united for august third
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6648,7 +6648,7 @@
 15	third	three	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0412.test
-# parallel_id = test/412
+# parallel_id = atis/test412
 # text = what are the flights from san jose to nashville on thursday the twentieth
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6665,7 +6665,7 @@
 13	twentieth	twenty	ADJ	_	Degree=Pos	11	amod	_	_
 
 # sent_id = 0413.test
-# parallel_id = test/413
+# parallel_id = atis/test413
 # text = i need a ticket from nashville to seattle
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6677,7 +6677,7 @@
 8	seattle	Seattle	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0414.test
-# parallel_id = test/414
+# parallel_id = atis/test414
 # text = how much does it cost to fly on delta from dallas to baltimore
 1	how	how	ADV	_	PronType=Int,Rel	2	advmod	_	_
 2	much	much	ADV	_	Degree=Pos	5	advmod	_	_
@@ -6694,7 +6694,7 @@
 13	baltimore	Baltimore	PROPN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0415.test
-# parallel_id = test/415
+# parallel_id = atis/test415
 # text = what are the fares for flights from charlotte to newark on tuesday and wednesday
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6712,7 +6712,7 @@
 14	wednesday	Wednesday	NOUN	_	Number=Sing	12	conj	_	_
 
 # sent_id = 0416.test
-# parallel_id = test/416
+# parallel_id = atis/test416
 # text = show fares and flights from denver to oakland
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	fares	fare	NOUN	_	Number=Plur	1	obj	_	_
@@ -6724,7 +6724,7 @@
 8	oakland	Oakland	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0417.test
-# parallel_id = test/417
+# parallel_id = atis/test417
 # text = what is the airfare between denver and pittsburgh
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -6736,7 +6736,7 @@
 8	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0418.test
-# parallel_id = test/418
+# parallel_id = atis/test418
 # text = what does it cost to fly from boston to oakland on united airlines
 1	what	what	PRON	_	PronType=Int,Rel	4	obj	_	_
 2	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -6753,7 +6753,7 @@
 13	airlines	airline	PROPN	_	Number=Plur	12	flat	_	_
 
 # sent_id = 0419.test
-# parallel_id = test/419
+# parallel_id = atis/test419
 # text = get saturday fares from washington to montreal
 1	get	get	VERB	_	VerbForm=Inf	0	root	_	_
 2	saturday	Saturday	NOUN	_	Number=Sing	3	compound	_	_
@@ -6764,7 +6764,7 @@
 7	montreal	Montreal	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0420.test
-# parallel_id = test/420
+# parallel_id = atis/test420
 # text = give me fares from atlanta to baltimore
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6775,7 +6775,7 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0421.test
-# parallel_id = test/421
+# parallel_id = atis/test421
 # text = continental airlines on saturday from chicago to seattle
 1	continental	Continental	PROPN	_	Number=Sing	2	compound	_	_
 2	airlines	airline	PROPN	_	Number=Plur	0	root	_	_
@@ -6787,7 +6787,7 @@
 8	seattle	Seattle	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0422.test
-# parallel_id = test/422
+# parallel_id = atis/test422
 # text = does eastern airlines fly between boston and washington
 1	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	eastern	Eastern	PROPN	_	Number=Sing	4	nsubj	_	_
@@ -6799,7 +6799,7 @@
 8	washington	Washington	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0423.test
-# parallel_id = test/423
+# parallel_id = atis/test423
 # text = i would like some information on a flight from denver to san francisco on united airlines
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -6819,7 +6819,7 @@
 16	airlines	airline	PROPN	_	Number=Plur	15	flat	_	_
 
 # sent_id = 0424.test
-# parallel_id = test/424
+# parallel_id = atis/test424
 # text = american airlines from denver to milwaukee
 1	american	American	PROPN	_	Number=Sing	0	root	_	_
 2	airlines	airline	PROPN	_	Number=Plur	1	flat	_	_
@@ -6829,7 +6829,7 @@
 6	milwaukee	Milwaukee	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0425.test
-# parallel_id = test/425
+# parallel_id = atis/test425
 # text = i need a flight delta airlines kansas city to salt lake
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6844,7 +6844,7 @@
 11	lake	Lake	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0426.test
-# parallel_id = test/426
+# parallel_id = atis/test426
 # text = list the alaska airlines flights a departing from burbank
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	5	det	_	_
@@ -6857,7 +6857,7 @@
 9	burbank	Burbank	PROPN	_	Number=Sing	7	obl	_	_
 
 # sent_id = 0427.test
-# parallel_id = test/427
+# parallel_id = atis/test427
 # text = give me all the flights from miami to chicago on american airlines
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6873,7 +6873,7 @@
 12	airlines	airline	PROPN	_	Number=Plur	11	flat	_	_
 
 # sent_id = 0428.test
-# parallel_id = test/428
+# parallel_id = atis/test428
 # text = i'd like united airlines flights from denver to baltimore
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6888,7 +6888,7 @@
 10	baltimore	Baltimore	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0429.test
-# parallel_id = test/429
+# parallel_id = atis/test429
 # text = i'd like a flight from new york to los angeles on saturday morning on us air
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6910,7 +6910,7 @@
 17	air	Air	PROPN	_	Number=Sing	16	flat	_	_
 
 # sent_id = 0430.test
-# parallel_id = test/430
+# parallel_id = atis/test430
 # text = show me the southwest airlines flights from san diego to san francisco
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6926,7 +6926,7 @@
 12	francisco	Francisco	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0431.test
-# parallel_id = test/431
+# parallel_id = atis/test431
 # text = what flights does american airlines have from boston to dallas
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	6	obj	_	_
@@ -6940,7 +6940,7 @@
 10	dallas	Dallas	PROPN	_	Number=Sing	6	obl	_	_
 
 # sent_id = 0432.test
-# parallel_id = test/432
+# parallel_id = atis/test432
 # text = what flights go from chicago to seattle on continental airlines on saturday
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -6956,7 +6956,7 @@
 12	saturday	Saturday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0433.test
-# parallel_id = test/433
+# parallel_id = atis/test433
 # text = list the flights from dallas to san francisco on american airlines
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	the	the	DET	_	PronType=Art	3	det	_	_
@@ -6971,7 +6971,7 @@
 11	airlines	airline	PROPN	_	Number=Plur	10	flat	_	_
 
 # sent_id = 0434.test
-# parallel_id = test/434
+# parallel_id = atis/test434
 # text = what flights go from chicago to seattle on saturday on continental airlines
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -6987,7 +6987,7 @@
 12	airlines	airline	PROPN	_	Number=Plur	11	flat	_	_
 
 # sent_id = 0435.test
-# parallel_id = test/435
+# parallel_id = atis/test435
 # text = show me the flight classes for delta airlines
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -6999,7 +6999,7 @@
 8	airlines	airline	PROPN	_	Number=Plur	7	flat	_	_
 
 # sent_id = 0436.test
-# parallel_id = test/436
+# parallel_id = atis/test436
 # text = please list the flights from cincinnati to burbank on american airlines
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7014,7 +7014,7 @@
 11	airlines	airline	PROPN	_	Number=Plur	10	flat	_	_
 
 # sent_id = 0437.test
-# parallel_id = test/437
+# parallel_id = atis/test437
 # text = show me all the flights from indianapolis to san diego on us air
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7031,7 +7031,7 @@
 13	air	Air	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0438.test
-# parallel_id = test/438
+# parallel_id = atis/test438
 # text = i would like to fly delta airlines from atlanta to pittsburgh
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -7046,7 +7046,7 @@
 11	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0439.test
-# parallel_id = test/439
+# parallel_id = atis/test439
 # text = what flights are available wednesday afternoon from denver to san francisco
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -7061,7 +7061,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0440.test
-# parallel_id = test/440
+# parallel_id = atis/test440
 # text = show me all flights to philadelphia in the evening
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7074,7 +7074,7 @@
 9	evening	evening	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0441.test
-# parallel_id = test/441
+# parallel_id = atis/test441
 # text = flights from chicago to denver on continental on saturday morning
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -7088,7 +7088,7 @@
 10	morning	morning	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0442.test
-# parallel_id = test/442
+# parallel_id = atis/test442
 # text = what flights from san jose to dallas on friday afternoon
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7102,7 +7102,7 @@
 10	afternoon	afternoon	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0443.test
-# parallel_id = test/443
+# parallel_id = atis/test443
 # text = what are the flights and prices from la to charlotte for monday morning
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7119,7 +7119,7 @@
 13	morning	morning	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0444.test
-# parallel_id = test/444
+# parallel_id = atis/test444
 # text = on friday night i would like a flight from newark to los angeles
 1	on	on	ADP	_	_	3	case	_	_
 2	friday	Friday	NOUN	_	Number=Sing	3	compound	_	_
@@ -7136,7 +7136,7 @@
 13	angeles	Angeles	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0445.test
-# parallel_id = test/445
+# parallel_id = atis/test445
 # text = st. paul to kansas city friday night
 1	st.	St.	PROPN	_	Number=Sing	0	root	_	_
 2	paul	Paul	PROPN	_	Number=Sing	1	flat	_	_
@@ -7147,7 +7147,7 @@
 7	night	night	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0446.test
-# parallel_id = test/446
+# parallel_id = atis/test446
 # text = show me the flights from philadelphia to baltimore in the morning
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7162,7 +7162,7 @@
 11	morning	morning	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0447.test
-# parallel_id = test/447
+# parallel_id = atis/test447
 # text = what flights from chicago to denver in the morning
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7175,7 +7175,7 @@
 9	morning	morning	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0448.test
-# parallel_id = test/448
+# parallel_id = atis/test448
 # text = now i need a flight from detroit to san diego leaving tuesday evening
 1	now	now	ADV	_	Degree=Pos	3	advmod	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -7192,7 +7192,7 @@
 13	evening	evening	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0449.test
-# parallel_id = test/449
+# parallel_id = atis/test449
 # text = how about flights from dallas to atlanta on wednesday morning
 1	how	how	ADV	_	PronType=Int,Rel	3	advmod	_	_
 2	about	about	ADP	_	_	3	case	_	_
@@ -7206,7 +7206,7 @@
 10	morning	morning	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0450.test
-# parallel_id = test/450
+# parallel_id = atis/test450
 # text = show me the evening flights from baltimore to atlanta
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7219,7 +7219,7 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0451.test
-# parallel_id = test/451
+# parallel_id = atis/test451
 # text = which flights go from pittsburgh to atlanta in the evening
 1	which	which	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -7233,7 +7233,7 @@
 10	evening	evening	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0452.test
-# parallel_id = test/452
+# parallel_id = atis/test452
 # text = from toronto to atlanta in the afternoon
 1	from	from	ADP	_	_	2	case	_	_
 2	toronto	Toronto	PROPN	_	Number=Sing	0	root	_	_
@@ -7244,7 +7244,7 @@
 7	afternoon	afternoon	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0453.test
-# parallel_id = test/453
+# parallel_id = atis/test453
 # text = i need to fly from pittsburgh to oakland and depart in the afternoon
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7261,7 +7261,7 @@
 13	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0454.test
-# parallel_id = test/454
+# parallel_id = atis/test454
 # text = i need a flight from los angeles to pittsburgh on monday afternoon
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7277,7 +7277,7 @@
 12	afternoon	afternoon	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0455.test
-# parallel_id = test/455
+# parallel_id = atis/test455
 # text = show me the evening flights from atlanta to boston
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7290,7 +7290,7 @@
 9	boston	Boston	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0456.test
-# parallel_id = test/456
+# parallel_id = atis/test456
 # text = i need to know what flights leave atlanta on sunday evening and arrive in baltimore
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7309,7 +7309,7 @@
 15	baltimore	Baltimore	PROPN	_	Number=Sing	13	obl	_	_
 
 # sent_id = 0457.test
-# parallel_id = test/457
+# parallel_id = atis/test457
 # text = what flights are there from boston to denver on monday morning
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -7324,7 +7324,7 @@
 11	morning	morning	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0458.test
-# parallel_id = test/458
+# parallel_id = atis/test458
 # text = give me morning flights from atlanta to baltimore
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7336,7 +7336,7 @@
 8	baltimore	Baltimore	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0459.test
-# parallel_id = test/459
+# parallel_id = atis/test459
 # text = flights from atlanta to dallas in the afternoon
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -7348,7 +7348,7 @@
 8	afternoon	afternoon	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0460.test
-# parallel_id = test/460
+# parallel_id = atis/test460
 # text = morning flights from pittsburgh to atlanta on wednesday
 1	morning	morning	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7360,7 +7360,7 @@
 8	wednesday	Wednesday	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0461.test
-# parallel_id = test/461
+# parallel_id = atis/test461
 # text = what are the flights dallas to boston on monday morning
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7374,7 +7374,7 @@
 10	morning	morning	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0462.test
-# parallel_id = test/462
+# parallel_id = atis/test462
 # text = am flights from atlanta to philadelphia
 1	am	am	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7384,7 +7384,7 @@
 6	philadelphia	Philadelphia	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0463.test
-# parallel_id = test/463
+# parallel_id = atis/test463
 # text = tampa to charlotte sunday morning
 1	tampa	Tampa	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
@@ -7393,7 +7393,7 @@
 5	morning	morning	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0464.test
-# parallel_id = test/464
+# parallel_id = atis/test464
 # text = show flights saturday evening from st. louis to burbank
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -7406,7 +7406,7 @@
 9	burbank	Burbank	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0465.test
-# parallel_id = test/465
+# parallel_id = atis/test465
 # text = what pm flights are available from philadelphia to pittsburgh
 1	what	what	DET	_	PronType=Int,Rel	3	det	_	_
 2	pm	pm	NOUN	_	Number=Sing	3	compound	_	_
@@ -7419,7 +7419,7 @@
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0466.test
-# parallel_id = test/466
+# parallel_id = atis/test466
 # text = what are the flights from milwaukee to orlando on wednesday night
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7434,7 +7434,7 @@
 11	night	night	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0467.test
-# parallel_id = test/467
+# parallel_id = atis/test467
 # text = show me the flights from san francisco to dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7447,7 +7447,7 @@
 9	dallas	Dallas	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0468.test
-# parallel_id = test/468
+# parallel_id = atis/test468
 # text = show flights from san francisco to denver on a thursday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -7461,7 +7461,7 @@
 10	thursday	Thursday	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0469.test
-# parallel_id = test/469
+# parallel_id = atis/test469
 # text = from las vegas to phoenix
 1	from	from	ADP	_	_	2	case	_	_
 2	las	La	PROPN	_	Number=Sing	0	root	_	_
@@ -7470,7 +7470,7 @@
 5	phoenix	Phoenix	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0470.test
-# parallel_id = test/470
+# parallel_id = atis/test470
 # text = show me all flights from san diego to los angeles
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7484,7 +7484,7 @@
 10	angeles	Angeles	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0471.test
-# parallel_id = test/471
+# parallel_id = atis/test471
 # text = show flights from kansas city to minneapolis
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -7495,7 +7495,7 @@
 7	minneapolis	Minneapolis	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0472.test
-# parallel_id = test/472
+# parallel_id = atis/test472
 # text = list flights from las vegas to phoenix
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -7506,7 +7506,7 @@
 7	phoenix	Phoenix	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0473.test
-# parallel_id = test/473
+# parallel_id = atis/test473
 # text = flights from las vegas to montreal
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -7516,7 +7516,7 @@
 6	montreal	Montreal	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0474.test
-# parallel_id = test/474
+# parallel_id = atis/test474
 # text = i am also interested in a flight that runs from st. louis to las vegas
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	am	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7535,7 +7535,7 @@
 15	vegas	Vegas	PROPN	_	Number=Sing	14	flat	_	_
 
 # sent_id = 0475.test
-# parallel_id = test/475
+# parallel_id = atis/test475
 # text = st. petersburg to detroit
 1	st.	St.	PROPN	_	Number=Sing	0	root	_	_
 2	petersburg	Petersburg	PROPN	_	Number=Sing	1	flat	_	_
@@ -7543,7 +7543,7 @@
 4	detroit	Detroit	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0476.test
-# parallel_id = test/476
+# parallel_id = atis/test476
 # text = show me flights from san francisco to minneapolis
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7555,7 +7555,7 @@
 8	minneapolis	Minneapolis	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0477.test
-# parallel_id = test/477
+# parallel_id = atis/test477
 # text = what flights from salt lake city to las vegas
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7568,7 +7568,7 @@
 9	vegas	Vegas	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0478.test
-# parallel_id = test/478
+# parallel_id = atis/test478
 # text = show me all flights from san francisco to pittsburgh
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7581,7 +7581,7 @@
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0479.test
-# parallel_id = test/479
+# parallel_id = atis/test479
 # text = do you have flights from st. petersburg to toronto on monday
 1	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	you	you	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -7596,7 +7596,7 @@
 11	monday	Monday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0480.test
-# parallel_id = test/480
+# parallel_id = atis/test480
 # text = what are all the flights on delta in and out of fort worth
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7613,7 +7613,7 @@
 13	worth	Worth	PROPN	_	Number=Sing	12	flat	_	_
 
 # sent_id = 0481.test
-# parallel_id = test/481
+# parallel_id = atis/test481
 # text = show flights from st. petersburg to charlotte
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -7624,7 +7624,7 @@
 7	charlotte	Charlotte	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0482.test
-# parallel_id = test/482
+# parallel_id = atis/test482
 # text = i'd like flight information from dallas fort worth to boston on tuesday
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -7642,7 +7642,7 @@
 13	tuesday	Tuesday	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0483.test
-# parallel_id = test/483
+# parallel_id = atis/test483
 # text = show me all flights from san francisco to pittsburgh on friday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7657,7 +7657,7 @@
 11	friday	Friday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0484.test
-# parallel_id = test/484
+# parallel_id = atis/test484
 # text = from las vegas to montreal
 1	from	from	ADP	_	_	2	case	_	_
 2	las	La	PROPN	_	Number=Sing	0	root	_	_
@@ -7666,7 +7666,7 @@
 5	montreal	Montreal	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0485.test
-# parallel_id = test/485
+# parallel_id = atis/test485
 # text = sunday flights from new york city to las vegas
 1	sunday	Sunday	NOUN	_	Number=Sing	2	compound	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -7679,7 +7679,7 @@
 9	vegas	Vegas	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0486.test
-# parallel_id = test/486
+# parallel_id = atis/test486
 # text = please find a flight from kansas city to newark
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	find	find	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7692,7 +7692,7 @@
 9	newark	Newark	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0487.test
-# parallel_id = test/487
+# parallel_id = atis/test487
 # text = i want to go from san francisco to denver
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7705,7 +7705,7 @@
 9	denver	Denver	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0488.test
-# parallel_id = test/488
+# parallel_id = atis/test488
 # text = list all flights on continental leaving denver on monday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -7718,7 +7718,7 @@
 9	monday	Monday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0489.test
-# parallel_id = test/489
+# parallel_id = atis/test489
 # text = only show continental flights
 1	only	only	ADV	_	Degree=Pos	2	advmod	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7726,7 +7726,7 @@
 4	flights	flight	NOUN	_	Number=Plur	2	obj	_	_
 
 # sent_id = 0490.test
-# parallel_id = test/490
+# parallel_id = atis/test490
 # text = find a flight on delta from philadelphia to san francisco
 1	find	find	VERB	_	VerbForm=Inf	0	root	_	_
 2	a	a	DET	_	PronType=Art	3	det	_	_
@@ -7740,7 +7740,7 @@
 10	francisco	Francisco	PROPN	_	Number=Sing	9	flat	_	_
 
 # sent_id = 0491.test
-# parallel_id = test/491
+# parallel_id = atis/test491
 # text = all delta flights to everywhere if you can
 1	all	all	DET	_	PronType=Art	3	det	_	_
 2	delta	Delta	PROPN	_	Number=Sing	3	compound	_	_
@@ -7752,7 +7752,7 @@
 8	can	can	AUX	_	_	7	aux	_	_
 
 # sent_id = 0492.test
-# parallel_id = test/492
+# parallel_id = atis/test492
 # text = show me all the flights from toronto on nationair
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7765,7 +7765,7 @@
 9	nationair	Nationair	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0493.test
-# parallel_id = test/493
+# parallel_id = atis/test493
 # text = show me all the united flights from boston to denver
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7779,7 +7779,7 @@
 10	denver	Denver	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0494.test
-# parallel_id = test/494
+# parallel_id = atis/test494
 # text = show me all the flights on united leaving from boston
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7793,7 +7793,7 @@
 10	boston	Boston	PROPN	_	Number=Sing	8	obl	_	_
 
 # sent_id = 0495.test
-# parallel_id = test/495
+# parallel_id = atis/test495
 # text = when are the american flights from phoenix to milwaukee
 1	when	when	ADV	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7806,7 +7806,7 @@
 9	milwaukee	Milwaukee	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0496.test
-# parallel_id = test/496
+# parallel_id = atis/test496
 # text = please list all united flights between pittsburgh and baltimore
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7819,7 +7819,7 @@
 9	baltimore	Baltimore	PROPN	_	Number=Sing	7	conj	_	_
 
 # sent_id = 0497.test
-# parallel_id = test/497
+# parallel_id = atis/test497
 # text = please list all flights between boston and philadelphia operating on sundays
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	list	list	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7834,7 +7834,7 @@
 11	sundays	sunday	PROPN	_	Number=Plur	9	obl:unmarked	_	_
 
 # sent_id = 0498.test
-# parallel_id = test/498
+# parallel_id = atis/test498
 # text = list all flights from baltimore to san francisco on friday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -7848,7 +7848,7 @@
 10	friday	Friday	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0499.test
-# parallel_id = test/499
+# parallel_id = atis/test499
 # text = show me flights from philadelphia to denver on a monday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7862,7 +7862,7 @@
 10	monday	Monday	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0500.test
-# parallel_id = test/500
+# parallel_id = atis/test500
 # text = show me the flights from denver to atlanta on friday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7876,7 +7876,7 @@
 10	friday	Friday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0501.test
-# parallel_id = test/501
+# parallel_id = atis/test501
 # text = flights that go from oakland to philadelphia on friday
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	that	that	ADP	_	_	3	mark	_	_
@@ -7889,7 +7889,7 @@
 9	friday	Friday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0502.test
-# parallel_id = test/502
+# parallel_id = atis/test502
 # text = baltimore to philadelphia wednesday
 1	baltimore	Baltimore	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
@@ -7897,7 +7897,7 @@
 4	wednesday	Wednesday	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 
 # sent_id = 0503.test
-# parallel_id = test/503
+# parallel_id = atis/test503
 # text = i'd like a flight from montreal to san diego for sunday
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -7914,7 +7914,7 @@
 12	sunday	Sunday	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 
 # sent_id = 0504.test
-# parallel_id = test/504
+# parallel_id = atis/test504
 # text = what flights are available friday from philadelphia to oakland
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -7927,7 +7927,7 @@
 9	oakland	Oakland	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0505.test
-# parallel_id = test/505
+# parallel_id = atis/test505
 # text = i would like to see the flights available from pittsburgh to san francisco for monday
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -7946,7 +7946,7 @@
 15	monday	Monday	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0506.test
-# parallel_id = test/506
+# parallel_id = atis/test506
 # text = show me the flights on sunday from tampa to charlotte
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -7960,7 +7960,7 @@
 10	charlotte	Charlotte	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0507.test
-# parallel_id = test/507
+# parallel_id = atis/test507
 # text = what are all flights from denver to philadelphia on saturday
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -7974,7 +7974,7 @@
 10	saturday	Saturday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0508.test
-# parallel_id = test/508
+# parallel_id = atis/test508
 # text = what flights are available from denver to philadelphia on wednesday
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -7988,7 +7988,7 @@
 10	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0509.test
-# parallel_id = test/509
+# parallel_id = atis/test509
 # text = i want to go from boston to washington on a saturday
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8003,7 +8003,7 @@
 11	saturday	Saturday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0510.test
-# parallel_id = test/510
+# parallel_id = atis/test510
 # text = show flights from burbank to st. louis on monday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8016,7 +8016,7 @@
 9	monday	Monday	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 
 # sent_id = 0511.test
-# parallel_id = test/511
+# parallel_id = atis/test511
 # text = please show me flights from dallas to atlanta on monday
 1	please	please	INTJ	_	_	2	discourse	_	_
 2	show	show	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8030,7 +8030,7 @@
 10	monday	Monday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0512.test
-# parallel_id = test/512
+# parallel_id = atis/test512
 # text = show me the flights from pittsburgh to los angeles on thursday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8045,7 +8045,7 @@
 11	thursday	Thursday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0513.test
-# parallel_id = test/513
+# parallel_id = atis/test513
 # text = i'd like a list of the flights from oakland to dallas fort worth on sunday
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8066,7 +8066,7 @@
 16	sunday	Sunday	NOUN	_	Number=Sing	8	nmod:tmod	_	_
 
 # sent_id = 0514.test
-# parallel_id = test/514
+# parallel_id = atis/test514
 # text = show me the flights from boston to pittsburgh on wednesday
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8080,7 +8080,7 @@
 10	wednesday	Wednesday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0515.test
-# parallel_id = test/515
+# parallel_id = atis/test515
 # text = list all flights from nashville to cleveland on sunday
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -8093,7 +8093,7 @@
 9	sunday	Sunday	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 
 # sent_id = 0516.test
-# parallel_id = test/516
+# parallel_id = atis/test516
 # text = give me a flight from tampa to charlotte on sunday
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8107,7 +8107,7 @@
 10	sunday	Sunday	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 
 # sent_id = 0517.test
-# parallel_id = test/517
+# parallel_id = atis/test517
 # text = show flights from denver to san francisco
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8118,7 +8118,7 @@
 7	francisco	Francisco	PROPN	_	Number=Sing	6	flat	_	_
 
 # sent_id = 0518.test
-# parallel_id = test/518
+# parallel_id = atis/test518
 # text = what are all the flights available between pittsburgh and dallas fort worth
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8134,7 +8134,7 @@
 12	worth	Worth	PROPN	_	Number=Sing	11	flat	_	_
 
 # sent_id = 0519.test
-# parallel_id = test/519
+# parallel_id = atis/test519
 # text = what flights from seattle to salt lake city
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -8146,7 +8146,7 @@
 8	city	City	PROPN	_	Number=Sing	6	flat	_	_
 
 # sent_id = 0520.test
-# parallel_id = test/520
+# parallel_id = atis/test520
 # text = what are the flights from memphis to las vegas
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8159,7 +8159,7 @@
 9	vegas	Vegas	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0521.test
-# parallel_id = test/521
+# parallel_id = atis/test521
 # text = what flights are there from pittsburgh to los angeles
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8172,7 +8172,7 @@
 9	angeles	Angeles	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0522.test
-# parallel_id = test/522
+# parallel_id = atis/test522
 # text = i'm looking for a flight from pittsburgh to san francisco
 1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8188,7 +8188,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0523.test
-# parallel_id = test/523
+# parallel_id = atis/test523
 # text = show me the flights from dallas to san francisco
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8201,7 +8201,7 @@
 9	francisco	Francisco	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0524.test
-# parallel_id = test/524
+# parallel_id = atis/test524
 # text = what are the flights from boston to san francisco
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8214,7 +8214,7 @@
 9	francisco	Francisco	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0525.test
-# parallel_id = test/525
+# parallel_id = atis/test525
 # text = what flights do you have leaving boston going to san francisco
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	5	obj	_	_
@@ -8229,7 +8229,7 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0526.test
-# parallel_id = test/526
+# parallel_id = atis/test526
 # text = list all flights please from washington to san francisco
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -8242,7 +8242,7 @@
 9	francisco	Francisco	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0527.test
-# parallel_id = test/527
+# parallel_id = atis/test527
 # text = list flights between oakland and san francisco
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8253,7 +8253,7 @@
 7	francisco	Francisco	PROPN	_	Number=Sing	6	flat	_	_
 
 # sent_id = 0528.test
-# parallel_id = test/528
+# parallel_id = atis/test528
 # text = interested in a flight from washington to fort worth
 1	interested	interest	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 2	in	in	ADP	_	_	4	case	_	_
@@ -8266,7 +8266,7 @@
 9	worth	Worth	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0529.test
-# parallel_id = test/529
+# parallel_id = atis/test529
 # text = what flights are currently available between boston and dallas fort worth
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	5	nsubj	_	_
@@ -8281,7 +8281,7 @@
 11	worth	Worth	PROPN	_	Number=Sing	10	flat	_	_
 
 # sent_id = 0530.test
-# parallel_id = test/530
+# parallel_id = atis/test530
 # text = what about flights from boston to san diego
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	about	about	ADP	_	_	3	case	_	_
@@ -8293,7 +8293,7 @@
 8	diego	Diego	PROPN	_	Number=Sing	7	flat	_	_
 
 # sent_id = 0531.test
-# parallel_id = test/531
+# parallel_id = atis/test531
 # text = flights from baltimore to san francisco
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -8303,7 +8303,7 @@
 6	francisco	Francisco	PROPN	_	Number=Sing	5	flat	_	_
 
 # sent_id = 0532.test
-# parallel_id = test/532
+# parallel_id = atis/test532
 # text = i live in washington and i would like to make a trip to san francisco can you tell me which airlines connect with those two cities
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	live	live	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8333,7 +8333,7 @@
 26	cities	city	NOUN	_	Number=Plur	22	obj	_	_
 
 # sent_id = 0533.test
-# parallel_id = test/533
+# parallel_id = atis/test533
 # text = show me the flights from detroit to las vegas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8346,7 +8346,7 @@
 9	vegas	Vegas	PROPN	_	Number=Sing	8	flat	_	_
 
 # sent_id = 0534.test
-# parallel_id = test/534
+# parallel_id = atis/test534
 # text = what flights go from denver to atlanta
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8357,7 +8357,7 @@
 7	atlanta	Atlanta	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0535.test
-# parallel_id = test/535
+# parallel_id = atis/test535
 # text = show me the flights from montreal to philly
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8369,7 +8369,7 @@
 8	philly	Philly	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0536.test
-# parallel_id = test/536
+# parallel_id = atis/test536
 # text = flight from denver to philadelphia
 1	flight	flight	NOUN	_	Number=Sing	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -8378,7 +8378,7 @@
 5	philadelphia	Philadelphia	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0537.test
-# parallel_id = test/537
+# parallel_id = atis/test537
 # text = give me the flights from baltimore to pittsburgh
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8390,7 +8390,7 @@
 8	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0538.test
-# parallel_id = test/538
+# parallel_id = atis/test538
 # text = i would like to fly from boston to baltimore
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -8403,7 +8403,7 @@
 9	baltimore	Baltimore	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0539.test
-# parallel_id = test/539
+# parallel_id = atis/test539
 # text = tell me the flights that leave philadelphia and go to dallas
 1	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8418,7 +8418,7 @@
 11	dallas	Dallas	PROPN	_	Number=Sing	9	obl	_	_
 
 # sent_id = 0540.test
-# parallel_id = test/540
+# parallel_id = atis/test540
 # text = flight information from oakland to denver
 1	flight	flight	NOUN	_	Number=Sing	2	compound	_	_
 2	information	information	NOUN	_	Number=Sing	0	root	_	_
@@ -8428,7 +8428,7 @@
 6	denver	Denver	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0541.test
-# parallel_id = test/541
+# parallel_id = atis/test541
 # text = the flight will originate from boston
 1	the	the	DET	_	PronType=Art	2	det	_	_
 2	flight	flight	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -8438,7 +8438,7 @@
 6	boston	Boston	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0542.test
-# parallel_id = test/542
+# parallel_id = atis/test542
 # text = what are the flights from pittsburgh to oakland
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8450,7 +8450,7 @@
 8	oakland	Oakland	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0543.test
-# parallel_id = test/543
+# parallel_id = atis/test543
 # text = what flights are there from baltimore to newark
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8462,7 +8462,7 @@
 8	newark	Newark	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0544.test
-# parallel_id = test/544
+# parallel_id = atis/test544
 # text = flights from columbus to milwaukee
 1	flights	flight	NOUN	_	Number=Plur	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -8471,7 +8471,7 @@
 5	milwaukee	Milwaukee	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0545.test
-# parallel_id = test/545
+# parallel_id = atis/test545
 # text = i'd like information on boston to washington
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8484,7 +8484,7 @@
 8	washington	Washington	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0546.test
-# parallel_id = test/546
+# parallel_id = atis/test546
 # text = list flights from houston to phoenix
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8494,7 +8494,7 @@
 6	phoenix	Phoenix	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0547.test
-# parallel_id = test/547
+# parallel_id = atis/test547
 # text = information of a flight from atlanta to pittsburgh
 1	information	information	NOUN	_	Number=Sing	0	root	_	_
 2	of	of	ADP	_	_	4	case	_	_
@@ -8506,7 +8506,7 @@
 8	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0548.test
-# parallel_id = test/548
+# parallel_id = atis/test548
 # text = i need to go to pittsburgh and denver
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8518,7 +8518,7 @@
 8	denver	Denver	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0549.test
-# parallel_id = test/549
+# parallel_id = atis/test549
 # text = what flights from philadelphia to atlanta
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	0	root	_	_
@@ -8528,7 +8528,7 @@
 6	atlanta	Atlanta	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0550.test
-# parallel_id = test/550
+# parallel_id = atis/test550
 # text = flight from milwaukee to denver
 1	flight	flight	NOUN	_	Number=Sing	0	root	_	_
 2	from	from	ADP	_	_	3	case	_	_
@@ -8537,7 +8537,7 @@
 5	denver	Denver	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0551.test
-# parallel_id = test/551
+# parallel_id = atis/test551
 # text = tell me the flights from baltimore to dallas
 1	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8549,7 +8549,7 @@
 8	dallas	Dallas	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0552.test
-# parallel_id = test/552
+# parallel_id = atis/test552
 # text = i'd like to book a flight from atlanta to denver
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8565,7 +8565,7 @@
 11	denver	Denver	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0553.test
-# parallel_id = test/553
+# parallel_id = atis/test553
 # text = now get me from pittsburgh to denver
 1	now	now	ADV	_	Degree=Pos	2	advmod	_	_
 2	get	get	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8576,7 +8576,7 @@
 7	denver	Denver	PROPN	_	Number=Sing	2	obl	_	_
 
 # sent_id = 0554.test
-# parallel_id = test/554
+# parallel_id = atis/test554
 # text = what flights are there from boston to dallas
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8588,7 +8588,7 @@
 8	dallas	Dallas	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0555.test
-# parallel_id = test/555
+# parallel_id = atis/test555
 # text = show me flights from pittsburgh to philadelphia
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8599,7 +8599,7 @@
 7	philadelphia	Philadelphia	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0556.test
-# parallel_id = test/556
+# parallel_id = atis/test556
 # text = show flights from philadelphia to boston
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8609,7 +8609,7 @@
 6	boston	Boston	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0557.test
-# parallel_id = test/557
+# parallel_id = atis/test557
 # text = i'd like to see flights from pittsburgh to philadelphia
 1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8624,7 +8624,7 @@
 10	philadelphia	Philadelphia	PROPN	_	Number=Sing	6	nmod	_	_
 
 # sent_id = 0558.test
-# parallel_id = test/558
+# parallel_id = atis/test558
 # text = give me flights from pittsburgh to baltimore
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8635,7 +8635,7 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0559.test
-# parallel_id = test/559
+# parallel_id = atis/test559
 # text = i need to go from philadelphia to dallas
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8647,7 +8647,7 @@
 8	dallas	Dallas	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0560.test
-# parallel_id = test/560
+# parallel_id = atis/test560
 # text = show flights from pittsburgh to oakland
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8657,7 +8657,7 @@
 6	oakland	Oakland	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0561.test
-# parallel_id = test/561
+# parallel_id = atis/test561
 # text = what are the flights from chicago to indianapolis
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8669,7 +8669,7 @@
 8	indianapolis	Indianapolis	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0562.test
-# parallel_id = test/562
+# parallel_id = atis/test562
 # text = get flights from toronto to milwaukee
 1	get	get	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8679,7 +8679,7 @@
 6	milwaukee	Milwaukee	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0563.test
-# parallel_id = test/563
+# parallel_id = atis/test563
 # text = what are the different classes that an airline offers
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8692,7 +8692,7 @@
 9	offers	offer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 
 # sent_id = 0564.test
-# parallel_id = test/564
+# parallel_id = atis/test564
 # text = show flights between boston and denver
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8702,7 +8702,7 @@
 6	denver	Denver	PROPN	_	Number=Sing	4	conj	_	_
 
 # sent_id = 0565.test
-# parallel_id = test/565
+# parallel_id = atis/test565
 # text = show flights from dallas to oakland
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
@@ -8712,7 +8712,7 @@
 6	oakland	Oakland	PROPN	_	Number=Sing	2	nmod	_	_
 
 # sent_id = 0566.test
-# parallel_id = test/566
+# parallel_id = atis/test566
 # text = show me flights from baltimore to dallas
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8723,7 +8723,7 @@
 7	dallas	Dallas	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0567.test
-# parallel_id = test/567
+# parallel_id = atis/test567
 # text = give me all the flights from memphis to charlotte
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8736,7 +8736,7 @@
 9	charlotte	Charlotte	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0568.test
-# parallel_id = test/568
+# parallel_id = atis/test568
 # text = i would like to see the flights from baltimore to philadelphia please
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -8752,7 +8752,7 @@
 12	please	please	INTJ	_	_	3	discourse	_	_
 
 # sent_id = 0569.test
-# parallel_id = test/569
+# parallel_id = atis/test569
 # text = what flights are there from indianapolis to orlando
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8764,7 +8764,7 @@
 8	orlando	Orlando	PROPN	_	Number=Sing	3	obl	_	_
 
 # sent_id = 0570.test
-# parallel_id = test/570
+# parallel_id = atis/test570
 # text = no i want to go from denver to oakland
 1	no	no	DET	_	PronType=Art	3	det	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8777,7 +8777,7 @@
 9	oakland	Oakland	PROPN	_	Number=Sing	5	obl	_	_
 
 # sent_id = 0571.test
-# parallel_id = test/571
+# parallel_id = atis/test571
 # text = show me flights from milwaukee to orlando
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8788,7 +8788,7 @@
 7	orlando	Orlando	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0572.test
-# parallel_id = test/572
+# parallel_id = atis/test572
 # text = give me a list of flights between denver and oakland
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8802,7 +8802,7 @@
 10	oakland	Oakland	PROPN	_	Number=Sing	8	conj	_	_
 
 # sent_id = 0573.test
-# parallel_id = test/573
+# parallel_id = atis/test573
 # text = show me all the flights from charlotte to cleveland
 1	show	show	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8815,7 +8815,7 @@
 9	cleveland	Cleveland	PROPN	_	Number=Sing	5	nmod	_	_
 
 # sent_id = 0574.test
-# parallel_id = test/574
+# parallel_id = atis/test574
 # text = give me flights from denver to baltimore
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8826,7 +8826,7 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0575.test
-# parallel_id = test/575
+# parallel_id = atis/test575
 # text = tell me about flights from indianapolis to houston
 1	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8838,14 +8838,14 @@
 8	houston	Houston	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0576.test
-# parallel_id = test/576
+# parallel_id = atis/test576
 # text = oakland to philadelphia
 1	oakland	Oakland	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
 3	philadelphia	Philadelphia	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0577.test
-# parallel_id = test/577
+# parallel_id = atis/test577
 # text = what are your flights from denver to baltimore
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8857,7 +8857,7 @@
 8	baltimore	Baltimore	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0578.test
-# parallel_id = test/578
+# parallel_id = atis/test578
 # text = list all flights from baltimore to philadelphia
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	all	all	DET	_	PronType=Art	3	det	_	_
@@ -8868,7 +8868,7 @@
 7	philadelphia	Philadelphia	PROPN	_	Number=Sing	3	nmod	_	_
 
 # sent_id = 0579.test
-# parallel_id = test/579
+# parallel_id = atis/test579
 # text = what flights are available from boston to dallas
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -8880,7 +8880,7 @@
 8	dallas	Dallas	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0580.test
-# parallel_id = test/580
+# parallel_id = atis/test580
 # text = i would like to see all flights from denver to philadelphia
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
@@ -8895,14 +8895,14 @@
 11	philadelphia	Philadelphia	PROPN	_	Number=Sing	7	nmod	_	_
 
 # sent_id = 0581.test
-# parallel_id = test/581
+# parallel_id = atis/test581
 # text = atlanta to pittsburgh
 1	atlanta	Atlanta	PROPN	_	Number=Sing	0	root	_	_
 2	to	to	ADP	_	_	3	case	_	_
 3	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	1	nmod	_	_
 
 # sent_id = 0582.test
-# parallel_id = test/582
+# parallel_id = atis/test582
 # text = give me a flight from baltimore to newark that arrives as early as possible
 1	give	give	VERB	_	VerbForm=Inf	0	root	_	_
 2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
@@ -8920,7 +8920,7 @@
 14	possible	possible	ADJ	_	Degree=Pos	12	advmod	_	_
 
 # sent_id = 0583.test
-# parallel_id = test/583
+# parallel_id = atis/test583
 # text = what flights are there between atlanta and denver
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
 2	flights	flight	NOUN	_	Number=Plur	3	nsubj	_	_
@@ -8932,7 +8932,7 @@
 8	denver	Denver	PROPN	_	Number=Sing	6	conj	_	_
 
 # sent_id = 0584.test
-# parallel_id = test/584
+# parallel_id = atis/test584
 # text = i need a flight from phoenix to atlanta
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8944,7 +8944,7 @@
 8	atlanta	Atlanta	PROPN	_	Number=Sing	4	nmod	_	_
 
 # sent_id = 0585.test
-# parallel_id = test/585
+# parallel_id = atis/test585
 # text = i want to fly from atlanta to philadelphia
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8956,7 +8956,7 @@
 8	philadelphia	Philadelphia	PROPN	_	Number=Sing	4	obl	_	_
 
 # sent_id = 0586.test
-# parallel_id = test/586
+# parallel_id = atis/test586
 # text = also give me a list of flights between oakland and boston
 1	also	also	ADV	_	Degree=Pos	2	advmod	_	_
 2	give	give	VERB	_	VerbForm=Inf	0	root	_	_
