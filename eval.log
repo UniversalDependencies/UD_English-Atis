@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-Atis:
-commit 44788acba3186b7399ed498b4e78a4855a440cef
-Merge: 415da8e 992bd2b
+commit 9c3e2b638db0a1e14459769cdd233dc6c43844dd
+Merge: d1b43fe dce409d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_atis'
@@ -23,45 +23,36 @@ Features: 45603 out of 61879 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Genres: found 2 out of 18 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-Atis/en_atis-ud-dev.conllu
-[Line 843 Sent 0050.dev]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'flights') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 845 Sent 0050.dev]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'flights') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 848 Sent 0050.dev]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'flights') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1366 Sent 0083.dev]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'stop') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1736 Sent 0103.dev]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'flight') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 7939 Sent 0493.dev]: [L3 Warning fixed-without-extpos] Fixed expression 'all right' does not have the 'ExtPos' feature
-[Line 8151 Sent 0510.dev]: [L3 Warning fixed-without-extpos] Fixed expression 'all right' does not have the 'ExtPos' feature
-Warnings: 7
+[Line 7979 Sent 0493.dev]: [L3 WARNING fixed-without-extpos] Fixed expression 'all right' does not have the 'ExtPos' feature
+[Line 8191 Sent 0510.dev]: [L3 WARNING fixed-without-extpos] Fixed expression 'all right' does not have the 'ExtPos' feature
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-Atis/en_atis-ud-test.conllu
-[Line 155 Sent 0009.test]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'layover') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 793 Sent 0047.test]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'afternoon') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 931 Sent 0054.test]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'morning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-Atis/en_atis-ud-train.conllu
-[Line 229 Sent 0012.train]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'schedule') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1432 Sent 0084.train]: [L3 Warning fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
-[Line 1497 Sent 0086.train]: [L3 Warning fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
-[Line 1589 Sent 0088.train]: [L3 Warning fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
-[Line 1779 Sent 0098.train]: [L3 Warning fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
-[Line 1883 Sent 0103.train]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'flights') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3759 Sent 0229.train]: [L3 Warning fixed-without-extpos] Fixed expression 'from which' does not have the 'ExtPos' feature
-[Line 4449 Sent 0270.train]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'fare') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4520 Sent 0274.train]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'schedules') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4522 Sent 0274.train]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'schedules') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-Warnings: 76
+[Line 1435 Sent 0084.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
+[Line 1500 Sent 0086.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
+[Line 1592 Sent 0088.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'so that' does not have the 'ExtPos' feature
+[Line 1785 Sent 0098.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
+[Line 2141 Sent 0121.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'at least' does not have the 'ExtPos' feature
+[Line 3771 Sent 0229.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'from which' does not have the 'ExtPos' feature
+[Line 4689 Sent 0284.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'all right' does not have the 'ExtPos' feature
+[Line 5293 Sent 0321.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'stand for' does not have the 'ExtPos' feature
+[Line 5346 Sent 0327.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'stand for' does not have the 'ExtPos' feature
+[Line 6207 Sent 0391.train]: [L3 WARNING fixed-without-extpos] Fixed expression 'instead of' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 20
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
-(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
 (weight=0.37037037037037) * (score{size}=0.59718109554568) = 0.221178183535437
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
 (weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
-(TOTAL score=0.64630841180292) * (availability=1) * (validity=1) = 0.64630841180292
+(TOTAL score=0.640135572296747) * (availability=1) * (validity=1) = 0.640135572296747
 STARS = 3
-UD_English-Atis	0.64630841180292	3
+UD_English-Atis	0.640135572296747	3
