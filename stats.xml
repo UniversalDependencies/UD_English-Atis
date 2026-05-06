@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>5432</sentences><tokens>61879</tokens><words>61879</words><fused>0</fused></total>
-    <train><sentences>4274</sentences><tokens>48655</tokens><words>48655</words><fused>0</fused></train>
-    <dev><sentences>572</sentences><tokens>6644</tokens><words>6644</words><fused>0</fused></dev>
-    <test><sentences>586</sentences><tokens>6580</tokens><words>6580</words><fused>0</fused></test>
+    <total><sentences>5432</sentences><tokens>61473</tokens><words>61879</words><fused>406</fused></total>
+    <train><sentences>4274</sentences><tokens>48346</tokens><words>48655</words><fused>309</fused></train>
+    <dev><sentences>572</sentences><tokens>6595</tokens><words>6644</words><fused>49</fused></dev>
+    <test><sentences>586</sentences><tokens>6532</tokens><words>6580</words><fused>48</fused></test>
   </size>
-  <lemmas unique="779" /><!-- to, from, flight, I, the, on, be, what, a, San, Boston, show, Denver, in, and -->
+  <lemmas unique="780" /><!-- to, from, flight, I, the, on, what, be, a, San, Boston, show, Denver, in, and -->
   <forms unique="932" /><!-- to, from, flights, the, on, what, flight, me, i, san, boston, show, a, denver, in -->
-  <fusions unique="0" /><!--  -->
+  <fusions unique="18" /><!-- i'd, what's, i'm, i'll, let's, what're, york's, delta's, we're, american's, atlanta's, sunday's, friday's, i've, it's -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
     <tag name="ADJ">2079</tag><!-- one, cheap, early, available, next, seven, late, like, many, expensive -->
@@ -24,7 +24,7 @@
     <tag name="INTJ">390</tag><!-- please, okay, hi, yes, hello, oh, sure, thank -->
     <tag name="NOUN">10930</tag><!-- flight, fare, morning, pm, wednesday, trip, ground, class, round, transportation -->
     <tag name="NUM">1191</tag><!-- one, twenty, 5, 6, 10, 8, 7, 12, 4, 9 -->
-    <tag name="PART">495</tag><!-- to, be -->
+    <tag name="PART">495</tag><!-- to, 's -->
     <tag name="PRON">3828</tag><!-- I, what, there, you, which, it, that, be, one, they -->
     <tag name="PROPN">14775</tag><!-- San, Boston, Denver, Francisco, Atlanta, Pittsburgh, Dallas, Baltimore, Philadelphia, Washington -->
     <tag name="SYM">2</tag><!-- b, c -->
@@ -61,13 +61,13 @@
   <deps unique="41">
     <dep name="acl">43</dep>
     <dep name="acl:relcl">1177</dep>
-    <dep name="advcl">55</dep>
-    <dep name="advmod">507</dep>
-    <dep name="amod">1783</dep>
+    <dep name="advcl">56</dep>
+    <dep name="advmod">508</dep>
+    <dep name="amod">1787</dep>
     <dep name="appos">277</dep>
     <dep name="aux">1199</dep>
     <dep name="aux:pass">10</dep>
-    <dep name="case">13132</dep>
+    <dep name="case">13131</dep>
     <dep name="cc">952</dep>
     <dep name="cc:preconj">11</dep>
     <dep name="ccomp">49</dep>
@@ -77,25 +77,25 @@
     <dep name="cop">1007</dep>
     <dep name="csubj">2</dep>
     <dep name="dep">5</dep>
-    <dep name="det">4737</dep>
+    <dep name="det">4738</dep>
     <dep name="det:predet">72</dep>
     <dep name="discourse">419</dep>
     <dep name="dislocated">69</dep>
     <dep name="expl">239</dep>
-    <dep name="fixed">25</dep>
-    <dep name="flat">3152</dep>
+    <dep name="fixed">26</dep>
+    <dep name="flat">3153</dep>
     <dep name="iobj">1241</dep>
     <dep name="list">103</dep>
     <dep name="mark">802</dep>
-    <dep name="nmod">8573</dep>
+    <dep name="nmod">8635</dep>
     <dep name="nmod:poss">43</dep>
-    <dep name="nmod:tmod">1265</dep>
+    <dep name="nmod:tmod">1263</dep>
     <dep name="nsubj">3322</dep>
     <dep name="nsubj:outer">2</dep>
     <dep name="nummod">843</dep>
     <dep name="obj">3274</dep>
-    <dep name="obl">3131</dep>
-    <dep name="obl:tmod">868</dep>
+    <dep name="obl">3080</dep>
+    <dep name="obl:unmarked">851</dep>
     <dep name="parataxis">110</dep>
     <dep name="reparandum">18</dep>
     <dep name="root">5432</dep>
