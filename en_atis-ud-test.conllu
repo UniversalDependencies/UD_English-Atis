@@ -11,11 +11,11 @@
 8	and	and	CCONJ	_	_	9	cc	_	_
 9	baltimore	Baltimore	PROPN	_	Number=Sing	7	conj	_	_
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
-11	august	August	NOUN	_	Number=Sing	10	obl:tmod	_	_
+11	august	August	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 12	tenth	ten	ADJ	_	Degree=Pos|NumType=Ord	11	amod	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	returning	return	VERB	_	Tense=Pres|VerbForm=Part	10	conj	_	_
-15	august	August	NOUN	_	Number=Sing	14	obl:tmod	_	_
+15	august	August	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 16	twelve	twelve	NUM	_	NumType=Card	15	nummod	_	_
 
 # sent_id = 0002.test
@@ -35,7 +35,7 @@
 12	later	late	ADJ	_	Degree=Pos	10	advmod	_	_
 13	than	than	ADP	_	_	15	case	_	_
 14	3	3	NUM	_	NumType=Card	15	nummod	_	_
-15	pm	pm	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0003.test
 # parallel_id = atis/test3
@@ -51,12 +51,12 @@
 9	chicago	Chicago	PROPN	_	Number=Sing	5	obl	_	_
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 11	next	next	ADJ	_	Degree=Pos	12	amod	_	_
-12	wednesday	Wednesday	NOUN	_	Number=Sing	10	obl:tmod	_	_
+12	wednesday	Wednesday	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	returning	return	VERB	_	Tense=Pres|VerbForm=Part	10	conj	_	_
 15	the	the	DET	_	PronType=Art	17	det	_	_
 16	following	follow	VERB	_	Tense=Pres|VerbForm=Part	17	acl:relcl	_	_
-17	day	day	NOUN	_	Number=Sing	14	obl:tmod	_	_
+17	day	day	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0004.test
 # parallel_id = atis/test4
@@ -82,7 +82,7 @@
 10	which	which	PRON	_	PronType=Int,Rel	11	nsubj	_	_
 11	leave	leave	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
 12	the	the	DET	_	PronType=Art	13	det	_	_
-13	day	day	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	day	day	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 14	after	after	ADP	_	_	15	case	_	_
 15	tomorrow	tomorrow	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 16	after	after	ADP	_	_	18	case	_	_
@@ -105,7 +105,7 @@
 10	montreal	Montreal	PROPN	_	Number=Sing	9	obl	_	_
 11	early	early	ADJ	_	Degree=Pos	13	amod	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	friday	Friday	NOUN	_	Number=Sing	9	obl:tmod	_	_
+13	friday	Friday	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0007.test
 # parallel_id = atis/test7
@@ -122,7 +122,7 @@
 10	canada	Canada	PROPN	_	Number=Sing	9	appos	_	_
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	thursday	Thursday	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	thursday	Thursday	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0008.test
 # parallel_id = atis/test8
@@ -152,7 +152,7 @@
 10	a	a	DET	_	PronType=Art	11	det	_	_
 11	layover	layover	NOUN	_	Number=Sing	3	nmod	_	_
 12	in	in	ADP	_	_	13	case	_	_
-13	dc	DC	PROPN	_	Number=Sing	11	obl	_	_
+13	dc	DC	PROPN	_	Number=Sing	11	nmod	_	_
 14	on	on	ADP	_	_	15	case	_	_
 15	delta	Delta	PROPN	_	Number=Sing	11	nmod	_	_
 16	airlines	airline	PROPN	_	Number=Plur	15	flat	_	_
@@ -202,7 +202,7 @@
 # parallel_id = atis/test13
 # text = what times does the late afternoon flight leave from washington for denver
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
-2	times	time	NOUN	_	Number=Plur	8	obl:tmod	_	_
+2	times	time	NOUN	_	Number=Plur	8	obl:unmarked	_	_
 3	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 4	the	the	DET	_	PronType=Art	7	det	_	_
 5	late	late	ADJ	_	Degree=Pos	7	amod	_	_
@@ -247,7 +247,7 @@
 16	842	842	NUM	_	NumType=Card	14	nummod	_	_
 17	in	in	ADP	_	_	19	case	_	_
 18	the	the	DET	_	PronType=Art	19	det	_	_
-19	morning	morning	NOUN	_	Number=Sing	14	obl:tmod	_	_
+19	morning	morning	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0016.test
 # parallel_id = atis/test16
@@ -263,7 +263,7 @@
 9	oakland	Oakland	PROPN	_	Number=Sing	7	obl	_	_
 10	between	between	ADP	_	_	12	case	_	_
 11	1133	1133	NUM	_	NumType=Card	12	nummod	_	_
-12	am	am	NOUN	_	Number=Sing	7	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 13	and	and	CCONJ	_	_	15	cc	_	_
 14	43	43	NUM	_	NumType=Card	15	nummod	_	_
 15	pm	pm	NOUN	_	Number=Sing	12	conj	_	_
@@ -303,7 +303,7 @@
 
 # sent_id = 0019.test
 # parallel_id = atis/test19
-# text = in economy class from dallas to baltimore arriving july seventh i 'd like to know what 's the cheapest ticket possible
+# text = in economy class from dallas to baltimore arriving july seventh i'd like to know what's the cheapest ticket possible
 1	in	in	ADP	_	_	3	case	_	_
 2	economy	economy	NOUN	_	Number=Sing	3	compound	_	_
 3	class	class	NOUN	_	Number=Sing	13	obl	_	_
@@ -312,13 +312,15 @@
 6	to	to	ADP	_	_	7	case	_	_
 7	baltimore	Baltimore	PROPN	_	Number=Sing	3	nmod	_	_
 8	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
-9	july	July	NOUN	_	Number=Sing	8	obl:tmod	_	_
+9	july	July	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 10	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	9	amod	_	_
+11-12	i'd	_	_	_	_	_	_	_	_
 11	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	'd	would	AUX	_	_	13	aux	_	_
 13	like	like	VERB	_	VerbForm=Inf	0	root	_	_
 14	to	to	PART	_	_	15	mark	_	_
 15	know	know	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16-17	what's	_	_	_	_	_	_	_	_
 16	what	what	PRON	_	PronType=Int,Rel	15	ccomp	_	_
 17	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 18	the	the	DET	_	PronType=Art	20	det	_	_
@@ -363,7 +365,7 @@
 13	francisco	Francisco	PROPN	_	Number=Sing	12	flat	_	_
 14	at	at	ADP	_	_	16	case	_	_
 15	950	950	NUM	_	NumType=Card	16	nummod	_	_
-16	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0022.test
 # parallel_id = atis/test22
@@ -378,16 +380,16 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	chicago	Chicago	PROPN	_	Number=Sing	4	obl	_	_
 10	next	next	ADJ	_	Degree=Pos	11	amod	_	_
-11	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+11	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 12	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	the	the	DET	_	PronType=Art	15	det	_	_
-15	evening	evening	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	evening	evening	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 16	and	and	CCONJ	_	_	17	cc	_	_
 17	returning	return	VERB	_	Tense=Pres|VerbForm=Part	12	conj	_	_
 18	the	the	DET	_	PronType=Art	20	det	_	_
 19	next	next	ADJ	_	Degree=Pos	20	amod	_	_
-20	day	day	NOUN	_	Number=Sing	17	obl:tmod	_	_
+20	day	day	NOUN	_	Number=Sing	17	obl:unmarked	_	_
 
 # sent_id = 0023.test
 # parallel_id = atis/test23
@@ -433,7 +435,8 @@
 
 # sent_id = 0025.test
 # parallel_id = atis/test25
-# text = i 'd like to arrange for two friends to fly into los angeles next saturday evening one of the people is coming from kansas city and the other is coming from las vegas
+# text = i'd like to arrange for two friends to fly into los angeles next saturday evening one of the people is coming from kansas city and the other is coming from las vegas
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -449,7 +452,7 @@
 13	angeles	Angeles	PROPN	_	Number=Sing	12	flat	_	_
 14	next	next	ADJ	_	Degree=Pos	16	amod	_	_
 15	saturday	Saturday	NOUN	_	Number=Sing	16	compound	_	_
-16	evening	evening	NOUN	_	Number=Sing	10	obl:tmod	_	_
+16	evening	evening	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 17	one	one	NUM	_	NumType=Card	22	nsubj	_	_
 18	of	of	ADP	_	_	20	case	_	_
 19	the	the	DET	_	PronType=Art	20	det	_	_
@@ -564,8 +567,9 @@
 
 # sent_id = 0032.test
 # parallel_id = atis/test32
-# text = now i 'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm
+# text = now i'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm
 1	now	now	ADV	_	Degree=Pos	4	advmod	_	_
+2-3	i'd	_	_	_	_	_	_	_	_
 2	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	'd	would	AUX	_	_	4	aux	_	_
 4	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -579,7 +583,7 @@
 12	430	430	NUM	_	NumType=Card	15	nummod	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	530	530	NUM	_	NumType=Card	12	conj	_	_
-15	pm	pm	NOUN	_	Number=Sing	10	obl:tmod	_	_
+15	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0033.test
 # parallel_id = atis/test33
@@ -697,7 +701,7 @@
 12	445	445	NUM	_	NumType=Card	15	nummod	_	_
 13	and	and	CCONJ	_	_	14	cc	_	_
 14	515	515	NUM	_	NumType=Card	12	conj	_	_
-15	pm	pm	NOUN	_	Number=Sing	10	obl:tmod	_	_
+15	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0041.test
 # parallel_id = atis/test41
@@ -715,7 +719,7 @@
 11	8	8	NUM	_	NumType=Card	14	nummod	_	_
 12	to	to	ADP	_	_	13	case	_	_
 13	9	9	NUM	_	NumType=Card	11	conj	_	_
-14	pm	pm	NOUN	_	Number=Sing	7	obl:tmod	_	_
+14	pm	pm	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 
 # sent_id = 0042.test
 # parallel_id = atis/test42
@@ -790,7 +794,7 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	7	nmod	_	_
 10	between	between	ADP	_	_	11	case	_	_
-11	12	12	NUM	_	NumType=Card	16	obl	_	_
+11	12	12	NUM	_	NumType=Card	16	nmod	_	_
 12	and	and	CCONJ	_	_	13	cc	_	_
 13	4	4	NUM	_	NumType=Card	11	conj	_	_
 14	in	in	ADP	_	_	16	case	_	_
@@ -825,7 +829,7 @@
 
 # sent_id = 0050.test
 # parallel_id = atis/test50
-# text = on november twenty third of this year 1991 i 'd like to fly from atlanta to denver and i 'd like to fly on delta
+# text = on november twenty third of this year 1991 i'd like to fly from atlanta to denver and i'd like to fly on delta
 1	on	on	ADP	_	_	2	case	_	_
 2	november	November	NOUN	_	Number=Sing	11	dislocated	_	_
 3	twenty	twenty	NUM	_	NumType=Card	4	compound	_	_
@@ -834,6 +838,7 @@
 6	this	this	DET	_	PronType=Art	7	det	_	_
 7	year	year	NOUN	_	Number=Sing	2	nmod	_	_
 8	1991	1991	NUM	_	NumType=Card	7	nummod	_	_
+9-10	i'd	_	_	_	_	_	_	_	_
 9	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 10	'd	would	AUX	_	_	11	aux	_	_
 11	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -844,6 +849,7 @@
 16	to	to	ADP	_	_	17	case	_	_
 17	denver	Denver	PROPN	_	Number=Sing	13	obl	_	_
 18	and	and	CCONJ	_	_	21	cc	_	_
+19-20	i'd	_	_	_	_	_	_	_	_
 19	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
 20	'd	would	AUX	_	_	21	aux	_	_
 21	like	like	VERB	_	VerbForm=Inf	11	conj	_	_
@@ -926,9 +932,9 @@
 15	baltimore	Baltimore	PROPN	_	Number=Sing	11	obl	_	_
 16	in	in	ADP	_	_	18	case	_	_
 17	the	the	DET	_	PronType=Art	18	det	_	_
-18	morning	morning	NOUN	_	Number=Sing	11	obl:tmod	_	_
+18	morning	morning	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 19	before	before	ADP	_	_	20	case	_	_
-20	8	8	NUM	_	NumType=Card	18	obl:tmod	_	_
+20	8	8	NUM	_	NumType=Card	18	nmod	_	_
 
 # sent_id = 0055.test
 # parallel_id = atis/test55
@@ -1122,7 +1128,7 @@
 11	in	in	ADP	_	_	12	case	_	_
 12	baltimore	Baltimore	PROPN	_	Number=Sing	10	obl	_	_
 13	on	on	ADP	_	_	14	case	_	_
-14	july	July	NOUN	_	Number=Sing	10	obl:tmod	_	_
+14	july	July	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 15	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0070.test
@@ -1210,7 +1216,7 @@
 5	o'hare	O'hare	PROPN	_	Number=Sing	1	nmod	_	_
 6	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
 7	after	after	ADP	_	_	8	case	_	_
-8	718	718	NUM	_	NumType=Card	6	obl:tmod	_	_
+8	718	718	NUM	_	NumType=Card	6	obl:unmarked	_	_
 9	am	am	NOUN	_	Number=Sing	8	nmod:tmod	_	_
 10	american	American	PROPN	_	Number=Sing	6	dislocated	_	_
 
@@ -1398,7 +1404,8 @@
 
 # sent_id = 0089.test
 # parallel_id = atis/test89
-# text = i 'd like to find a flight from charlotte to las vegas and make a stop in st. louis
+# text = i'd like to find a flight from charlotte to las vegas and make a stop in st. louis
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1477,7 +1484,7 @@
 10	boston	Boston	PROPN	_	Number=Sing	5	nmod	_	_
 11	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	before	before	ADP	_	_	13	case	_	_
-13	noon	noon	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	noon	noon	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0093.test
 # parallel_id = atis/test93
@@ -1549,10 +1556,10 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	5	obl	_	_
 10	early	early	ADJ	_	Degree=Pos	12	amod	_	_
 11	thursday	Thursday	NOUN	_	Number=Sing	12	compound	_	_
-12	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+12	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 13	before	before	ADP	_	_	15	case	_	_
 14	8	8	NUM	_	NumType=Card	15	nummod	_	_
-15	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
+15	am	am	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0098.test
 # parallel_id = atis/test98
@@ -1568,7 +1575,7 @@
 9	francisco	Francisco	PROPN	_	Number=Sing	8	flat	_	_
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 11	early	early	ADJ	_	Degree=Pos	12	amod	_	_
-12	today	today	NOUN	_	Number=Sing	10	obl:tmod	_	_
+12	today	today	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0099.test
 # parallel_id = atis/test99
@@ -1582,7 +1589,7 @@
 7	chicago	Chicago	PROPN	_	Number=Sing	6	obl	_	_
 8	early	early	ADJ	_	Degree=Pos	10	amod	_	_
 9	saturday	Saturday	NOUN	_	Number=Sing	10	compound	_	_
-10	morning	morning	NOUN	_	Number=Sing	6	obl:tmod	_	_
+10	morning	morning	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0100.test
 # parallel_id = atis/test100
@@ -1598,7 +1605,7 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	4	obl	_	_
 10	early	early	ADJ	_	Degree=Pos	12	amod	_	_
 11	monday	Monday	NOUN	_	Number=Sing	12	compound	_	_
-12	morning	morning	NOUN	_	Number=Sing	4	obl:tmod	_	_
+12	morning	morning	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0101.test
 # parallel_id = atis/test101
@@ -1704,7 +1711,7 @@
 6	in	in	ADP	_	_	7	case	_	_
 7	baltimore	Baltimore	PROPN	_	Number=Sing	5	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	june	June	NOUN	_	Number=Sing	5	obl:tmod	_	_
+9	june	June	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 10	fifteenth	fifteen	ADJ	_	Degree=Pos	9	amod	_	_
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 12	either	either	CCONJ	_	_	14	cc:preconj	_	_
@@ -1725,7 +1732,7 @@
 7	baltimore	Baltimore	PROPN	_	Number=Sing	3	nmod	_	_
 8	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	july	July	NOUN	_	Number=Sing	8	obl:tmod	_	_
+10	july	July	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 11	first	one	ADJ	_	Degree=Pos|NumType=Ord	10	amod	_	_
 
 # sent_id = 0109.test
@@ -1739,7 +1746,7 @@
 6	on	on	ADP	_	_	7	case	_	_
 7	baltimore	Baltimore	PROPN	_	Number=Sing	5	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	june	June	NOUN	_	Number=Sing	5	obl:tmod	_	_
+9	june	June	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 10	fourteenth	fourteen	ADJ	_	Degree=Pos	9	amod	_	_
 
 # sent_id = 0110.test
@@ -1754,7 +1761,7 @@
 7	in	in	ADP	_	_	8	case	_	_
 8	baltimore	Baltimore	PROPN	_	Number=Sing	6	obl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	june	June	NOUN	_	Number=Sing	6	obl:tmod	_	_
+10	june	June	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 11	fourteenth	fourteen	ADJ	_	Degree=Pos	10	amod	_	_
 12	starting	start	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 13	from	from	ADP	_	_	14	case	_	_
@@ -1802,7 +1809,7 @@
 6	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	delta	Delta	PROPN	_	Number=Sing	8	nsubj	_	_
 8	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	today	today	NOUN	_	Number=Sing	8	obl:tmod	_	_
+9	today	today	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0114.test
 # parallel_id = atis/test114
@@ -1832,13 +1839,13 @@
 10	from	from	ADP	_	_	12	case	_	_
 11	all	all	DET	_	PronType=Art	12	det	_	_
 12	cities	city	NOUN	_	Number=Plur	9	obl	_	_
-13	today	today	NOUN	_	Number=Sing	9	obl:tmod	_	_
+13	today	today	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0116.test
 # parallel_id = atis/test116
 # text = what time does the tuesday morning 755 flight leaving washington arrive in san francisco
 1	what	what	DET	_	PronType=Int,Rel	2	det	_	_
-2	time	time	NOUN	_	Number=Sing	11	obl:tmod	_	_
+2	time	time	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 3	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 4	the	the	DET	_	PronType=Art	8	det	_	_
 5	tuesday	Tuesday	NOUN	_	Number=Sing	6	compound	_	_
@@ -1887,7 +1894,7 @@
 7	to	to	ADP	_	_	8	case	_	_
 8	denver	Denver	PROPN	_	Number=Sing	4	obl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	sundays	sunday	PROPN	_	Number=Plur	4	obl:tmod	_	_
+10	sundays	sunday	PROPN	_	Number=Plur	4	obl:unmarked	_	_
 
 # sent_id = 0119.test
 # parallel_id = atis/test119
@@ -1909,9 +1916,10 @@
 
 # sent_id = 0120.test
 # parallel_id = atis/test120
-# text = in pittsburgh i 'd like to rent a car
+# text = in pittsburgh i'd like to rent a car
 1	in	in	ADP	_	_	2	case	_	_
 2	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
+3-4	i'd	_	_	_	_	_	_	_	_
 3	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	'd	would	AUX	_	_	5	aux	_	_
 5	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1967,7 +1975,8 @@
 
 # sent_id = 0124.test
 # parallel_id = atis/test124
-# text = i 'd need information please on a flight from washington dc san francisco california
+# text = i'd need information please on a flight from washington dc san francisco california
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2029,7 +2038,7 @@
 7	to	to	ADP	_	_	8	case	_	_
 8	baltimore	Baltimore	PROPN	_	Number=Sing	4	obl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	august	August	NOUN	_	Number=Sing	4	obl:tmod	_	_
+10	august	August	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 11	third	three	ADJ	_	Degree=Pos|NumType=Ord	10	amod	_	_
 12	which	which	DET	_	PronType=Int,Rel	13	det	_	_
 13	airline	airline	NOUN	_	Number=Sing	14	nsubj	_	_
@@ -2072,7 +2081,8 @@
 
 # sent_id = 0130.test
 # parallel_id = atis/test130
-# text = what 's the price of the least expensive first class round trip ticket on us air from cleveland to miami
+# text = what's the price of the least expensive first class round trip ticket on us air from cleveland to miami
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	4	det	_	_
@@ -2107,7 +2117,7 @@
 8	out	out	ADV	_	Degree=Pos	7	advmod	_	_
 9	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 10	on	on	ADP	_	_	11	case	_	_
-11	april	April	NOUN	_	Number=Sing	19	obl:tmod	_	_
+11	april	April	NOUN	_	Number=Sing	19	obl:unmarked	_	_
 12	twentieth	twenty	ADJ	_	Degree=Pos	11	amod	_	_
 13	from	from	ADP	_	_	14	case	_	_
 14	washington	Washington	PROPN	_	Number=Sing	19	obl	_	_
@@ -2126,7 +2136,7 @@
 27	o'clock	o'clock	ADV	_	Degree=Pos	21	advmod	_	_
 28	in	in	ADP	_	_	30	case	_	_
 29	the	the	DET	_	PronType=Art	30	det	_	_
-30	morning	morning	NOUN	_	Number=Sing	27	obl:tmod	_	_
+30	morning	morning	NOUN	_	Number=Sing	27	obl:unmarked	_	_
 
 # sent_id = 0132.test
 # parallel_id = atis/test132
@@ -2414,7 +2424,7 @@
 10	which	which	PRON	_	PronType=Int,Rel	11	nsubj	_	_
 11	depart	depart	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	saturday	Saturday	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	saturday	Saturday	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 14	and	and	CCONJ	_	_	15	cc	_	_
 15	serve	serve	VERB	_	VerbForm=Inf	11	conj	_	_
 16	meals	meal	NOUN	_	Number=Plur	15	obj	_	_
@@ -2556,7 +2566,7 @@
 10	week	week	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 11	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 12	after	after	ADP	_	_	13	case	_	_
-13	lunch	lunch	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	lunch	lunch	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0161.test
 # parallel_id = atis/test161
@@ -2607,7 +2617,7 @@
 9	paul	Paul	PROPN	_	Number=Sing	8	flat	_	_
 10	on	on	ADP	_	_	12	case	_	_
 11	thursday	Thursday	NOUN	_	Number=Sing	12	compound	_	_
-12	morning	morning	NOUN	_	Number=Sing	3	obl:tmod	_	_
+12	morning	morning	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0164.test
 # parallel_id = atis/test164
@@ -2625,7 +2635,7 @@
 11	paul	Paul	PROPN	_	Number=Sing	10	flat	_	_
 12	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 13	around	around	ADP	_	_	14	case	_	_
-14	dinnertime	dinnertime	NOUN	_	Number=Sing	12	obl:tmod	_	_
+14	dinnertime	dinnertime	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 15	6	6	NUM	_	NumType=Card	16	nummod	_	_
 16	pm	pm	NOUN	_	Number=Sing	14	nmod:tmod	_	_
 
@@ -2640,7 +2650,7 @@
 6	houston	Houston	PROPN	_	Number=Sing	2	nmod	_	_
 7	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
 8	sunday	Sunday	NOUN	_	Number=Sing	9	compound	_	_
-9	afternoon	afternoon	NOUN	_	Number=Sing	7	obl:tmod	_	_
+9	afternoon	afternoon	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 
 # sent_id = 0166.test
 # parallel_id = atis/test166
@@ -2658,7 +2668,7 @@
 11	depart	depart	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
 12	in	in	ADP	_	_	14	case	_	_
 13	the	the	DET	_	PronType=Art	14	det	_	_
-14	afternoon	afternoon	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	afternoon	afternoon	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0167.test
 # parallel_id = atis/test167
@@ -2677,7 +2687,7 @@
 12	baltimore	Baltimore	PROPN	_	Number=Sing	10	obl	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	the	the	DET	_	PronType=Art	15	det	_	_
-15	morning	morning	NOUN	_	Number=Sing	10	obl:tmod	_	_
+15	morning	morning	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0168.test
 # parallel_id = atis/test168
@@ -2737,7 +2747,7 @@
 16	dc	DC	PROPN	_	Number=Sing	15	obl	_	_
 17	after	after	ADP	_	_	19	case	_	_
 18	6	6	NUM	_	NumType=Card	19	nummod	_	_
-19	pm	pm	NOUN	_	Number=Sing	15	obl:tmod	_	_
+19	pm	pm	NOUN	_	Number=Sing	15	obl:unmarked	_	_
 
 # sent_id = 0171.test
 # parallel_id = atis/test171
@@ -2787,7 +2797,7 @@
 21	the	the	DET	_	PronType=Art	22	det	_	_
 22	morning	morning	NOUN	_	Number=Sing	19	nmod:tmod	_	_
 23	as	as	ADP	_	_	24	case	_	_
-24	possible	possible	ADJ	_	Degree=Pos	18	obl	_	_
+24	possible	possible	ADJ	_	Degree=Pos	19	amod	_	_
 
 # sent_id = 0174.test
 # parallel_id = atis/test174
@@ -2935,7 +2945,7 @@
 8	denver	Denver	PROPN	_	Number=Sing	2	nmod	_	_
 9	fly	fly	VERB	_	VerbForm=Inf	0	root	_	_
 10	on	on	ADP	_	_	11	case	_	_
-11	saturdays	Saturday	PROPN	_	Number=Sing	9	obl:tmod	_	_
+11	saturdays	Saturday	PROPN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0183.test
 # parallel_id = atis/test183
@@ -2965,9 +2975,9 @@
 14	dallas	Dallas	PROPN	_	Number=Sing	12	obl	_	_
 15	in	in	ADP	_	_	17	case	_	_
 16	the	the	DET	_	PronType=Art	17	det	_	_
-17	afternoon	afternoon	NOUN	_	Number=Sing	12	obl:tmod	_	_
+17	afternoon	afternoon	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 18	on	on	ADP	_	_	19	case	_	_
-19	monday	Monday	NOUN	_	Number=Sing	12	obl:tmod	_	_
+19	monday	Monday	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0185.test
 # parallel_id = atis/test185
@@ -2990,7 +3000,7 @@
 6	francisco	Francisco	PROPN	_	Number=Sing	5	flat	_	_
 7	before	before	ADP	_	_	9	case	_	_
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
-9	am	am	NOUN	_	Number=Sing	2	obl:tmod	_	_
+9	am	am	NOUN	_	Number=Sing	2	obl:unmarked	_	_
 10	what	what	DET	_	PronType=Int,Rel	11	det	_	_
 11	type	type	NOUN	_	Number=Sing	15	nsubj	_	_
 12	of	of	ADP	_	_	13	case	_	_
@@ -3026,10 +3036,10 @@
 10	dc	DC	PROPN	_	Number=Sing	9	flat	_	_
 11	at	at	ADP	_	_	13	case	_	_
 12	9	9	NUM	_	NumType=Card	13	nummod	_	_
-13	am	am	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 14	during	during	ADP	_	_	16	case	_	_
 15	a	a	DET	_	PronType=Art	16	det	_	_
-16	weekday	weekday	NOUN	_	Number=Sing	5	obl:tmod	_	_
+16	weekday	weekday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0189.test
 # parallel_id = atis/test189
@@ -3045,7 +3055,7 @@
 9	to	to	ADP	_	_	10	case	_	_
 10	dallas	Dallas	PROPN	_	Number=Sing	6	obl	_	_
 11	before	before	ADP	_	_	12	case	_	_
-12	noon	noon	NOUN	_	Number=Sing	6	obl:tmod	_	_
+12	noon	noon	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0190.test
 # parallel_id = atis/test190
@@ -3092,7 +3102,7 @@
 12	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
 13	around	around	ADP	_	_	15	case	_	_
 14	10	10	NUM	_	NumType=Card	15	nummod	_	_
-15	pm	pm	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0193.test
 # parallel_id = atis/test193
@@ -3124,7 +3134,7 @@
 9	airport	Airport	PROPN	_	Number=Sing	8	flat	_	_
 10	around	around	ADP	_	_	12	case	_	_
 11	1	1	NUM	_	NumType=Card	12	nummod	_	_
-12	pm	pm	NOUN	_	Number=Sing	5	obl:tmod	_	_
+12	pm	pm	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0195.test
 # parallel_id = atis/test195
@@ -3164,7 +3174,8 @@
 
 # sent_id = 0197.test
 # parallel_id = atis/test197
-# text = i 'd like to fly from cleveland to indianapolis tomorrow morning as early as possible what 's available
+# text = i'd like to fly from cleveland to indianapolis tomorrow morning as early as possible what's available
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3175,11 +3186,12 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	indianapolis	Indianapolis	PROPN	_	Number=Sing	5	obl	_	_
 10	tomorrow	tomorrow	NOUN	_	Number=Sing	11	compound	_	_
-11	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+11	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 12	as	as	ADP	_	_	13	case	_	_
 13	early	early	ADV	_	Degree=Pos	5	advmod	_	_
 14	as	as	ADP	_	_	15	case	_	_
 15	possible	possible	ADJ	_	Degree=Pos	13	advmod	_	_
+16-17	what's	_	_	_	_	_	_	_	_
 16	what	what	PRON	_	PronType=Int,Rel	18	nsubj	_	_
 17	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	available	available	ADJ	_	Degree=Pos	3	parataxis	_	_
@@ -3217,7 +3229,8 @@
 
 # sent_id = 0200.test
 # parallel_id = atis/test200
-# text = i 'd like to fly from columbus to nashville tomorrow morning
+# text = i'd like to fly from columbus to nashville tomorrow morning
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3228,7 +3241,7 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	nashville	Nashville	PROPN	_	Number=Sing	5	obl	_	_
 10	tomorrow	tomorrow	NOUN	_	Number=Sing	11	compound	_	_
-11	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+11	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0201.test
 # parallel_id = atis/test201
@@ -3253,7 +3266,7 @@
 1	list	list	VERB	_	VerbForm=Inf	0	root	_	_
 2	evening	evening	NOUN	_	Number=Sing	3	compound	_	_
 3	flights	flight	NOUN	_	Number=Plur	1	obj	_	_
-4	tomorrow	tomorrow	NOUN	_	Number=Sing	1	obl:tmod	_	_
+4	tomorrow	tomorrow	NOUN	_	Number=Sing	1	obl:unmarked	_	_
 5	from	from	ADP	_	_	6	case	_	_
 6	phoenix	Phoenix	PROPN	_	Number=Sing	1	obl	_	_
 7	to	to	ADP	_	_	8	case	_	_
@@ -3322,7 +3335,7 @@
 12	at	at	ADP	_	_	13	case	_	_
 13	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	11	obl	_	_
 14	on	on	ADP	_	_	15	case	_	_
-15	monday	Monday	NOUN	_	Number=Sing	11	obl:tmod	_	_
+15	monday	Monday	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0207.test
 # parallel_id = atis/test207
@@ -3344,7 +3357,7 @@
 15	o'clock	o'clock	ADV	_	Degree=Pos	10	advmod	_	_
 16	pm	pm	NOUN	_	Number=Sing	15	nmod:tmod	_	_
 17	on	on	ADP	_	_	18	case	_	_
-18	saturday	Saturday	NOUN	_	Number=Sing	10	obl:tmod	_	_
+18	saturday	Saturday	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0208.test
 # parallel_id = atis/test208
@@ -3360,9 +3373,9 @@
 9	angeles	Angeles	PROPN	_	Number=Sing	8	flat	_	_
 10	after	after	ADP	_	_	12	case	_	_
 11	5	5	NUM	_	NumType=Card	12	nummod	_	_
-12	pm	pm	NOUN	_	Number=Sing	6	obl:tmod	_	_
+12	pm	pm	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 13	on	on	ADP	_	_	14	case	_	_
-14	thursday	Thursday	NOUN	_	Number=Sing	6	obl:tmod	_	_
+14	thursday	Thursday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0209.test
 # parallel_id = atis/test209
@@ -3379,7 +3392,7 @@
 10	st.	St.	PROPN	_	Number=Sing	6	obl	_	_
 11	louis	Louis	PROPN	_	Number=Sing	10	flat	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	friday	Friday	NOUN	_	Number=Sing	6	obl:tmod	_	_
+13	friday	Friday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0210.test
 # parallel_id = atis/test210
@@ -3394,7 +3407,7 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	5	obl	_	_
 10	on	on	ADP	_	_	11	case	_	_
-11	wednesday	Wednesday	NOUN	_	Number=Sing	5	obl:tmod	_	_
+11	wednesday	Wednesday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 12	of	of	ADP	_	_	14	case	_	_
 13	next	next	ADJ	_	Degree=Pos	14	amod	_	_
 14	week	week	NOUN	_	Number=Sing	11	nmod	_	_
@@ -3404,7 +3417,8 @@
 
 # sent_id = 0211.test
 # parallel_id = atis/test211
-# text = i 'd like a flight from st. petersburg to miami on that next thursday
+# text = i'd like a flight from st. petersburg to miami on that next thursday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3422,7 +3436,8 @@
 
 # sent_id = 0212.test
 # parallel_id = atis/test212
-# text = i 'd like to travel from kansas city to chicago next wednesday
+# text = i'd like to travel from kansas city to chicago next wednesday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3434,7 +3449,7 @@
 9	to	to	ADP	_	_	10	case	_	_
 10	chicago	Chicago	PROPN	_	Number=Sing	5	obl	_	_
 11	next	next	ADJ	_	Degree=Pos	12	amod	_	_
-12	wednesday	Wednesday	NOUN	_	Number=Sing	5	obl:tmod	_	_
+12	wednesday	Wednesday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0213.test
 # parallel_id = atis/test213
@@ -3449,7 +3464,7 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	philadelphia	Philadelphia	PROPN	_	Number=Sing	5	obl	_	_
 10	next	next	ADJ	_	Degree=Pos	11	amod	_	_
-11	thursday	Thursday	NOUN	_	Number=Sing	5	obl:tmod	_	_
+11	thursday	Thursday	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0214.test
 # parallel_id = atis/test214
@@ -3479,7 +3494,7 @@
 9	8	8	NUM	_	NumType=Card	10	nummod	_	_
 10	o'clock	o'clock	ADV	_	Degree=Pos	3	advmod	_	_
 11	next	next	ADJ	_	Degree=Pos	12	amod	_	_
-12	wednesday	Wednesday	NOUN	_	Number=Sing	3	obl:tmod	_	_
+12	wednesday	Wednesday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0216.test
 # parallel_id = atis/test216
@@ -3508,14 +3523,14 @@
 4	leave	leave	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	chicago	Chicago	PROPN	_	Number=Sing	4	obl	_	_
 6	next	next	ADJ	_	Degree=Pos	7	amod	_	_
-7	tuesday	Tuesday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+7	tuesday	Tuesday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 8	and	and	CCONJ	_	_	9	cc	_	_
 9	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
 10	in	in	ADP	_	_	11	case	_	_
 11	detroit	Detroit	PROPN	_	Number=Sing	9	obl	_	_
 12	around	around	ADP	_	_	14	case	_	_
 13	6	6	NUM	_	NumType=Card	14	nummod	_	_
-14	pm	pm	NOUN	_	Number=Sing	9	obl:tmod	_	_
+14	pm	pm	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0218.test
 # parallel_id = atis/test218
@@ -3545,7 +3560,7 @@
 10	dc	DC	PROPN	_	Number=Sing	9	flat	_	_
 11	on	on	ADP	_	_	13	case	_	_
 12	thursday	Thursday	NOUN	_	Number=Sing	13	compound	_	_
-13	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 
 # sent_id = 0220.test
 # parallel_id = atis/test220
@@ -3623,7 +3638,8 @@
 
 # sent_id = 0225.test
 # parallel_id = atis/test225
-# text = i 'd like to see the flights from atlanta to washington dc
+# text = i'd like to see the flights from atlanta to washington dc
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -3639,7 +3655,8 @@
 
 # sent_id = 0226.test
 # parallel_id = atis/test226
-# text = i 'm sorry i want to book a flight from atlanta to denver colorado
+# text = i'm sorry i want to book a flight from atlanta to denver colorado
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	sorry	sorry	ADJ	_	Degree=Pos	0	root	_	_
@@ -3788,14 +3805,14 @@
 9	denver	Denver	PROPN	_	Number=Sing	5	obl	_	_
 10	on	on	ADP	_	_	12	case	_	_
 11	the	the	DET	_	PronType=Art	12	det	_	_
-12	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+12	morning	morning	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 13	of	of	ADP	_	_	14	case	_	_
 14	august	August	NOUN	_	Number=Sing	12	nmod	_	_
 15	twenty	twenty	NUM	_	NumType=Card	16	compound	_	_
 16	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 17	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 18	at	at	ADP	_	_	19	case	_	_
-19	650	650	NUM	_	NumType=Card	17	obl:tmod	_	_
+19	650	650	NUM	_	NumType=Card	17	obl:unmarked	_	_
 
 # sent_id = 0234.test
 # parallel_id = atis/test234
@@ -3832,7 +3849,7 @@
 11	to	to	ADP	_	_	12	case	_	_
 12	seattle	Seattle	PROPN	_	Number=Sing	8	obl	_	_
 13	on	on	ADP	_	_	14	case	_	_
-14	may	May	NOUN	_	Number=Sing	8	obl:tmod	_	_
+14	may	May	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 15	twenty	twenty	NUM	_	NumType=Card	16	compound	_	_
 16	sixth	six	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 17	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
@@ -3881,7 +3898,7 @@
 9	jose	Jose	PROPN	_	Number=Sing	8	flat	_	_
 10	in	in	ADP	_	_	12	case	_	_
 11	the	the	DET	_	PronType=Art	12	det	_	_
-12	morning	morning	NOUN	_	Number=Sing	4	obl:tmod	_	_
+12	morning	morning	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 13	on	on	ADP	_	_	14	case	_	_
 14	april	April	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 15	twenty	twenty	NUM	_	NumType=Card	16	compound	_	_
@@ -3966,7 +3983,8 @@
 
 # sent_id = 0245.test
 # parallel_id = atis/test245
-# text = i 'd like a twa flight from las vegas to new york nonstop
+# text = i'd like a twa flight from las vegas to new york nonstop
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4013,12 +4031,12 @@
 11	leave	leave	VERB	_	VerbForm=Inf	1	parataxis	_	_
 12	in	in	ADP	_	_	14	case	_	_
 13	the	the	DET	_	PronType=Art	14	det	_	_
-14	afternoon	afternoon	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	afternoon	afternoon	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 15	and	and	CCONJ	_	_	16	cc	_	_
 16	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
 17	near	near	ADP	_	_	19	case	_	_
 18	5	5	NUM	_	NumType=Card	19	nummod	_	_
-19	pm	pm	NOUN	_	Number=Sing	16	obl:tmod	_	_
+19	pm	pm	NOUN	_	Number=Sing	16	obl:unmarked	_	_
 20	the	the	DET	_	PronType=Art	21	det	_	_
 21	flight	flight	NOUN	_	Number=Sing	25	nsubj	_	_
 22	should	should	AUX	_	_	25	aux	_	_
@@ -4044,7 +4062,7 @@
 13	arrives	arrive	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 14	around	around	ADP	_	_	16	case	_	_
 15	5	5	NUM	_	NumType=Card	16	nummod	_	_
-16	pm	pm	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	pm	pm	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0250.test
 # parallel_id = atis/test250
@@ -4060,7 +4078,7 @@
 9	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
 10	before	before	ADP	_	_	12	case	_	_
 11	5	5	NUM	_	NumType=Card	12	nummod	_	_
-12	pm	pm	NOUN	_	Number=Sing	9	obl:tmod	_	_
+12	pm	pm	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0251.test
 # parallel_id = atis/test251
@@ -4070,7 +4088,7 @@
 3	depart	depart	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	baltimore	Baltimore	PROPN	_	Number=Sing	3	obl	_	_
 5	on	on	ADP	_	_	6	case	_	_
-6	friday	Friday	NOUN	_	Number=Sing	3	obl:tmod	_	_
+6	friday	Friday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 7	and	and	CCONJ	_	_	8	cc	_	_
 8	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
 9	in	in	ADP	_	_	10	case	_	_
@@ -4078,11 +4096,12 @@
 11	francisco	Francisco	PROPN	_	Number=Sing	10	flat	_	_
 12	by	by	ADP	_	_	14	case	_	_
 13	8	8	NUM	_	NumType=Card	14	nummod	_	_
-14	pm	pm	NOUN	_	Number=Sing	8	obl:tmod	_	_
+14	pm	pm	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0252.test
 # parallel_id = atis/test252
-# text = i 'd like a nonstop flight from atlanta to baltimore that gets in around 7 pm
+# text = i'd like a nonstop flight from atlanta to baltimore that gets in around 7 pm
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -4098,7 +4117,7 @@
 13	in	in	ADP	_	_	16	case	_	_
 14	around	around	ADP	_	_	16	case	_	_
 15	7	7	NUM	_	NumType=Card	16	nummod	_	_
-16	pm	pm	NOUN	_	Number=Sing	12	obl:tmod	_	_
+16	pm	pm	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0253.test
 # parallel_id = atis/test253
@@ -4151,7 +4170,7 @@
 15	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	13	obl	_	_
 16	before	before	ADP	_	_	18	case	_	_
 17	10	10	NUM	_	NumType=Card	18	nummod	_	_
-18	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
+18	am	am	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0256.test
 # parallel_id = atis/test256
@@ -4164,7 +4183,7 @@
 6	arriving	arrive	VERB	_	Tense=Pres|VerbForm=Part	1	list	_	_
 7	before	before	ADP	_	_	9	case	_	_
 8	4	4	NUM	_	NumType=Card	9	nummod	_	_
-9	pm	pm	NOUN	_	Number=Sing	6	obl:tmod	_	_
+9	pm	pm	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0257.test
 # parallel_id = atis/test257
@@ -4231,7 +4250,7 @@
 10	leave	leave	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	630	630	NUM	_	NumType=Card	13	nummod	_	_
-13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0262.test
 # parallel_id = atis/test262
@@ -4251,7 +4270,7 @@
 13	leave	leave	VERB	_	VerbForm=Inf	7	acl:relcl	_	_
 14	before	before	ADP	_	_	16	case	_	_
 15	630	630	NUM	_	NumType=Card	16	nummod	_	_
-16	am	am	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	am	am	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0263.test
 # parallel_id = atis/test263
@@ -4625,7 +4644,7 @@
 11	departing	depart	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	before	before	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
-14	am	am	NOUN	_	Number=Sing	11	obl:tmod	_	_
+14	am	am	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 15	first	one	ADJ	_	Degree=Pos|NumType=Ord	16	amod	_	_
 16	class	class	NOUN	_	Number=Sing	1	dislocated	_	_
 
@@ -4639,7 +4658,7 @@
 5	francisco	Francisco	PROPN	_	Number=Sing	4	flat	_	_
 6	on	on	ADP	_	_	8	case	_	_
 7	monday	Monday	NOUN	_	Number=Sing	8	compound	_	_
-8	night	night	NOUN	_	Number=Sing	3	obl:tmod	_	_
+8	night	night	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 9	and	and	CCONJ	_	_	10	cc	_	_
 10	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
 11	at	at	ADP	_	_	12	case	_	_
@@ -4647,7 +4666,7 @@
 13	later	late	ADJ	_	Degree=Pos	10	advmod	_	_
 14	in	in	ADP	_	_	16	case	_	_
 15	the	the	DET	_	PronType=Art	16	det	_	_
-16	evening	evening	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	evening	evening	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0289.test
 # parallel_id = atis/test289
@@ -4780,7 +4799,8 @@
 
 # sent_id = 0299.test
 # parallel_id = atis/test299
-# text = what 's the ground transportation like at pittsburgh
+# text = what's the ground transportation like at pittsburgh
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	6	obj	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5003,7 +5023,8 @@
 
 # sent_id = 0314.test
 # parallel_id = atis/test314
-# text = i 'm looking for a flight that goes from ontario to westchester and stops in chicago
+# text = i'm looking for a flight that goes from ontario to westchester and stops in chicago
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -5078,7 +5099,7 @@
 6	that	that	ADP	_	_	7	mark	_	_
 7	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	friday	Friday	NOUN	_	Number=Sing	7	obl:tmod	_	_
+9	friday	Friday	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 10	from	from	ADP	_	_	11	case	_	_
 11	philadelphia	Philadelphia	PROPN	_	Number=Sing	7	nmod	_	_
 12	to	to	ADP	_	_	13	case	_	_
@@ -5148,7 +5169,7 @@
 8	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 9	after	after	ADP	_	_	11	case	_	_
 10	3	3	NUM	_	NumType=Card	11	nummod	_	_
-11	pm	pm	NOUN	_	Number=Sing	8	obl:tmod	_	_
+11	pm	pm	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0323.test
 # parallel_id = atis/test323
@@ -5167,7 +5188,7 @@
 12	depart	depart	VERB	_	VerbForm=Inf	5	acl:relcl	_	_
 13	after	after	ADP	_	_	15	case	_	_
 14	12	12	NUM	_	NumType=Card	15	nummod	_	_
-15	noon	noon	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	noon	noon	NOUN	_	Number=Sing	12	obl:unmarked	_	_
 
 # sent_id = 0324.test
 # parallel_id = atis/test324
@@ -5188,7 +5209,7 @@
 14	o'clock	o'clock	ADV	_	Degree=Pos	10	advmod	_	_
 15	in	in	ADP	_	_	17	case	_	_
 16	the	the	DET	_	PronType=Art	17	det	_	_
-17	afternoon	afternoon	NOUN	_	Number=Sing	14	obl:tmod	_	_
+17	afternoon	afternoon	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0325.test
 # parallel_id = atis/test325
@@ -5207,7 +5228,7 @@
 12	6	6	NUM	_	NumType=Card	13	nummod	_	_
 13	o'clock	o'clock	ADV	_	Degree=Pos	11	advmod	_	_
 14	at	at	ADP	_	_	15	case	_	_
-15	night	night	NOUN	_	Number=Sing	13	obl:tmod	_	_
+15	night	night	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0326.test
 # parallel_id = atis/test326
@@ -5254,7 +5275,7 @@
 15	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	14	obl	_	_
 16	after	after	ADP	_	_	18	case	_	_
 17	12	12	NUM	_	NumType=Card	18	nummod	_	_
-18	pm	pm	NOUN	_	Number=Sing	14	obl:tmod	_	_
+18	pm	pm	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0329.test
 # parallel_id = atis/test329
@@ -5276,7 +5297,8 @@
 
 # sent_id = 0330.test
 # parallel_id = atis/test330
-# text = i 'd like a flight from san diego to toronto on alaska airlines leaving around 1 pm
+# text = i'd like a flight from san diego to toronto on alaska airlines leaving around 1 pm
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5293,7 +5315,7 @@
 14	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	12	acl:relcl	_	_
 15	around	around	ADP	_	_	17	case	_	_
 16	1	1	NUM	_	NumType=Card	17	nummod	_	_
-17	pm	pm	NOUN	_	Number=Sing	14	obl:tmod	_	_
+17	pm	pm	NOUN	_	Number=Sing	14	obl:unmarked	_	_
 
 # sent_id = 0331.test
 # parallel_id = atis/test331
@@ -5310,7 +5332,7 @@
 10	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 11	after	after	ADP	_	_	13	case	_	_
 12	3	3	NUM	_	NumType=Card	13	nummod	_	_
-13	pm	pm	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	pm	pm	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0332.test
 # parallel_id = atis/test332
@@ -5324,13 +5346,13 @@
 7	to	to	ADP	_	_	8	case	_	_
 8	atlanta	Atlanta	PROPN	_	Number=Sing	4	obl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+10	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 11	after	after	ADP	_	_	13	case	_	_
 12	6	6	NUM	_	NumType=Card	13	nummod	_	_
 13	o'clock	o'clock	ADV	_	Degree=Pos	4	advmod	_	_
 14	pm	pm	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 15	on	on	ADP	_	_	16	case	_	_
-16	wednesday	Wednesday	NOUN	_	Number=Sing	13	obl:tmod	_	_
+16	wednesday	Wednesday	NOUN	_	Number=Sing	13	obl:unmarked	_	_
 
 # sent_id = 0333.test
 # parallel_id = atis/test333
@@ -5347,7 +5369,7 @@
 10	cleveland	Cleveland	PROPN	_	Number=Sing	8	obl	_	_
 11	to	to	ADP	_	_	12	case	_	_
 12	milwaukee	Milwaukee	PROPN	_	Number=Sing	8	obl	_	_
-13	wednesday	Wednesday	NOUN	_	Number=Sing	8	obl:tmod	_	_
+13	wednesday	Wednesday	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 14	after	after	ADP	_	_	16	case	_	_
 15	6	6	NUM	_	NumType=Card	16	nummod	_	_
 16	pm	pm	NOUN	_	Number=Sing	13	nmod:tmod	_	_
@@ -5364,7 +5386,7 @@
 7	denver	Denver	PROPN	_	Number=Sing	3	obl	_	_
 8	before	before	ADP	_	_	10	case	_	_
 9	10	10	NUM	_	NumType=Card	10	nummod	_	_
-10	am	am	NOUN	_	Number=Sing	3	obl:tmod	_	_
+10	am	am	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0335.test
 # parallel_id = atis/test335
@@ -5385,7 +5407,8 @@
 
 # sent_id = 0336.test
 # parallel_id = atis/test336
-# text = i 'm looking for flights from pittsburgh to philadelphia leaving before 9 am
+# text = i'm looking for flights from pittsburgh to philadelphia leaving before 9 am
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -5398,7 +5421,7 @@
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 11	before	before	ADP	_	_	13	case	_	_
 12	9	9	NUM	_	NumType=Card	13	nummod	_	_
-13	am	am	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	am	am	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0337.test
 # parallel_id = atis/test337
@@ -5413,7 +5436,7 @@
 8	atlanta	Atlanta	PROPN	_	Number=Sing	4	obl	_	_
 9	before	before	ADP	_	_	11	case	_	_
 10	7	7	NUM	_	NumType=Card	11	nummod	_	_
-11	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
+11	am	am	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 12	on	on	ADP	_	_	13	case	_	_
 13	thursday	Thursday	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 
@@ -5432,7 +5455,7 @@
 10	to	to	ADP	_	_	11	case	_	_
 11	milwaukee	Milwaukee	PROPN	_	Number=Sing	7	obl	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	wednesday	Wednesday	NOUN	_	Number=Sing	7	obl:tmod	_	_
+13	wednesday	Wednesday	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 14	after	after	ADP	_	_	16	case	_	_
 15	5	5	NUM	_	NumType=Card	16	nummod	_	_
 16	pm	pm	NOUN	_	Number=Sing	13	nmod:tmod	_	_
@@ -5491,7 +5514,7 @@
 9	before	before	ADP	_	_	12	case	_	_
 10	5	5	NUM	_	NumType=Card	11	nummod	_	_
 11	o'clock	o'clock	ADV	_	Degree=Pos	12	advmod	_	_
-12	am	am	NOUN	_	Number=Sing	4	obl:tmod	_	_
+12	am	am	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 13	on	on	ADP	_	_	14	case	_	_
 14	thursday	Thursday	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 
@@ -5510,7 +5533,8 @@
 
 # sent_id = 0343.test
 # parallel_id = atis/test343
-# text = what 's the latest flight from san jose to houston
+# text = what's the latest flight from san jose to houston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5549,7 +5573,8 @@
 
 # sent_id = 0346.test
 # parallel_id = atis/test346
-# text = what 's the last flight from atlanta to boston
+# text = what's the last flight from atlanta to boston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5696,7 +5721,7 @@
 10	to	to	ADP	_	_	11	case	_	_
 11	washington	Washington	PROPN	_	Number=Sing	9	obl	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	friday	Friday	NOUN	_	Number=Sing	9	obl:tmod	_	_
+13	friday	Friday	NOUN	_	Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 0357.test
 # parallel_id = atis/test357
@@ -5715,7 +5740,8 @@
 
 # sent_id = 0358.test
 # parallel_id = atis/test358
-# text = what 's the earliest flight from dallas to houston
+# text = what's the earliest flight from dallas to houston
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	5	det	_	_
@@ -5728,7 +5754,8 @@
 
 # sent_id = 0359.test
 # parallel_id = atis/test359
-# text = i 'd like to find the earliest flight possible from san francisco to atlanta
+# text = i'd like to find the earliest flight possible from san francisco to atlanta
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5784,7 +5811,8 @@
 
 # sent_id = 0362.test
 # parallel_id = atis/test362
-# text = what 's the cheapest one way ticket from baltimore to atlanta
+# text = what's the cheapest one way ticket from baltimore to atlanta
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5799,7 +5827,8 @@
 
 # sent_id = 0363.test
 # parallel_id = atis/test363
-# text = what 's the cheapest round trip fare between boston and washington
+# text = what's the cheapest round trip fare between boston and washington
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5876,7 +5905,8 @@
 
 # sent_id = 0368.test
 # parallel_id = atis/test368
-# text = i 'm interested in the cheapest fare from washington to fort worth
+# text = i'm interested in the cheapest fare from washington to fort worth
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	interested	interest	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5892,7 +5922,7 @@
 
 # sent_id = 0369.test
 # parallel_id = atis/test369
-# text = i would like to book a flight from denver to pittsburgh on july fifteenth i 'd like it to be the cheapest flight
+# text = i would like to book a flight from denver to pittsburgh on july fifteenth i'd like it to be the cheapest flight
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	would	will	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -5907,6 +5937,7 @@
 12	on	on	ADP	_	_	13	case	_	_
 13	july	July	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 14	fifteenth	fifteen	ADJ	_	Degree=Pos	13	amod	_	_
+15-16	i'd	_	_	_	_	_	_	_	_
 15	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 16	'd	would	AUX	_	_	17	aux	_	_
 17	like	like	VERB	_	VerbForm=Inf	3	parataxis	_	_
@@ -5951,7 +5982,8 @@
 
 # sent_id = 0372.test
 # parallel_id = atis/test372
-# text = what 's the lowest round trip fare from denver to atlanta
+# text = what's the lowest round trip fare from denver to atlanta
+1-2	what's	_	_	_	_	_	_	_	_
 1	what	what	PRON	_	PronType=Int,Rel	0	root	_	_
 2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	the	the	DET	_	PronType=Art	7	det	_	_
@@ -5979,7 +6011,8 @@
 
 # sent_id = 0374.test
 # parallel_id = atis/test374
-# text = i 'd like to find the cheapest fare from atlanta to dallas
+# text = i'd like to find the cheapest fare from atlanta to dallas
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6007,7 +6040,8 @@
 
 # sent_id = 0376.test
 # parallel_id = atis/test376
-# text = i 'd like the lowest fare from denver to pittsburgh
+# text = i'd like the lowest fare from denver to pittsburgh
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6065,11 +6099,12 @@
 9	any	any	DET	_	PronType=Art	10	det	_	_
 10	city	City	PROPN	_	Number=Sing	7	nmod	_	_
 11	to	to	ADP	_	_	12	case	_	_
-12	another	another	DET	_	PronType=Art	10	nmod	_	_
+12	another	another	DET	_	PronType=Art	10	det	_	_
 
 # sent_id = 0380.test
 # parallel_id = atis/test380
-# text = i 'd like the cheapest cost fare to fort worth from boston
+# text = i'd like the cheapest cost fare to fort worth from boston
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6111,7 +6146,7 @@
 7	and	and	CCONJ	_	_	8	cc	_	_
 8	depart	depart	VERB	_	VerbForm=Inf	3	conj	_	_
 9	before	before	ADP	_	_	10	case	_	_
-10	noon	noon	NOUN	_	Number=Sing	8	obl:tmod	_	_
+10	noon	noon	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 11	on	on	ADP	_	_	12	case	_	_
 12	american	American	PROPN	_	Number=Sing	8	obl	_	_
 13	airlines	airline	PROPN	_	Number=Plur	12	flat	_	_
@@ -6130,7 +6165,7 @@
 9	that	that	ADP	_	_	10	mark	_	_
 10	leaves	leaf	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 11	before	before	ADP	_	_	12	case	_	_
-12	noon	noon	NOUN	_	Number=Sing	10	obl:tmod	_	_
+12	noon	noon	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 13	see	see	VERB	_	VerbForm=Inf	2	advcl	_	_
 14	if	if	ADP	_	_	17	case	_	_
 15	too	too	ADV	_	Degree=Pos	16	advmod	_	_
@@ -6148,7 +6183,7 @@
 6	on	on	ADP	_	_	7	case	_	_
 7	continental	Continental	PROPN	_	Number=Sing	4	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	sunday	Sunday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+9	sunday	Sunday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 10	after	after	ADP	_	_	11	case	_	_
 11	2134	2134	NUM	_	NumType=Card	9	nummod	_	_
 
@@ -6164,7 +6199,7 @@
 7	boston	Boston	PROPN	_	Number=Sing	2	nmod	_	_
 8	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
 9	before	before	ADP	_	_	10	case	_	_
-10	noon	noon	NOUN	_	Number=Sing	8	obl:tmod	_	_
+10	noon	noon	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0386.test
 # parallel_id = atis/test386
@@ -6180,7 +6215,7 @@
 9	jose	Jose	PROPN	_	Number=Sing	8	flat	_	_
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 11	after	after	ADP	_	_	12	case	_	_
-12	6	6	NUM	_	NumType=Card	10	obl:tmod	_	_
+12	6	6	NUM	_	NumType=Card	10	obl:unmarked	_	_
 13	in	in	ADP	_	_	15	case	_	_
 14	the	the	DET	_	PronType=Art	15	det	_	_
 15	evening	evening	NOUN	_	Number=Sing	12	nmod:tmod	_	_
@@ -6341,7 +6376,7 @@
 10	one	one	NUM	_	NumType=Card	11	nummod	_	_
 11	way	way	NOUN	_	Number=Sing	5	obl	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	november	November	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	november	November	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 14	seventh	seven	ADJ	_	Degree=Pos|NumType=Ord	13	amod	_	_
 
 # sent_id = 0397.test
@@ -6390,7 +6425,7 @@
 10	to	to	ADP	_	_	11	case	_	_
 11	seattle	Seattle	PROPN	_	Number=Sing	7	nmod	_	_
 12	on	on	ADP	_	_	13	case	_	_
-13	june	June	NOUN	_	Number=Sing	5	obl:tmod	_	_
+13	june	June	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 14	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	13	amod	_	_
 
 # sent_id = 0400.test
@@ -6412,7 +6447,8 @@
 
 # sent_id = 0401.test
 # parallel_id = atis/test401
-# text = i 'd like flights going from boston to atlanta leaving on august sixth in the afternoon
+# text = i'd like flights going from boston to atlanta leaving on august sixth in the afternoon
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6424,11 +6460,11 @@
 9	atlanta	Atlanta	PROPN	_	Number=Sing	5	obl	_	_
 10	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 11	on	on	ADP	_	_	12	case	_	_
-12	august	August	NOUN	_	Number=Sing	10	obl:tmod	_	_
+12	august	August	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 13	sixth	six	ADJ	_	Degree=Pos|NumType=Ord	12	amod	_	_
 14	in	in	ADP	_	_	16	case	_	_
 15	the	the	DET	_	PronType=Art	16	det	_	_
-16	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:tmod	_	_
+16	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0402.test
 # parallel_id = atis/test402
@@ -6444,7 +6480,7 @@
 9	there	there	PRON	_	PronType=Dem	10	expl	_	_
 10	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 11	on	on	ADP	_	_	12	case	_	_
-12	friday	Friday	NOUN	_	Number=Sing	10	obl:tmod	_	_
+12	friday	Friday	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 13	june	June	NOUN	_	Number=Sing	12	nmod:tmod	_	_
 14	eleventh	eleven	ADJ	_	Degree=Pos	13	amod	_	_
 15	from	from	ADP	_	_	16	case	_	_
@@ -6480,7 +6516,8 @@
 
 # sent_id = 0404.test
 # parallel_id = atis/test404
-# text = i 'd like a flight on july ninth from orlando to kansas city in the afternoon
+# text = i'd like a flight on july ninth from orlando to kansas city in the afternoon
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6500,7 +6537,8 @@
 
 # sent_id = 0405.test
 # parallel_id = atis/test405
-# text = i 'd like to arrange a trip to baltimore on january first
+# text = i'd like to arrange a trip to baltimore on january first
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6511,17 +6549,18 @@
 8	to	to	ADP	_	_	9	case	_	_
 9	baltimore	Baltimore	PROPN	_	Number=Sing	7	nmod	_	_
 10	on	on	ADP	_	_	11	case	_	_
-11	january	January	NOUN	_	Number=Sing	5	obl:tmod	_	_
+11	january	January	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 12	first	one	ADJ	_	Degree=Pos|NumType=Ord	11	amod	_	_
 
 # sent_id = 0406.test
 # parallel_id = atis/test406
-# text = okay and then from pittsburgh i 'd like to travel to atlanta on september fourth
+# text = okay and then from pittsburgh i'd like to travel to atlanta on september fourth
 1	okay	okay	INTJ	_	_	8	discourse	_	_
 2	and	and	CCONJ	_	_	3	cc	_	_
 3	then	then	ADV	_	Degree=Pos	1	conj	_	_
 4	from	from	ADP	_	_	5	case	_	_
 5	pittsburgh	Pittsburgh	PROPN	_	Number=Sing	8	obl	_	_
+6-7	i'd	_	_	_	_	_	_	_	_
 6	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	'd	would	AUX	_	_	8	aux	_	_
 8	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6530,7 +6569,7 @@
 11	to	to	ADP	_	_	12	case	_	_
 12	atlanta	Atlanta	PROPN	_	Number=Sing	10	obl	_	_
 13	on	on	ADP	_	_	14	case	_	_
-14	september	September	NOUN	_	Number=Sing	10	obl:tmod	_	_
+14	september	September	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 15	fourth	four	ADJ	_	Degree=Pos|NumType=Ord	14	amod	_	_
 
 # sent_id = 0407.test
@@ -6576,7 +6615,7 @@
 # parallel_id = atis/test410
 # text = on april first i need a flight going from phoenix to san diego
 1	on	on	ADP	_	_	2	case	_	_
-2	april	April	NOUN	_	Number=Sing	5	obl:tmod	_	_
+2	april	April	NOUN	_	Number=Sing	5	obl:unmarked	_	_
 3	first	one	ADJ	_	Degree=Pos|NumType=Ord	2	amod	_	_
 4	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6835,7 +6874,8 @@
 
 # sent_id = 0428.test
 # parallel_id = atis/test428
-# text = i 'd like united airlines flights from denver to baltimore
+# text = i'd like united airlines flights from denver to baltimore
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6849,7 +6889,8 @@
 
 # sent_id = 0429.test
 # parallel_id = atis/test429
-# text = i 'd like a flight from new york to los angeles on saturday morning on us air
+# text = i'd like a flight from new york to los angeles on saturday morning on us air
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6912,7 +6953,7 @@
 9	continental	Continental	PROPN	_	Number=Sing	3	obl	_	_
 10	airlines	airline	PROPN	_	Number=Plur	9	flat	_	_
 11	on	on	ADP	_	_	12	case	_	_
-12	saturday	Saturday	NOUN	_	Number=Sing	3	obl:tmod	_	_
+12	saturday	Saturday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0433.test
 # parallel_id = atis/test433
@@ -6940,7 +6981,7 @@
 6	to	to	ADP	_	_	7	case	_	_
 7	seattle	Seattle	PROPN	_	Number=Sing	3	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	saturday	Saturday	NOUN	_	Number=Sing	3	obl:tmod	_	_
+9	saturday	Saturday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 10	on	on	ADP	_	_	11	case	_	_
 11	continental	Continental	PROPN	_	Number=Sing	3	obl	_	_
 12	airlines	airline	PROPN	_	Number=Plur	11	flat	_	_
@@ -7012,7 +7053,7 @@
 3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	available	available	ADJ	_	Degree=Pos	0	root	_	_
 5	wednesday	Wednesday	NOUN	_	Number=Sing	6	compound	_	_
-6	afternoon	afternoon	NOUN	_	Number=Sing	4	obl:tmod	_	_
+6	afternoon	afternoon	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 7	from	from	ADP	_	_	8	case	_	_
 8	denver	Denver	PROPN	_	Number=Sing	4	obl	_	_
 9	to	to	ADP	_	_	10	case	_	_
@@ -7148,7 +7189,7 @@
 10	diego	Diego	PROPN	_	Number=Sing	9	flat	_	_
 11	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 12	tuesday	Tuesday	NOUN	_	Number=Sing	13	compound	_	_
-13	evening	evening	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	evening	evening	NOUN	_	Number=Sing	11	obl:unmarked	_	_
 
 # sent_id = 0449.test
 # parallel_id = atis/test449
@@ -7189,7 +7230,7 @@
 7	atlanta	Atlanta	PROPN	_	Number=Sing	3	obl	_	_
 8	in	in	ADP	_	_	10	case	_	_
 9	the	the	DET	_	PronType=Art	10	det	_	_
-10	evening	evening	NOUN	_	Number=Sing	3	obl:tmod	_	_
+10	evening	evening	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0452.test
 # parallel_id = atis/test452
@@ -7217,7 +7258,7 @@
 10	depart	depart	VERB	_	VerbForm=Inf	4	conj	_	_
 11	in	in	ADP	_	_	13	case	_	_
 12	the	the	DET	_	PronType=Art	13	det	_	_
-13	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:tmod	_	_
+13	afternoon	afternoon	NOUN	_	Number=Sing	10	obl:unmarked	_	_
 
 # sent_id = 0454.test
 # parallel_id = atis/test454
@@ -7261,7 +7302,7 @@
 8	atlanta	Atlanta	PROPN	_	Number=Sing	7	obl	_	_
 9	on	on	ADP	_	_	11	case	_	_
 10	sunday	Sunday	NOUN	_	Number=Sing	11	compound	_	_
-11	evening	evening	NOUN	_	Number=Sing	7	obl:tmod	_	_
+11	evening	evening	NOUN	_	Number=Sing	7	obl:unmarked	_	_
 12	and	and	CCONJ	_	_	13	cc	_	_
 13	arrive	arrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
 14	in	in	ADP	_	_	15	case	_	_
@@ -7280,7 +7321,7 @@
 8	denver	Denver	PROPN	_	Number=Sing	3	obl	_	_
 9	on	on	ADP	_	_	11	case	_	_
 10	monday	Monday	NOUN	_	Number=Sing	11	compound	_	_
-11	morning	morning	NOUN	_	Number=Sing	3	obl:tmod	_	_
+11	morning	morning	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0458.test
 # parallel_id = atis/test458
@@ -7584,7 +7625,8 @@
 
 # sent_id = 0482.test
 # parallel_id = atis/test482
-# text = i 'd like flight information from dallas fort worth to boston on tuesday
+# text = i'd like flight information from dallas fort worth to boston on tuesday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7673,7 +7715,7 @@
 6	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
 7	denver	Denver	PROPN	_	Number=Sing	6	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	monday	Monday	NOUN	_	Number=Sing	6	obl:tmod	_	_
+9	monday	Monday	NOUN	_	Number=Sing	6	obl:unmarked	_	_
 
 # sent_id = 0489.test
 # parallel_id = atis/test489
@@ -7789,7 +7831,7 @@
 8	philadelphia	Philadelphia	PROPN	_	Number=Sing	6	conj	_	_
 9	operating	operating	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
 10	on	on	ADP	_	_	11	case	_	_
-11	sundays	sunday	PROPN	_	Number=Plur	9	obl:tmod	_	_
+11	sundays	sunday	PROPN	_	Number=Plur	9	obl:unmarked	_	_
 
 # sent_id = 0498.test
 # parallel_id = atis/test498
@@ -7844,7 +7886,7 @@
 6	to	to	ADP	_	_	7	case	_	_
 7	philadelphia	Philadelphia	PROPN	_	Number=Sing	3	obl	_	_
 8	on	on	ADP	_	_	9	case	_	_
-9	friday	Friday	NOUN	_	Number=Sing	3	obl:tmod	_	_
+9	friday	Friday	NOUN	_	Number=Sing	3	obl:unmarked	_	_
 
 # sent_id = 0502.test
 # parallel_id = atis/test502
@@ -7856,7 +7898,8 @@
 
 # sent_id = 0503.test
 # parallel_id = atis/test503
-# text = i 'd like a flight from montreal to san diego for sunday
+# text = i'd like a flight from montreal to san diego for sunday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -7877,7 +7920,7 @@
 2	flights	flight	NOUN	_	Number=Plur	4	nsubj	_	_
 3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	available	available	ADJ	_	Degree=Pos	0	root	_	_
-5	friday	Friday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+5	friday	Friday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 6	from	from	ADP	_	_	7	case	_	_
 7	philadelphia	Philadelphia	PROPN	_	Number=Sing	4	obl	_	_
 8	to	to	ADP	_	_	9	case	_	_
@@ -7900,7 +7943,7 @@
 12	san	San	PROPN	_	Number=Sing	8	obl	_	_
 13	francisco	Francisco	PROPN	_	Number=Sing	12	flat	_	_
 14	for	for	ADP	_	_	15	case	_	_
-15	monday	Monday	NOUN	_	Number=Sing	8	obl:tmod	_	_
+15	monday	Monday	NOUN	_	Number=Sing	8	obl:unmarked	_	_
 
 # sent_id = 0506.test
 # parallel_id = atis/test506
@@ -7942,7 +7985,7 @@
 7	to	to	ADP	_	_	8	case	_	_
 8	philadelphia	Philadelphia	PROPN	_	Number=Sing	4	obl	_	_
 9	on	on	ADP	_	_	10	case	_	_
-10	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+10	wednesday	Wednesday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0509.test
 # parallel_id = atis/test509
@@ -7957,7 +8000,7 @@
 8	washington	Washington	PROPN	_	Number=Sing	4	obl	_	_
 9	on	on	ADP	_	_	11	case	_	_
 10	a	a	DET	_	PronType=Art	11	det	_	_
-11	saturday	Saturday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+11	saturday	Saturday	NOUN	_	Number=Sing	4	obl:unmarked	_	_
 
 # sent_id = 0510.test
 # parallel_id = atis/test510
@@ -8003,7 +8046,8 @@
 
 # sent_id = 0513.test
 # parallel_id = atis/test513
-# text = i 'd like a list of the flights from oakland to dallas fort worth on sunday
+# text = i'd like a list of the flights from oakland to dallas fort worth on sunday
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8129,7 +8173,8 @@
 
 # sent_id = 0522.test
 # parallel_id = atis/test522
-# text = i 'm looking for a flight from pittsburgh to san francisco
+# text = i'm looking for a flight from pittsburgh to san francisco
+1-2	i'm	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'm	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
@@ -8427,7 +8472,8 @@
 
 # sent_id = 0545.test
 # parallel_id = atis/test545
-# text = i 'd like information on boston to washington
+# text = i'd like information on boston to washington
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8504,7 +8550,8 @@
 
 # sent_id = 0552.test
 # parallel_id = atis/test552
-# text = i 'd like to book a flight from atlanta to denver
+# text = i'd like to book a flight from atlanta to denver
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
@@ -8563,7 +8610,8 @@
 
 # sent_id = 0557.test
 # parallel_id = atis/test557
-# text = i 'd like to see flights from pittsburgh to philadelphia
+# text = i'd like to see flights from pittsburgh to philadelphia
+1-2	i'd	_	_	_	_	_	_	_	_
 1	i	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	'd	would	AUX	_	_	3	aux	_	_
 3	like	like	VERB	_	VerbForm=Inf	0	root	_	_
